@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:id="@+id/scrollview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center" >
+
+        <LinearLayout
+            android:layout_width="280dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="400dip"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/vision"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/vision"
+                android:textColor="#141823"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vision_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/vision_content"
+                android:textColor="#141823" />
+
+            <TextView
+                android:id="@+id/mision"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/mision"
+                android:textColor="#141823"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mision_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/mision_content"
+                android:textColor="#141823" />
+
+            <TextView
+                android:id="@+id/goal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/goal"
+                android:textColor="#141823"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/goal_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/goal_content"
+                android:textColor="#141823" />
+            
+            <TextView
+                android:id="@+id/obj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/obj"
+                android:textColor="#141823"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/obj_content1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/obj_content1"
+                android:textColor="#141823" />
+            
+            <TextView
+                android:id="@+id/obj_content2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/obj_content2"
+                android:textColor="#141823" />
+            
+            <TextView
+                android:id="@+id/obj_content3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/obj_content3"
+                android:textColor="#141823" />
+            
+            <TextView
+                android:id="@+id/obj_content4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/obj_content4"
+                android:textColor="#141823" />
+            
+            <TextView
+                android:id="@+id/obj_content5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/obj_content5"
+                android:textColor="#141823" />
+            
+            <TextView
+                android:id="@+id/obj_content6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/obj_content6"
+                android:textColor="#141823" />
+            
+            <TextView
+                android:id="@+id/obj_content7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/obj_content7"
+                android:textColor="#141823" />
+            
+            <TextView
+                android:id="@+id/obj_content8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/obj_content8"
+                android:textColor="#141823" />
+            
+            <TextView
+                android:id="@+id/obj_content9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/obj_content9"
+                android:textColor="#141823" />
+            
+            <TextView
+                android:id="@+id/obj_content10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/obj_content10"
+                android:textColor="#141823" />
+            
+            <TextView
+                android:id="@+id/obj_content11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/obj_content11"
+                android:textColor="#141823" />
+            
+            
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
