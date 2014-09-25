@@ -28,7 +28,7 @@ public class CampusMap extends SherlockFragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		// Get the view from tab_normal_map.xml
-		View view = inflater.inflate(R.layout.tab_events, container,
+		View view = inflater.inflate(R.layout.campus_map, container,
 				false);
 
 		// Gets the MapView from the XML layout and creates it
