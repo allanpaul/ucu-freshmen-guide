@@ -8,7 +8,7 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
 
 	// Declare the number of ViewPager pages
 	final int PAGE_COUNT = 2;
-	private String titles[] = new String[] { "Normal Map", "Satellite Map" };
+	private String titles[] = new String[] { "News", "Events" };
 
 	public ViewPagerAdapter(FragmentManager fm) {
 		super(fm);
@@ -20,12 +20,12 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
 
 			// Open FragmentTab1.java
 		case 0:
-			TabNormalMap fragmenttab1 = new TabNormalMap();
+			TabNews fragmenttab1 = new TabNews();
 			return fragmenttab1;
 
 			// Open FragmentTab2.java
 		case 1:
-			TabSatelliteMap fragmenttab2 = new TabSatelliteMap();
+			TabEvents fragmenttab2 = new TabEvents();
 			return fragmenttab2;
 		}
 		return null;
