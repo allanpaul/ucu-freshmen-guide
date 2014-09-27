@@ -2,7 +2,6 @@ package edu.ucuccs.ucufreshmenguide;
 
 import it.gmariotti.cardslib.library.internal.Card;
 import it.gmariotti.cardslib.library.internal.CardHeader;
-import it.gmariotti.cardslib.library.internal.CardThumbnail;
 import it.gmariotti.cardslib.library.view.CardView;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -24,12 +23,7 @@ public class TabEvents extends SherlockFragment {
 		// Create a CardHeader
 		CardHeader header = new CardHeader(getActivity());
 		header.setTitle("University City University Events");
-
 		card.setTitle("University Events Here");
-		CardThumbnail thumb = new CardThumbnail(getActivity());
-		thumb.setDrawableResource(R.drawable.ic_launcher);
-
-		card.addCardThumbnail(thumb);
 
 		// Add Header to card
 		card.addCardHeader(header);
@@ -37,8 +31,7 @@ public class TabEvents extends SherlockFragment {
 		// Set card in the cardView
 		CardView cardView = (CardView) rootView.findViewById(R.id.carddemo);
 		cardView.setCard(card);
-		
-		
+
 		return rootView;
 	}
 

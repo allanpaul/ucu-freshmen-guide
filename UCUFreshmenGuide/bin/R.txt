@@ -443,11 +443,12 @@ int id abs__textButton 0x7f090026
 int id abs__title 0x7f09002e
 int id abs__titleDivider 0x7f09002f
 int id abs__up 0x7f09001e
-int id action_settings 0x7f090065
+int id action_settings 0x7f090066
 int id book_now 0x7f090010
 int id buyButton 0x7f09000a
 int id buy_now 0x7f09000f
 int id buy_with_google 0x7f09000e
+int id card 0x7f090065
 int id card_base_empty_cardwithlist_text 0x7f090043
 int id card_children_simple_title 0x7f09003f
 int id card_content_expand_layout 0x7f090049

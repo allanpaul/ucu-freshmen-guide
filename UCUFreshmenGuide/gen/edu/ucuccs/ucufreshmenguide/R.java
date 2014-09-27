@@ -1397,11 +1397,12 @@ containing a value of this type.
         public static final int abs__title=0x7f09002e;
         public static final int abs__titleDivider=0x7f09002f;
         public static final int abs__up=0x7f09001e;
-        public static final int action_settings=0x7f090065;
+        public static final int action_settings=0x7f090066;
         public static final int book_now=0x7f090010;
         public static final int buyButton=0x7f09000a;
         public static final int buy_now=0x7f09000f;
         public static final int buy_with_google=0x7f09000e;
+        public static final int card=0x7f090065;
         public static final int card_base_empty_cardwithlist_text=0x7f090043;
         public static final int card_children_simple_title=0x7f09003f;
         public static final int card_content_expand_layout=0x7f090049;

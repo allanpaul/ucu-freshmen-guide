@@ -1,15 +1,9 @@
 package edu.ucuccs.ucufreshmenguide;
 
-import java.util.Timer;
-import java.util.TimerTask;
-
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import com.actionbarsherlock.app.SherlockFragment;
@@ -20,14 +14,14 @@ public class Home extends SherlockFragment {
 
 	ImageView slidingimage;
 
-	private int[] IMAGE_IDS = { R.drawable.ucu_front, R.drawable.ucu_ob2,
-			R.drawable.ucu_gymn };
+	/*private int[] IMAGE_IDS = { R.drawable.ucu_front, R.drawable.ucu_ob2,
+			R.drawable.ucu_gymn };*/
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		final View rootView = inflater.inflate(R.layout.home, container, false);
-		final Handler mHandler = new Handler();
+		/*final Handler mHandler = new Handler();
 
 		// Create runnable for posting
 		final Runnable mUpdateResults = new Runnable() {
@@ -67,7 +61,7 @@ public class Home extends SherlockFragment {
 
 			}
 
-		}, delay, period);
+		}, delay, period);*/
 
 		return rootView;
 	}

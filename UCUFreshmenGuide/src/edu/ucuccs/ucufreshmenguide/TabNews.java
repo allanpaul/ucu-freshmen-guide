@@ -39,6 +39,8 @@ public class TabNews extends SherlockFragment {
 		cardView.setCard(card);
 		
 		
+		
+		
 		return rootView;
 	}
 
