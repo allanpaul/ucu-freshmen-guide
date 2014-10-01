@@ -1,5 +1,7 @@
 package edu.ucuccs.ucufreshmenguide;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,7 +13,7 @@ import android.widget.Toast;
 import com.actionbarsherlock.app.SherlockFragment;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.GoogleMap.OnInfoWindowClickListener;
+import com.google.android.gms.maps.GoogleMap.OnMarkerClickListener;
 import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.MapsInitializer;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
@@ -54,30 +56,130 @@ public class CampusMap extends SherlockFragment {
 
 		IconGenerator icon = new IconGenerator(getActivity());
 
-		/*
-		 * iconFactory.setStyle(IconGenerator.STYLE_GREEN); addIcon(iconFactory,
-		 * "Gymnasium", new LatLng(15.9786106, 120.5608737));
-		 */
-
+		// Gymnasium
 		icon.setStyle(IconGenerator.STYLE_BLUE);
 		Bitmap iconBitmap = icon.makeIcon("Gymnasium");
 
-		map.addMarker(new MarkerOptions()
-				.icon(BitmapDescriptorFactory.fromBitmap(iconBitmap))
-				.position(new LatLng(15.9786106, 120.5608737)).title("View"));
-		
-		map.setOnInfoWindowClickListener(new OnInfoWindowClickListener() {
-			public void onInfoWindowClick(Marker marker) {
-				
-				Toast toast = new Toast(getActivity());
-				ImageView view = new ImageView(getActivity());
-				view.setImageResource(R.drawable.ucu_gymn);
-				toast.setDuration(Toast.LENGTH_LONG);
-				toast.setView(view);
-				toast.show();
-				
+		Marker marker = map.addMarker(new MarkerOptions()
+				.position(new LatLng(15.9786106, 120.5608737)).title("View")
+				.icon(BitmapDescriptorFactory.fromBitmap(iconBitmap)));
+
+		map.setOnMarkerClickListener(new OnMarkerClickListener() {
+			@Override
+			public boolean onMarkerClick(Marker marker) {
+
+				CharSequence colors[] = new CharSequence[] { "View Building",
+						"View Occupants", "Report Emergency Via Call",
+						 };
+
+				AlertDialog.Builder builder = new AlertDialog.Builder(
+						getActivity());
+				builder.setTitle("Options");
+				builder.setItems(colors, new DialogInterface.OnClickListener() {
+					@Override
+					public void onClick(DialogInterface dialog, int options) {
+						// the user clicked on colors[which]
+						switch (options) {
+						case 0:
+							Toast toast = new Toast(getActivity());
+							ImageView view = new ImageView(getActivity());
+							view.setImageResource(R.drawable.ucu_gymn);
+							toast.setDuration(Toast.LENGTH_LONG);
+							toast.setView(view);
+							toast.show();
+							;
+							break;
+
+						case 1:
+
+							break;
+
+						case 2:
+
+							break;
+
+						case 3:
+
+							break;
+
+						}
+					}
+				});
+				builder.show();
+				return true;
 			}
 		});
+
+		// Orata Building
+		icon.setStyle(IconGenerator.STYLE_GREEN);
+		Bitmap iconBitmap2 = icon.makeIcon("Orata Building");
+
+		Marker marker2 = map.addMarker(new MarkerOptions()
+				.position(new LatLng(15.9803493,120.5603938)).title("View")
+				.icon(BitmapDescriptorFactory.fromBitmap(iconBitmap2)));
+
+		
+		map.setOnMarkerClickListener(new OnMarkerClickListener() {
+			@Override
+			public boolean onMarkerClick(Marker marker2) {
+
+				CharSequence colors[] = new CharSequence[] { "View Building",
+						"View Occupants", "Report Emergency Via Call",
+						 };
+
+				AlertDialog.Builder builder = new AlertDialog.Builder(
+						getActivity());
+				builder.setTitle("Options");
+				builder.setItems(colors, new DialogInterface.OnClickListener() {
+					@Override
+					public void onClick(DialogInterface dialog, int options) {
+						// the user clicked on colors[which]
+						switch (options) {
+						case 0:
+							Toast toast = new Toast(getActivity());
+							ImageView view = new ImageView(getActivity());
+							view.setImageResource(R.drawable.orata);
+							toast.setDuration(Toast.LENGTH_LONG);
+							toast.setView(view);
+							toast.show();
+							;
+							break;
+
+						case 1:
+
+							break;
+
+						case 2:
+
+							break;
+
+						case 3:
+
+							break;
+
+						}
+					}
+				});
+				builder.show();
+				return true;
+			}
+		});
+
+		/*
+		 * map.setOnInfoWindowClickListener(new OnInfoWindowClickListener() {
+		 * public void onInfoWindowClick(Marker marker) {
+		 * 
+		 * 
+		 * Toast toast = new Toast(getActivity()); ImageView view = new
+		 * ImageView(getActivity()); view.setImageResource(R.drawable.ucu_gymn);
+		 * toast.setDuration(Toast.LENGTH_LONG); toast.setView(view);
+		 * toast.show();
+		 * 
+		 * 
+		 * 
+		 * 
+		 * } });
+		 */
 
 		/*
 		 * .icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_launcher)));
