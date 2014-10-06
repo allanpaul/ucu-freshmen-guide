@@ -2,7 +2,9 @@ package edu.ucuccs.ucufreshmenguide;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Bitmap;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -303,7 +305,7 @@ public class CampusMap extends SherlockFragment {
 									// the user clicked on options[options]
 									switch (options) {
 									case 0:
-
+										//Show Image of The Building
 										Toast toast2 = new Toast(getActivity());
 										ImageView view2 = new ImageView(
 												getActivity());
@@ -316,14 +318,27 @@ public class CampusMap extends SherlockFragment {
 										break;
 
 									case 1:
+										//Show the Organizational Chart of the Occupant of the Building
 
 										break;
 
 									case 2:
+										//Report Emergency Through Call										
+										
+										Intent reportCall = new Intent(Intent.ACTION_CALL, Uri.parse("tel: 09163177477"));
+										startActivity(reportCall);
 
 										break;
 
 									case 3:
+										//Report Emergency Through Text
+										
+										Intent reportText = new
+										Intent(android.content.Intent.ACTION_VIEW);
+										reportText.putExtra("address", "09163177477;");
+										reportText.putExtra("sms_body", "Emergenccy Case Here at Orata Building");
+										reportText.setType("vnd.android-dir/mms-sms");
+										startActivity(reportText);
 
 										break;
 
@@ -989,6 +1004,9 @@ public class CampusMap extends SherlockFragment {
 										toast.setView(view1);
 										toast.show();
 										;*/
+										
+										Intent i = new Intent(getActivity(), LogIn.class);
+										startActivity(i); 
 										break;
 
 									case 1:

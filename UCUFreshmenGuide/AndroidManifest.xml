@@ -23,6 +23,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
 
     <application
         android:allowBackup="true"
@@ -60,11 +61,16 @@
         </activity>
         <activity
             android:name=".UCUHymn"
-            android:label="@string/title_activity_ucuhymn" >
+            android:label="@string/title_activity_ucuhymn" 
+            android:screenOrientation="landscape">
         </activity>
         <activity
             android:name=".About"
             android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".LogIn"
+            android:label="@string/title_activity_log_in" >
         </activity>
     </application>
 
