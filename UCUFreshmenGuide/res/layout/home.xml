@@ -1,16 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#FFFFFF"
-    android:orientation="vertical" >
+    android:background="#D3D6DB" >
 
-    <ImageView
-        android:id="@+id/img"
-        android:contentDescription="@string/UCU"
+    <ViewFlipper
+        android:id="@+id/viewflipper"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_gravity="center" >
-    </ImageView>
+        android:autoStart="true"
+        android:flipInterval="3000" >
 
-</LinearLayout>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/ucu_front" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/ucu_ob2" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/ucu_gymn" />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/new_building" />
+
+        <!--
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/picture4" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/picture5" />
+        -->
+    </ViewFlipper>
+
+</RelativeLayout>

@@ -1361,22 +1361,23 @@ containing a value of this type.
         public static final int ic_plusone_tall_off_client=0x7f020098;
         public static final int ic_search=0x7f020099;
         public static final int ic_undobar_undo=0x7f02009a;
-        public static final int orata=0x7f02009b;
-        public static final int powered_by_google_dark=0x7f02009c;
-        public static final int powered_by_google_light=0x7f02009d;
-        public static final int president_office=0x7f02009e;
-        public static final int pressed_background_card=0x7f02009f;
-        public static final int pressed_background_kitkat_card=0x7f0200a0;
-        public static final int quadrangle=0x7f0200a1;
-        public static final int registrar=0x7f0200a2;
-        public static final int ucu=0x7f0200a3;
-        public static final int ucu_front=0x7f0200a4;
-        public static final int ucu_gymn=0x7f0200a5;
-        public static final int ucu_ob2=0x7f0200a6;
-        public static final int undobar=0x7f0200a7;
-        public static final int undobar_button_focused=0x7f0200a8;
-        public static final int undobar_button_pressed=0x7f0200a9;
-        public static final int undobar_divider=0x7f0200aa;
+        public static final int new_building=0x7f02009b;
+        public static final int orata=0x7f02009c;
+        public static final int powered_by_google_dark=0x7f02009d;
+        public static final int powered_by_google_light=0x7f02009e;
+        public static final int president_office=0x7f02009f;
+        public static final int pressed_background_card=0x7f0200a0;
+        public static final int pressed_background_kitkat_card=0x7f0200a1;
+        public static final int quadrangle=0x7f0200a2;
+        public static final int registrar=0x7f0200a3;
+        public static final int ucu=0x7f0200a4;
+        public static final int ucu_front=0x7f0200a5;
+        public static final int ucu_gymn=0x7f0200a6;
+        public static final int ucu_ob2=0x7f0200a7;
+        public static final int undobar=0x7f0200a8;
+        public static final int undobar_button_focused=0x7f0200a9;
+        public static final int undobar_button_pressed=0x7f0200aa;
+        public static final int undobar_divider=0x7f0200ab;
     }
     public static final class id {
         public static final int abs__action_bar=0x7f090035;
@@ -1453,7 +1454,6 @@ containing a value of this type.
         public static final int homeAsUp=0x7f090019;
         public static final int hybrid=0x7f090004;
         public static final int icon=0x7f090050;
-        public static final int img=0x7f090055;
         public static final int listMode=0x7f090015;
         public static final int list_cardId=0x7f09005c;
         public static final int list_card_undobar=0x7f09005d;
@@ -1485,6 +1485,7 @@ containing a value of this type.
         public static final int useLogo=0x7f090017;
         public static final int video=0x7f090068;
         public static final int viewPager=0x7f090064;
+        public static final int viewflipper=0x7f090055;
         public static final int wrap_content=0x7f09000d;
     }
     public static final class integer {
