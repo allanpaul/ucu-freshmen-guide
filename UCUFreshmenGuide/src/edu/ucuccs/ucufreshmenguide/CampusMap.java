@@ -55,8 +55,8 @@ public class CampusMap extends SherlockFragment {
 		map.moveCamera(CameraUpdateFactory.newLatLngZoom(UCU, 19.0f));
 
 		
-		  // Set the map type to Satellite
-		  map.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
+		// Set the map type to Satellite
+		map.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
 		 
 
 		IconGenerator icon = new IconGenerator(getActivity());
