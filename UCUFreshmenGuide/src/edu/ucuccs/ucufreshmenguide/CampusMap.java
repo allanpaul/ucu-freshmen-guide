@@ -32,7 +32,9 @@ public class CampusMap extends SherlockFragment {
 	private static final LatLng UCU = new LatLng(15.9802657, 120.5608399);
 	private GoogleMap map;
 	MapView mapView;
-	Marker marker1, marker2, marker3, marker4, marker5, marker6, marker7, marker8, marker9, marker10, marker11, marker12, marker13, marker14, marker15, marker16, marker17, marker18, marker19, marker20;
+	Marker marker1, marker2, marker3, marker4, marker5, marker6, marker7,
+			marker8, marker9, marker10, marker11, marker12, marker13, marker14,
+			marker15, marker16, marker17, marker18, marker19, marker20;
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -54,191 +56,170 @@ public class CampusMap extends SherlockFragment {
 		// Updates the location and zoom of the MapView
 		map.moveCamera(CameraUpdateFactory.newLatLngZoom(UCU, 19.0f));
 
-		
 		// Set the map type to Satellite
 		map.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
-		 
 
 		IconGenerator icon = new IconGenerator(getActivity());
 
 		// Gymnasium
-						icon.setStyle(IconGenerator.STYLE_BLUE);
-						Bitmap iconBitmap = icon.makeIcon("Gymnasium");
+		icon.setStyle(IconGenerator.STYLE_BLUE);
+		Bitmap iconBitmap = icon.makeIcon("Gymnasium");
 
-						marker1 = map.addMarker(new MarkerOptions().position(
-						new LatLng(15.9786106, 120.5608737)).icon(
-						BitmapDescriptorFactory.fromBitmap(iconBitmap)));
+		marker1 = map.addMarker(new MarkerOptions().position(
+				new LatLng(15.9786106, 120.5608737)).icon(
+				BitmapDescriptorFactory.fromBitmap(iconBitmap)));
 
-						
 		// Orata Building
-						icon.setStyle(IconGenerator.STYLE_GREEN);
-						Bitmap iconBitmap2 = icon.makeIcon("Orata Building");
+		icon.setStyle(IconGenerator.STYLE_GREEN);
+		Bitmap iconBitmap2 = icon.makeIcon("Orata Building");
 
-						marker2 = map.addMarker(new MarkerOptions().position(
-						new LatLng(15.9803493, 120.5603938)).icon(
-						BitmapDescriptorFactory.fromBitmap(iconBitmap2)));
-		
-						
+		marker2 = map.addMarker(new MarkerOptions().position(
+				new LatLng(15.9803493, 120.5603938)).icon(
+				BitmapDescriptorFactory.fromBitmap(iconBitmap2)));
+
 		// New Building
-						icon.setStyle(IconGenerator.STYLE_GREEN);
-						Bitmap iconBitmap3 = icon.makeIcon("New Building");
+		icon.setStyle(IconGenerator.STYLE_GREEN);
+		Bitmap iconBitmap3 = icon.makeIcon("New Building");
 
-						marker3 = map.addMarker(new MarkerOptions().position(
-						new LatLng(15.9799419,120.5607604)).icon(
-						BitmapDescriptorFactory.fromBitmap(iconBitmap3)));
-				
-						
+		marker3 = map.addMarker(new MarkerOptions().position(
+				new LatLng(15.9799419, 120.5607604)).icon(
+				BitmapDescriptorFactory.fromBitmap(iconBitmap3)));
+
 		// Engineering Building
-						icon.setStyle(IconGenerator.STYLE_PURPLE);
-						Bitmap iconBitmap4 = icon.makeIcon("Engineering Building");
+		icon.setStyle(IconGenerator.STYLE_PURPLE);
+		Bitmap iconBitmap4 = icon.makeIcon("Engineering Building");
 
-						marker4 = map.addMarker(new MarkerOptions().position(
-						new LatLng(15.9801533, 120.5602726)).icon(
-						BitmapDescriptorFactory.fromBitmap(iconBitmap4)));
-						
-						
+		marker4 = map.addMarker(new MarkerOptions().position(
+				new LatLng(15.9801533, 120.5602726)).icon(
+				BitmapDescriptorFactory.fromBitmap(iconBitmap4)));
+
 		// Orata Building 2
-						icon.setStyle(IconGenerator.STYLE_BLUE);
-						Bitmap iconBitmap5 = icon.makeIcon("Orata Building 2");
+		icon.setStyle(IconGenerator.STYLE_BLUE);
+		Bitmap iconBitmap5 = icon.makeIcon("Orata Building 2");
 
-						marker5 = map.addMarker(new MarkerOptions().position(
-						new LatLng(15.979417,120.560476)).icon(
-						BitmapDescriptorFactory.fromBitmap(iconBitmap5)));
-						
-						
+		marker5 = map.addMarker(new MarkerOptions().position(
+				new LatLng(15.979417, 120.560476)).icon(
+				BitmapDescriptorFactory.fromBitmap(iconBitmap5)));
+
 		// Quadrangle
-						icon.setStyle(IconGenerator.STYLE_GREEN);
-						Bitmap iconBitmap6 = icon.makeIcon("Quadrangle");
+		icon.setStyle(IconGenerator.STYLE_GREEN);
+		Bitmap iconBitmap6 = icon.makeIcon("Quadrangle");
 
-						marker6 = map.addMarker(new MarkerOptions().position(
-						new LatLng(15.9799959, 120.5610247)).icon(
-						BitmapDescriptorFactory.fromBitmap(iconBitmap6)));
-						
-				
+		marker6 = map.addMarker(new MarkerOptions().position(
+				new LatLng(15.9799959, 120.5610247)).icon(
+				BitmapDescriptorFactory.fromBitmap(iconBitmap6)));
+
 		// AVR
-						icon.setStyle(IconGenerator.STYLE_PURPLE);
-						Bitmap iconBitmap7 = icon.makeIcon("AVR");
+		icon.setStyle(IconGenerator.STYLE_PURPLE);
+		Bitmap iconBitmap7 = icon.makeIcon("AVR");
 
-						marker7 = map.addMarker(new MarkerOptions().position(
-						new LatLng(15.9802868, 120.5617505)).icon(
-						BitmapDescriptorFactory.fromBitmap(iconBitmap7)));
-						
-						
+		marker7 = map.addMarker(new MarkerOptions().position(
+				new LatLng(15.9802868, 120.5617505)).icon(
+				BitmapDescriptorFactory.fromBitmap(iconBitmap7)));
+
 		// Accounting
-						icon.setStyle(IconGenerator.STYLE_GREEN);
-						Bitmap iconBitmap8 = icon.makeIcon("Accounting");
+		icon.setStyle(IconGenerator.STYLE_GREEN);
+		Bitmap iconBitmap8 = icon.makeIcon("Accounting");
 
-						marker8 = map.addMarker(new MarkerOptions().position(
-						new LatLng(15.9803681,120.5615921)).icon(
-						BitmapDescriptorFactory.fromBitmap(iconBitmap8)));
-						
-						
+		marker8 = map.addMarker(new MarkerOptions().position(
+				new LatLng(15.9803681, 120.5615921)).icon(
+				BitmapDescriptorFactory.fromBitmap(iconBitmap8)));
+
 		// Green Home
-						icon.setStyle(IconGenerator.STYLE_GREEN);
-						Bitmap iconBitmap9 = icon.makeIcon("Green Home");
+		icon.setStyle(IconGenerator.STYLE_GREEN);
+		Bitmap iconBitmap9 = icon.makeIcon("Green Home");
 
-						marker9 = map.addMarker(new MarkerOptions().position(
-						new LatLng(15.9796589, 120.5607035)).icon(
-						BitmapDescriptorFactory.fromBitmap(iconBitmap9)));
-						
-						
+		marker9 = map.addMarker(new MarkerOptions().position(
+				new LatLng(15.9796589, 120.5607035)).icon(
+				BitmapDescriptorFactory.fromBitmap(iconBitmap9)));
+
 		// Green Home 2
-						icon.setStyle(IconGenerator.STYLE_GREEN);
-						Bitmap iconBitmap10 = icon.makeIcon("Green Home 2");
+		icon.setStyle(IconGenerator.STYLE_GREEN);
+		Bitmap iconBitmap10 = icon.makeIcon("Green Home 2");
 
-						marker10 = map.addMarker(new MarkerOptions().position(
-						new LatLng(15.979793, 120.5603709)).icon(
-						BitmapDescriptorFactory.fromBitmap(iconBitmap10)));	
-						
-						
+		marker10 = map.addMarker(new MarkerOptions().position(
+				new LatLng(15.979793, 120.5603709)).icon(
+				BitmapDescriptorFactory.fromBitmap(iconBitmap10)));
+
 		// MAPEH Office
-						icon.setStyle(IconGenerator.STYLE_ORANGE);
-						Bitmap iconBitmap11 = icon.makeIcon("MAPEH Office");
+		icon.setStyle(IconGenerator.STYLE_ORANGE);
+		Bitmap iconBitmap11 = icon.makeIcon("MAPEH Office");
 
-						marker11 = map.addMarker(new MarkerOptions().position(
-						new LatLng(15.9782706,120.5608631)).icon(
-						BitmapDescriptorFactory.fromBitmap(iconBitmap11)));
-						
-						
+		marker11 = map.addMarker(new MarkerOptions().position(
+				new LatLng(15.9782706, 120.5608631)).icon(
+				BitmapDescriptorFactory.fromBitmap(iconBitmap11)));
+
 		// Comfort Rooom
-						icon.setStyle(IconGenerator.STYLE_ORANGE);
-						Bitmap iconBitmap12 = icon.makeIcon("Comfort Rooom");
+		icon.setStyle(IconGenerator.STYLE_ORANGE);
+		Bitmap iconBitmap12 = icon.makeIcon("Comfort Rooom");
 
-						marker12 = map.addMarker(new MarkerOptions().position(
-						new LatLng(15.9784087, 120.5609801)).icon(
-						BitmapDescriptorFactory.fromBitmap(iconBitmap12)));
-						
-						
+		marker12 = map.addMarker(new MarkerOptions().position(
+				new LatLng(15.9784087, 120.5609801)).icon(
+				BitmapDescriptorFactory.fromBitmap(iconBitmap12)));
+
 		// Comfort Rooom
-						icon.setStyle(IconGenerator.STYLE_BLUE);
-						Bitmap iconBitmap13 = icon.makeIcon("Comfort Rooom");
+		icon.setStyle(IconGenerator.STYLE_BLUE);
+		Bitmap iconBitmap13 = icon.makeIcon("Comfort Rooom");
 
-						marker13 = map.addMarker(new MarkerOptions().position(
-						new LatLng(15.9794789, 120.5607565)).icon(
-						BitmapDescriptorFactory.fromBitmap(iconBitmap13)));
-						
-						
+		marker13 = map.addMarker(new MarkerOptions().position(
+				new LatLng(15.9794789, 120.5607565)).icon(
+				BitmapDescriptorFactory.fromBitmap(iconBitmap13)));
+
 		// Canteen
-						icon.setStyle(IconGenerator.STYLE_PURPLE);
-						Bitmap iconBitmap14 = icon.makeIcon("Canteen");
+		icon.setStyle(IconGenerator.STYLE_PURPLE);
+		Bitmap iconBitmap14 = icon.makeIcon("Canteen");
 
-						marker14 = map.addMarker(new MarkerOptions().position(
-						new LatLng(15.9797863, 120.561579)).icon(
-						BitmapDescriptorFactory.fromBitmap(iconBitmap14)));
-						
-						
+		marker14 = map.addMarker(new MarkerOptions().position(
+				new LatLng(15.9797863, 120.561579)).icon(
+				BitmapDescriptorFactory.fromBitmap(iconBitmap14)));
+
 		// Orata Park
-						icon.setStyle(IconGenerator.STYLE_GREEN);
-						Bitmap iconBitmap15 = icon.makeIcon("Orata Park");
+		icon.setStyle(IconGenerator.STYLE_GREEN);
+		Bitmap iconBitmap15 = icon.makeIcon("Orata Park");
 
-						marker15 = map.addMarker(new MarkerOptions().position(
-						new LatLng(15.9799288, 120.5615552)).icon(
-						BitmapDescriptorFactory.fromBitmap(iconBitmap15)));
-						
-						
+		marker15 = map.addMarker(new MarkerOptions().position(
+				new LatLng(15.9799288, 120.5615552)).icon(
+				BitmapDescriptorFactory.fromBitmap(iconBitmap15)));
+
 		// Registrar Office
-						icon.setStyle(IconGenerator.STYLE_BLUE);
-						Bitmap iconBitmap16 = icon.makeIcon("Registrar Office");
+		icon.setStyle(IconGenerator.STYLE_BLUE);
+		Bitmap iconBitmap16 = icon.makeIcon("Registrar Office");
 
-						marker16 = map.addMarker(new MarkerOptions().position(
-						new LatLng(15.9800837, 120.56169522)).icon(
-						BitmapDescriptorFactory.fromBitmap(iconBitmap16)));
-						
-						
+		marker16 = map.addMarker(new MarkerOptions().position(
+				new LatLng(15.9800837, 120.56169522)).icon(
+				BitmapDescriptorFactory.fromBitmap(iconBitmap16)));
+
 		// DBC Room
-						icon.setStyle(IconGenerator.STYLE_BLUE);
-						Bitmap iconBitmap17 = icon.makeIcon("DBC Room");
+		icon.setStyle(IconGenerator.STYLE_BLUE);
+		Bitmap iconBitmap17 = icon.makeIcon("DBC Room");
 
-						marker17 = map.addMarker(new MarkerOptions().position(
-						new LatLng(15.9805233, 120.561192)).icon(
-						BitmapDescriptorFactory.fromBitmap(iconBitmap17)));
-						
-						
+		marker17 = map.addMarker(new MarkerOptions().position(
+				new LatLng(15.9805233, 120.561192)).icon(
+				BitmapDescriptorFactory.fromBitmap(iconBitmap17)));
+
 		// Honasan Hall
-						icon.setStyle(IconGenerator.STYLE_GREEN);
-						Bitmap iconBitmap18 = icon.makeIcon("Honasan Hall");
+		icon.setStyle(IconGenerator.STYLE_GREEN);
+		Bitmap iconBitmap18 = icon.makeIcon("Honasan Hall");
 
-						marker18 = map.addMarker(new MarkerOptions().position(
-						new LatLng(15.9804238, 120.5610754)).icon(
-						BitmapDescriptorFactory.fromBitmap(iconBitmap18)));
-						
-						
+		marker18 = map.addMarker(new MarkerOptions().position(
+				new LatLng(15.9804238, 120.5610754)).icon(
+				BitmapDescriptorFactory.fromBitmap(iconBitmap18)));
+
 		// Badar
-						icon.setStyle(IconGenerator.STYLE_PURPLE);
-						Bitmap iconBitmap19 = icon.makeIcon("Badar");
+		icon.setStyle(IconGenerator.STYLE_PURPLE);
+		Bitmap iconBitmap19 = icon.makeIcon("Badar");
 
-						marker19 = map.addMarker(new MarkerOptions().position(
-						new LatLng(15.9805181, 120.56098)).icon(
-						BitmapDescriptorFactory.fromBitmap(iconBitmap19)));
+		marker19 = map.addMarker(new MarkerOptions().position(
+				new LatLng(15.9805181, 120.56098)).icon(
+				BitmapDescriptorFactory.fromBitmap(iconBitmap19)));
 
-						
 		// Square Garden
-						icon.setStyle(IconGenerator.STYLE_ORANGE);
-						Bitmap iconBitmap20 = icon.makeIcon("Square Garden");
+		icon.setStyle(IconGenerator.STYLE_ORANGE);
+		Bitmap iconBitmap20 = icon.makeIcon("Square Garden");
 
-						marker20 = map.addMarker(new MarkerOptions().position(
-						new LatLng(15.9804696,120.560826)).icon(
-						BitmapDescriptorFactory.fromBitmap(iconBitmap20)));
+		marker20 = map.addMarker(new MarkerOptions().position(
+				new LatLng(15.9804696, 120.560826)).icon(
+				BitmapDescriptorFactory.fromBitmap(iconBitmap20)));
 
 		map.setOnMarkerClickListener(new OnMarkerClickListener() {
 			@Override
@@ -288,10 +269,12 @@ public class CampusMap extends SherlockFragment {
 							});
 					builder.show();
 
-				} if (marker.equals(marker2)){
-					
-					CharSequence options[] = new CharSequence[] { "View Building",
-							"View Occupants", "Report Emergency Via Call",
+				}
+				if (marker.equals(marker2)) {
+
+					CharSequence options[] = new CharSequence[] {
+							"View Building", "View Occupants",
+							"Report Emergency Via Call",
 							"Report Emergency Via Text", };
 
 					AlertDialog.Builder builder = new AlertDialog.Builder(
@@ -305,7 +288,7 @@ public class CampusMap extends SherlockFragment {
 									// the user clicked on options[options]
 									switch (options) {
 									case 0:
-										//Show Image of The Building
+										// Show Image of The Building
 										Toast toast2 = new Toast(getActivity());
 										ImageView view2 = new ImageView(
 												getActivity());
@@ -318,26 +301,33 @@ public class CampusMap extends SherlockFragment {
 										break;
 
 									case 1:
-										//Show the Organizational Chart of the Occupant of the Building
+										// Show the Organizational Chart of the
+										// Occupant of the Building
 
 										break;
 
 									case 2:
-										//Report Emergency Through Call										
-										
-										Intent reportCall = new Intent(Intent.ACTION_CALL, Uri.parse("tel: 09163177477"));
+										// Report Emergency Through Call
+
+										Intent reportCall = new Intent(
+												Intent.ACTION_CALL,
+												Uri.parse("tel: 09163177477"));
 										startActivity(reportCall);
 
 										break;
 
 									case 3:
-										//Report Emergency Through Text
-										
-										Intent reportText = new
-										Intent(android.content.Intent.ACTION_VIEW);
-										reportText.putExtra("address", "09163177477;");
-										reportText.putExtra("sms_body", "Emergenccy Case Here at Orata Building");
-										reportText.setType("vnd.android-dir/mms-sms");
+										// Report Emergency Through Text
+
+										Intent reportText = new Intent(
+												android.content.Intent.ACTION_VIEW);
+										reportText.putExtra("address",
+												"09163177477;");
+										reportText
+												.putExtra("sms_body",
+														"Emergenccy Case Here at Orata Building");
+										reportText
+												.setType("vnd.android-dir/mms-sms");
 										startActivity(reportText);
 
 										break;
@@ -346,8 +336,9 @@ public class CampusMap extends SherlockFragment {
 								}
 							});
 					builder.show();
-					
-				}if (marker.equals(marker3)) {
+
+				}
+				if (marker.equals(marker3)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
 							"View Building", "View Occupants",
@@ -365,14 +356,16 @@ public class CampusMap extends SherlockFragment {
 									// the user clicked on options[options]
 									switch (options) {
 									case 0:
-										/*Toast toast = new Toast(getActivity());
-										ImageView view1 = new ImageView(
-												getActivity());
-										view1.setImageResource(R.drawable.ucu_gymn);
-										toast.setDuration(Toast.LENGTH_LONG);
-										toast.setView(view1);
-										toast.show();
-										;*/
+										/*
+										 * Toast toast = new
+										 * Toast(getActivity()); ImageView view1
+										 * = new ImageView( getActivity());
+										 * view1
+										 * .setImageResource(R.drawable.ucu_gymn
+										 * );
+										 * toast.setDuration(Toast.LENGTH_LONG);
+										 * toast.setView(view1); toast.show(); ;
+										 */
 										break;
 
 									case 1:
@@ -392,7 +385,8 @@ public class CampusMap extends SherlockFragment {
 							});
 					builder.show();
 
-				}if (marker.equals(marker4)) {
+				}
+				if (marker.equals(marker4)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
 							"View Building", "View Occupants",
@@ -410,14 +404,16 @@ public class CampusMap extends SherlockFragment {
 									// the user clicked on options[options]
 									switch (options) {
 									case 0:
-										/*Toast toast = new Toast(getActivity());
-										ImageView view1 = new ImageView(
-												getActivity());
-										view1.setImageResource(R.drawable.ucu_gymn);
-										toast.setDuration(Toast.LENGTH_LONG);
-										toast.setView(view1);
-										toast.show();
-										;*/
+										/*
+										 * Toast toast = new
+										 * Toast(getActivity()); ImageView view1
+										 * = new ImageView( getActivity());
+										 * view1
+										 * .setImageResource(R.drawable.ucu_gymn
+										 * );
+										 * toast.setDuration(Toast.LENGTH_LONG);
+										 * toast.setView(view1); toast.show(); ;
+										 */
 										break;
 
 									case 1:
@@ -437,7 +433,8 @@ public class CampusMap extends SherlockFragment {
 							});
 					builder.show();
 
-				}if (marker.equals(marker5)) {
+				}
+				if (marker.equals(marker5)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
 							"View Building", "View Occupants",
@@ -482,7 +479,8 @@ public class CampusMap extends SherlockFragment {
 							});
 					builder.show();
 
-				}if (marker.equals(marker6)) {
+				}
+				if (marker.equals(marker6)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
 							"View Building", "View Occupants",
@@ -527,7 +525,8 @@ public class CampusMap extends SherlockFragment {
 							});
 					builder.show();
 
-				}if (marker.equals(marker7)) {
+				}
+				if (marker.equals(marker7)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
 							"View Building", "View Occupants",
@@ -572,7 +571,8 @@ public class CampusMap extends SherlockFragment {
 							});
 					builder.show();
 
-				}if (marker.equals(marker8)) {
+				}
+				if (marker.equals(marker8)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
 							"View Building", "View Occupants",
@@ -590,14 +590,16 @@ public class CampusMap extends SherlockFragment {
 									// the user clicked on options[options]
 									switch (options) {
 									case 0:
-										/*Toast toast = new Toast(getActivity());
-										ImageView view1 = new ImageView(
-												getActivity());
-										view1.setImageResource(R.drawable.ucu_gymn);
-										toast.setDuration(Toast.LENGTH_LONG);
-										toast.setView(view1);
-										toast.show();
-										;*/
+										/*
+										 * Toast toast = new
+										 * Toast(getActivity()); ImageView view1
+										 * = new ImageView( getActivity());
+										 * view1
+										 * .setImageResource(R.drawable.ucu_gymn
+										 * );
+										 * toast.setDuration(Toast.LENGTH_LONG);
+										 * toast.setView(view1); toast.show(); ;
+										 */
 										break;
 
 									case 1:
@@ -663,7 +665,8 @@ public class CampusMap extends SherlockFragment {
 							});
 					builder.show();
 
-				}if (marker.equals(marker10)) {
+				}
+				if (marker.equals(marker10)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
 							"View Building", "View Occupants",
@@ -708,7 +711,8 @@ public class CampusMap extends SherlockFragment {
 							});
 					builder.show();
 
-				}if (marker.equals(marker11)) {
+				}
+				if (marker.equals(marker11)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
 							"View Building", "View Occupants",
@@ -726,14 +730,16 @@ public class CampusMap extends SherlockFragment {
 									// the user clicked on options[options]
 									switch (options) {
 									case 0:
-										/*Toast toast = new Toast(getActivity());
-										ImageView view1 = new ImageView(
-												getActivity());
-										view1.setImageResource(R.drawable.ucu_gymn);
-										toast.setDuration(Toast.LENGTH_LONG);
-										toast.setView(view1);
-										toast.show();
-										;*/
+										/*
+										 * Toast toast = new
+										 * Toast(getActivity()); ImageView view1
+										 * = new ImageView( getActivity());
+										 * view1
+										 * .setImageResource(R.drawable.ucu_gymn
+										 * );
+										 * toast.setDuration(Toast.LENGTH_LONG);
+										 * toast.setView(view1); toast.show(); ;
+										 */
 										break;
 
 									case 1:
@@ -753,7 +759,8 @@ public class CampusMap extends SherlockFragment {
 							});
 					builder.show();
 
-				}if (marker.equals(marker12)) {
+				}
+				if (marker.equals(marker12)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
 							"View Building", "View Occupants",
@@ -771,14 +778,16 @@ public class CampusMap extends SherlockFragment {
 									// the user clicked on options[options]
 									switch (options) {
 									case 0:
-										/*Toast toast = new Toast(getActivity());
-										ImageView view1 = new ImageView(
-												getActivity());
-										view1.setImageResource(R.drawable.ucu_gymn);
-										toast.setDuration(Toast.LENGTH_LONG);
-										toast.setView(view1);
-										toast.show();
-										;*/
+										/*
+										 * Toast toast = new
+										 * Toast(getActivity()); ImageView view1
+										 * = new ImageView( getActivity());
+										 * view1
+										 * .setImageResource(R.drawable.ucu_gymn
+										 * );
+										 * toast.setDuration(Toast.LENGTH_LONG);
+										 * toast.setView(view1); toast.show(); ;
+										 */
 										break;
 
 									case 1:
@@ -798,7 +807,8 @@ public class CampusMap extends SherlockFragment {
 							});
 					builder.show();
 
-				}if (marker.equals(marker13)) {
+				}
+				if (marker.equals(marker13)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
 							"View Building", "View Occupants",
@@ -816,14 +826,16 @@ public class CampusMap extends SherlockFragment {
 									// the user clicked on options[options]
 									switch (options) {
 									case 0:
-										/*Toast toast = new Toast(getActivity());
-										ImageView view1 = new ImageView(
-												getActivity());
-										view1.setImageResource(R.drawable.ucu_gymn);
-										toast.setDuration(Toast.LENGTH_LONG);
-										toast.setView(view1);
-										toast.show();
-										;*/
+										/*
+										 * Toast toast = new
+										 * Toast(getActivity()); ImageView view1
+										 * = new ImageView( getActivity());
+										 * view1
+										 * .setImageResource(R.drawable.ucu_gymn
+										 * );
+										 * toast.setDuration(Toast.LENGTH_LONG);
+										 * toast.setView(view1); toast.show(); ;
+										 */
 										break;
 
 									case 1:
@@ -843,7 +855,8 @@ public class CampusMap extends SherlockFragment {
 							});
 					builder.show();
 
-				}if (marker.equals(marker14)) {
+				}
+				if (marker.equals(marker14)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
 							"View Building", "View Occupants",
@@ -861,14 +874,16 @@ public class CampusMap extends SherlockFragment {
 									// the user clicked on options[options]
 									switch (options) {
 									case 0:
-										/*Toast toast = new Toast(getActivity());
-										ImageView view1 = new ImageView(
-												getActivity());
-										view1.setImageResource(R.drawable.ucu_gymn);
-										toast.setDuration(Toast.LENGTH_LONG);
-										toast.setView(view1);
-										toast.show();
-										;*/
+										/*
+										 * Toast toast = new
+										 * Toast(getActivity()); ImageView view1
+										 * = new ImageView( getActivity());
+										 * view1
+										 * .setImageResource(R.drawable.ucu_gymn
+										 * );
+										 * toast.setDuration(Toast.LENGTH_LONG);
+										 * toast.setView(view1); toast.show(); ;
+										 */
 										break;
 
 									case 1:
@@ -888,7 +903,8 @@ public class CampusMap extends SherlockFragment {
 							});
 					builder.show();
 
-				}if (marker.equals(marker15)) {
+				}
+				if (marker.equals(marker15)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
 							"View Building", "View Occupants",
@@ -906,14 +922,16 @@ public class CampusMap extends SherlockFragment {
 									// the user clicked on options[options]
 									switch (options) {
 									case 0:
-										/*Toast toast = new Toast(getActivity());
-										ImageView view1 = new ImageView(
-												getActivity());
-										view1.setImageResource(R.drawable.ucu_gymn);
-										toast.setDuration(Toast.LENGTH_LONG);
-										toast.setView(view1);
-										toast.show();
-										;*/
+										/*
+										 * Toast toast = new
+										 * Toast(getActivity()); ImageView view1
+										 * = new ImageView( getActivity());
+										 * view1
+										 * .setImageResource(R.drawable.ucu_gymn
+										 * );
+										 * toast.setDuration(Toast.LENGTH_LONG);
+										 * toast.setView(view1); toast.show(); ;
+										 */
 										break;
 
 									case 1:
@@ -933,7 +951,8 @@ public class CampusMap extends SherlockFragment {
 							});
 					builder.show();
 
-				}if (marker.equals(marker16)) {
+				}
+				if (marker.equals(marker16)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
 							"View Building", "View Occupants",
@@ -978,7 +997,8 @@ public class CampusMap extends SherlockFragment {
 							});
 					builder.show();
 
-				}if (marker.equals(marker17)) {
+				}
+				if (marker.equals(marker17)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
 							"View Building", "View Occupants",
@@ -996,152 +1016,17 @@ public class CampusMap extends SherlockFragment {
 									// the user clicked on options[options]
 									switch (options) {
 									case 0:
-										/*Toast toast = new Toast(getActivity());
-										ImageView view1 = new ImageView(
-												getActivity());
-										view1.setImageResource(R.drawable.ucu_gymn);
-										toast.setDuration(Toast.LENGTH_LONG);
-										toast.setView(view1);
-										toast.show();
-										;*/
-										
-										Intent i = new Intent(getActivity(), LogIn.class);
-										startActivity(i); 
-										break;
+										/*
+										 * Toast toast = new
+										 * Toast(getActivity()); ImageView view1
+										 * = new ImageView( getActivity());
+										 * view1
+										 * .setImageResource(R.drawable.ucu_gymn
+										 * );
+										 * toast.setDuration(Toast.LENGTH_LONG);
+										 * toast.setView(view1); toast.show(); ;
+										 */
 
-									case 1:
-
-										break;
-
-									case 2:
-
-										break;
-
-									case 3:
-
-										break;
-
-									}
-								}
-							});
-					builder.show();
-
-				}if (marker.equals(marker18)) {
-					// handle click here
-					CharSequence options[] = new CharSequence[] {
-							"View Building", "View Occupants",
-							"Report Emergency Via Call",
-							"Report Emergency Via Text", };
-
-					AlertDialog.Builder builder = new AlertDialog.Builder(
-							getActivity());
-					builder.setTitle("Options");
-					builder.setItems(options,
-							new DialogInterface.OnClickListener() {
-								@Override
-								public void onClick(DialogInterface dialog,
-										int options) {
-									// the user clicked on options[options]
-									switch (options) {
-									case 0:
-										/*Toast toast = new Toast(getActivity());
-										ImageView view1 = new ImageView(
-												getActivity());
-										view1.setImageResource(R.drawable.ucu_gymn);
-										toast.setDuration(Toast.LENGTH_LONG);
-										toast.setView(view1);
-										toast.show();
-										;*/
-										break;
-
-									case 1:
-
-										break;
-
-									case 2:
-
-										break;
-
-									case 3:
-
-										break;
-
-									}
-								}
-							});
-					builder.show();
-
-				}if (marker.equals(marker19)) {
-					// handle click here
-					CharSequence options[] = new CharSequence[] {
-							"View Building", "View Occupants",
-							"Report Emergency Via Call",
-							"Report Emergency Via Text", };
-
-					AlertDialog.Builder builder = new AlertDialog.Builder(
-							getActivity());
-					builder.setTitle("Options");
-					builder.setItems(options,
-							new DialogInterface.OnClickListener() {
-								@Override
-								public void onClick(DialogInterface dialog,
-										int options) {
-									// the user clicked on options[options]
-									switch (options) {
-									case 0:
-										/*Toast toast = new Toast(getActivity());
-										ImageView view1 = new ImageView(
-												getActivity());
-										view1.setImageResource(R.drawable.ucu_gymn);
-										toast.setDuration(Toast.LENGTH_LONG);
-										toast.setView(view1);
-										toast.show();
-										;*/
-										break;
-
-									case 1:
-
-										break;
-
-									case 2:
-
-										break;
-
-									case 3:
-
-										break;
-
-									}
-								}
-							});
-					builder.show();
-
-				}if (marker.equals(marker20)) {
-					// handle click here
-					CharSequence options[] = new CharSequence[] {
-							"View Building", "View Occupants",
-							"Report Emergency Via Call",
-							"Report Emergency Via Text", };
-
-					AlertDialog.Builder builder = new AlertDialog.Builder(
-							getActivity());
-					builder.setTitle("Options");
-					builder.setItems(options,
-							new DialogInterface.OnClickListener() {
-								@Override
-								public void onClick(DialogInterface dialog,
-										int options) {
-									// the user clicked on options[options]
-									switch (options) {
-									case 0:
-										/*Toast toast = new Toast(getActivity());
-										ImageView view1 = new ImageView(
-												getActivity());
-										view1.setImageResource(R.drawable.ucu_gymn);
-										toast.setDuration(Toast.LENGTH_LONG);
-										toast.setView(view1);
-										toast.show();
-										;*/
 										break;
 
 									case 1:
@@ -1162,24 +1047,157 @@ public class CampusMap extends SherlockFragment {
 					builder.show();
 
 				}
-				
-				
+				if (marker.equals(marker18)) {
+					// handle click here
+					CharSequence options[] = new CharSequence[] {
+							"View Building", "View Occupants",
+							"Report Emergency Via Call",
+							"Report Emergency Via Text", };
+
+					AlertDialog.Builder builder = new AlertDialog.Builder(
+							getActivity());
+					builder.setTitle("Options");
+					builder.setItems(options,
+							new DialogInterface.OnClickListener() {
+								@Override
+								public void onClick(DialogInterface dialog,
+										int options) {
+									// the user clicked on options[options]
+									switch (options) {
+									case 0:
+										/*
+										 * Toast toast = new
+										 * Toast(getActivity()); ImageView view1
+										 * = new ImageView( getActivity());
+										 * view1
+										 * .setImageResource(R.drawable.ucu_gymn
+										 * );
+										 * toast.setDuration(Toast.LENGTH_LONG);
+										 * toast.setView(view1); toast.show(); ;
+										 */
+										break;
+
+									case 1:
+
+										break;
+
+									case 2:
+
+										break;
+
+									case 3:
+
+										break;
+
+									}
+								}
+							});
+					builder.show();
+
+				}
+				if (marker.equals(marker19)) {
+					// handle click here
+					CharSequence options[] = new CharSequence[] {
+							"View Building", "View Occupants",
+							"Report Emergency Via Call",
+							"Report Emergency Via Text", };
+
+					AlertDialog.Builder builder = new AlertDialog.Builder(
+							getActivity());
+					builder.setTitle("Options");
+					builder.setItems(options,
+							new DialogInterface.OnClickListener() {
+								@Override
+								public void onClick(DialogInterface dialog,
+										int options) {
+									// the user clicked on options[options]
+									switch (options) {
+									case 0:
+										/*
+										 * Toast toast = new
+										 * Toast(getActivity()); ImageView view1
+										 * = new ImageView( getActivity());
+										 * view1
+										 * .setImageResource(R.drawable.ucu_gymn
+										 * );
+										 * toast.setDuration(Toast.LENGTH_LONG);
+										 * toast.setView(view1); toast.show(); ;
+										 */
+										break;
+
+									case 1:
+
+										break;
+
+									case 2:
+
+										break;
+
+									case 3:
+
+										break;
+
+									}
+								}
+							});
+					builder.show();
+
+				}
+				if (marker.equals(marker20)) {
+					// handle click here
+					CharSequence options[] = new CharSequence[] {
+							"View Building", "View Occupants",
+							"Report Emergency Via Call",
+							"Report Emergency Via Text", };
+
+					AlertDialog.Builder builder = new AlertDialog.Builder(
+							getActivity());
+					builder.setTitle("Options");
+					builder.setItems(options,
+							new DialogInterface.OnClickListener() {
+								@Override
+								public void onClick(DialogInterface dialog,
+										int options) {
+									// the user clicked on options[options]
+									switch (options) {
+									case 0:
+										/*
+										 * Toast toast = new
+										 * Toast(getActivity()); ImageView view1
+										 * = new ImageView( getActivity());
+										 * view1
+										 * .setImageResource(R.drawable.ucu_gymn
+										 * );
+										 * toast.setDuration(Toast.LENGTH_LONG);
+										 * toast.setView(view1); toast.show(); ;
+										 */
+										break;
+
+									case 1:
+
+										break;
+
+									case 2:
+
+										break;
+
+									case 3:
+
+										break;
+
+									}
+								}
+							});
+					builder.show();
+
+				}
 
 				return true;
 			}
 		});
 
-		
-
-		
-
-		
-
-		
-		
-		
 		return view;
-		}
+	}
 
 	@Override
 	public void onResume() {

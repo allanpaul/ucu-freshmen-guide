@@ -28,7 +28,6 @@ public class UCUHymn extends SherlockFragment {
 		MediaController myController = new MediaController(getActivity());
 
 		video.setMediaController(myController);
-		video.start();
 		return rootView;
 	}
 

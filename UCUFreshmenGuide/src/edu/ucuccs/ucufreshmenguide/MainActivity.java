@@ -34,7 +34,7 @@ public class MainActivity extends SherlockFragmentActivity {
 	Fragment events = new NewsAndEvents();
 	Fragment courses = new CoursesOffered();
 	Fragment hymn = new UCUHymn();
-	Fragment about = new About();
+	Fragment contactus = new ContactUs();
 	
 	
 	private CharSequence mDrawerTitle;
@@ -58,12 +58,12 @@ public class MainActivity extends SherlockFragmentActivity {
 
 		// Generate title
 		title = new String[] { "Home", "Univerity Policies", "Campus Map",
-				"News and Events", "Courses Offered", "UCU Hymn", "About" };
+				"News and Events", "Courses Offered", "UCU Hymn", "Contact Us" };
 
 		// Generate icon
 		icon = new int[] { R.drawable.ic_home, R.drawable.ic_book,
 				R.drawable.ic_maps, R.drawable.ic_events,
-				R.drawable.ic_course, R.drawable.ic_play, R.drawable.ic_about };
+				R.drawable.ic_course, R.drawable.ic_play, R.drawable.ic_call };
 
 		// Locate DrawerLayout in drawer_main.xml
 		mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -165,7 +165,7 @@ public class MainActivity extends SherlockFragmentActivity {
 			ft.replace(R.id.content_frame, hymn);
 			break;
 		case 6:
-			ft.replace(R.id.content_frame, about);
+			ft.replace(R.id.content_frame, contactus);
 			break;
 		}
 		ft.commit();
