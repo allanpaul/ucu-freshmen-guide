@@ -127,7 +127,7 @@ public class ContactUs extends SherlockFragment {
 							@Override
 							public void onClick(View arg0) {
 								// TODO Auto-generated method stub
-								String url = "https://www.facebook.com/theucuscribe";
+								String url = "www.facebook.com/theucuscribe";
 								Intent i = new Intent(Intent.ACTION_VIEW);
 								i.setData(Uri.parse(url));
 								startActivity(i);
