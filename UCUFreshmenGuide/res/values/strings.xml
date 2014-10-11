@@ -2,7 +2,6 @@
 <resources>
 
     <string name="app_name">UCU Freshmen Guide</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="UCU">Urdaneta City University</string>
     <string name="title_activity_university_policies">University Policies</string>

@@ -57,7 +57,7 @@ public class MainActivity extends SherlockFragmentActivity {
 		mTitle = mDrawerTitle = getTitle();
 
 		// Generate title
-		title = new String[] { "Home", "Univerity Policies", "Campus Map",
+		title = new String[] { "Home", "University Policies", "Campus Map",
 				"News and Events", "Courses Offered", "UCU Hymn", "Contact Us" };
 
 		// Generate icon

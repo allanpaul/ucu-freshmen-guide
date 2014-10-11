@@ -227,8 +227,7 @@ public class CampusMap extends SherlockFragment {
 				if (marker.equals(marker1)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
-							"View Building", "View Occupants",
-							"Report Emergency Via Call",
+							"View Building", "Report Emergency Via Call",
 							"Report Emergency Via Text", };
 
 					AlertDialog.Builder builder = new AlertDialog.Builder(
@@ -260,10 +259,6 @@ public class CampusMap extends SherlockFragment {
 
 										break;
 
-									case 3:
-
-										break;
-
 									}
 								}
 							});
@@ -273,8 +268,7 @@ public class CampusMap extends SherlockFragment {
 				if (marker.equals(marker2)) {
 
 					CharSequence options[] = new CharSequence[] {
-							"View Building", "View Occupants",
-							"Report Emergency Via Call",
+							"View Building", "Report Emergency Via Call",
 							"Report Emergency Via Text", };
 
 					AlertDialog.Builder builder = new AlertDialog.Builder(
@@ -301,12 +295,6 @@ public class CampusMap extends SherlockFragment {
 										break;
 
 									case 1:
-										// Show the Organizational Chart of the
-										// Occupant of the Building
-
-										break;
-
-									case 2:
 										// Report Emergency Through Call
 
 										Intent reportCall = new Intent(
@@ -316,7 +304,7 @@ public class CampusMap extends SherlockFragment {
 
 										break;
 
-									case 3:
+									case 2:
 										// Report Emergency Through Text
 
 										Intent reportText = new Intent(
@@ -341,8 +329,7 @@ public class CampusMap extends SherlockFragment {
 				if (marker.equals(marker3)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
-							"View Building", "View Occupants",
-							"Report Emergency Via Call",
+							"View Building", "Report Emergency Via Call",
 							"Report Emergency Via Text", };
 
 					AlertDialog.Builder builder = new AlertDialog.Builder(
@@ -373,10 +360,6 @@ public class CampusMap extends SherlockFragment {
 										break;
 
 									case 2:
-
-										break;
-
-									case 3:
 
 										break;
 
@@ -389,8 +372,7 @@ public class CampusMap extends SherlockFragment {
 				if (marker.equals(marker4)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
-							"View Building", "View Occupants",
-							"Report Emergency Via Call",
+							"View Building", "Report Emergency Via Call",
 							"Report Emergency Via Text", };
 
 					AlertDialog.Builder builder = new AlertDialog.Builder(
@@ -424,10 +406,6 @@ public class CampusMap extends SherlockFragment {
 
 										break;
 
-									case 3:
-
-										break;
-
 									}
 								}
 							});
@@ -437,8 +415,7 @@ public class CampusMap extends SherlockFragment {
 				if (marker.equals(marker5)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
-							"View Building", "View Occupants",
-							"Report Emergency Via Call",
+							"View Building", "Report Emergency Via Call",
 							"Report Emergency Via Text", };
 
 					AlertDialog.Builder builder = new AlertDialog.Builder(
@@ -470,10 +447,6 @@ public class CampusMap extends SherlockFragment {
 
 										break;
 
-									case 3:
-
-										break;
-
 									}
 								}
 							});
@@ -483,8 +456,7 @@ public class CampusMap extends SherlockFragment {
 				if (marker.equals(marker6)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
-							"View Building", "View Occupants",
-							"Report Emergency Via Call",
+							"View Building", "Report Emergency Via Call",
 							"Report Emergency Via Text", };
 
 					AlertDialog.Builder builder = new AlertDialog.Builder(
@@ -516,10 +488,6 @@ public class CampusMap extends SherlockFragment {
 
 										break;
 
-									case 3:
-
-										break;
-
 									}
 								}
 							});
@@ -529,8 +497,7 @@ public class CampusMap extends SherlockFragment {
 				if (marker.equals(marker7)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
-							"View Building", "View Occupants",
-							"Report Emergency Via Call",
+							"View Building", "Report Emergency Via Call",
 							"Report Emergency Via Text", };
 
 					AlertDialog.Builder builder = new AlertDialog.Builder(
@@ -562,10 +529,6 @@ public class CampusMap extends SherlockFragment {
 
 										break;
 
-									case 3:
-
-										break;
-
 									}
 								}
 							});
@@ -575,8 +538,7 @@ public class CampusMap extends SherlockFragment {
 				if (marker.equals(marker8)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
-							"View Building", "View Occupants",
-							"Report Emergency Via Call",
+							"View Building", "Report Emergency Via Call",
 							"Report Emergency Via Text", };
 
 					AlertDialog.Builder builder = new AlertDialog.Builder(
@@ -610,10 +572,6 @@ public class CampusMap extends SherlockFragment {
 
 										break;
 
-									case 3:
-
-										break;
-
 									}
 								}
 							});
@@ -623,8 +581,7 @@ public class CampusMap extends SherlockFragment {
 				if (marker.equals(marker9)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
-							"View Building", "View Occupants",
-							"Report Emergency Via Call",
+							"View Building", "Report Emergency Via Call",
 							"Report Emergency Via Text", };
 
 					AlertDialog.Builder builder = new AlertDialog.Builder(
@@ -656,10 +613,6 @@ public class CampusMap extends SherlockFragment {
 
 										break;
 
-									case 3:
-
-										break;
-
 									}
 								}
 							});
@@ -669,8 +622,7 @@ public class CampusMap extends SherlockFragment {
 				if (marker.equals(marker10)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
-							"View Building", "View Occupants",
-							"Report Emergency Via Call",
+							"View Building", "Report Emergency Via Call",
 							"Report Emergency Via Text", };
 
 					AlertDialog.Builder builder = new AlertDialog.Builder(
@@ -702,10 +654,6 @@ public class CampusMap extends SherlockFragment {
 
 										break;
 
-									case 3:
-
-										break;
-
 									}
 								}
 							});
@@ -715,8 +663,7 @@ public class CampusMap extends SherlockFragment {
 				if (marker.equals(marker11)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
-							"View Building", "View Occupants",
-							"Report Emergency Via Call",
+							"View Building", "Report Emergency Via Call",
 							"Report Emergency Via Text", };
 
 					AlertDialog.Builder builder = new AlertDialog.Builder(
@@ -747,10 +694,6 @@ public class CampusMap extends SherlockFragment {
 										break;
 
 									case 2:
-
-										break;
-
-									case 3:
 
 										break;
 
@@ -763,8 +706,7 @@ public class CampusMap extends SherlockFragment {
 				if (marker.equals(marker12)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
-							"View Building", "View Occupants",
-							"Report Emergency Via Call",
+							"View Building", "Report Emergency Via Call",
 							"Report Emergency Via Text", };
 
 					AlertDialog.Builder builder = new AlertDialog.Builder(
@@ -795,10 +737,6 @@ public class CampusMap extends SherlockFragment {
 										break;
 
 									case 2:
-
-										break;
-
-									case 3:
 
 										break;
 
@@ -811,8 +749,7 @@ public class CampusMap extends SherlockFragment {
 				if (marker.equals(marker13)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
-							"View Building", "View Occupants",
-							"Report Emergency Via Call",
+							"View Building", "Report Emergency Via Call",
 							"Report Emergency Via Text", };
 
 					AlertDialog.Builder builder = new AlertDialog.Builder(
@@ -843,10 +780,6 @@ public class CampusMap extends SherlockFragment {
 										break;
 
 									case 2:
-
-										break;
-
-									case 3:
 
 										break;
 
@@ -859,8 +792,7 @@ public class CampusMap extends SherlockFragment {
 				if (marker.equals(marker14)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
-							"View Building", "View Occupants",
-							"Report Emergency Via Call",
+							"View Building", "Report Emergency Via Call",
 							"Report Emergency Via Text", };
 
 					AlertDialog.Builder builder = new AlertDialog.Builder(
@@ -891,10 +823,6 @@ public class CampusMap extends SherlockFragment {
 										break;
 
 									case 2:
-
-										break;
-
-									case 3:
 
 										break;
 
@@ -907,8 +835,7 @@ public class CampusMap extends SherlockFragment {
 				if (marker.equals(marker15)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
-							"View Building", "View Occupants",
-							"Report Emergency Via Call",
+							"View Building", "Report Emergency Via Call",
 							"Report Emergency Via Text", };
 
 					AlertDialog.Builder builder = new AlertDialog.Builder(
@@ -942,10 +869,6 @@ public class CampusMap extends SherlockFragment {
 
 										break;
 
-									case 3:
-
-										break;
-
 									}
 								}
 							});
@@ -955,8 +878,7 @@ public class CampusMap extends SherlockFragment {
 				if (marker.equals(marker16)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
-							"View Building", "View Occupants",
-							"Report Emergency Via Call",
+							"View Building", "Report Emergency Via Call",
 							"Report Emergency Via Text", };
 
 					AlertDialog.Builder builder = new AlertDialog.Builder(
@@ -988,10 +910,6 @@ public class CampusMap extends SherlockFragment {
 
 										break;
 
-									case 3:
-
-										break;
-
 									}
 								}
 							});
@@ -1001,8 +919,7 @@ public class CampusMap extends SherlockFragment {
 				if (marker.equals(marker17)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
-							"View Building", "View Occupants",
-							"Report Emergency Via Call",
+							"View Building", "Report Emergency Via Call",
 							"Report Emergency Via Text", };
 
 					AlertDialog.Builder builder = new AlertDialog.Builder(
@@ -1034,10 +951,6 @@ public class CampusMap extends SherlockFragment {
 										break;
 
 									case 2:
-
-										break;
-
-									case 3:
 
 										break;
 
@@ -1050,8 +963,7 @@ public class CampusMap extends SherlockFragment {
 				if (marker.equals(marker18)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
-							"View Building", "View Occupants",
-							"Report Emergency Via Call",
+							"View Building", "Report Emergency Via Call",
 							"Report Emergency Via Text", };
 
 					AlertDialog.Builder builder = new AlertDialog.Builder(
@@ -1082,10 +994,6 @@ public class CampusMap extends SherlockFragment {
 										break;
 
 									case 2:
-
-										break;
-
-									case 3:
 
 										break;
 
@@ -1098,8 +1006,7 @@ public class CampusMap extends SherlockFragment {
 				if (marker.equals(marker19)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
-							"View Building", "View Occupants",
-							"Report Emergency Via Call",
+							"View Building", "Report Emergency Via Call",
 							"Report Emergency Via Text", };
 
 					AlertDialog.Builder builder = new AlertDialog.Builder(
@@ -1130,10 +1037,6 @@ public class CampusMap extends SherlockFragment {
 										break;
 
 									case 2:
-
-										break;
-
-									case 3:
 
 										break;
 
@@ -1146,8 +1049,7 @@ public class CampusMap extends SherlockFragment {
 				if (marker.equals(marker20)) {
 					// handle click here
 					CharSequence options[] = new CharSequence[] {
-							"View Building", "View Occupants",
-							"Report Emergency Via Call",
+							"View Building", "Report Emergency Via Call",
 							"Report Emergency Via Text", };
 
 					AlertDialog.Builder builder = new AlertDialog.Builder(
@@ -1178,10 +1080,6 @@ public class CampusMap extends SherlockFragment {
 										break;
 
 									case 2:
-
-										break;
-
-									case 3:
 
 										break;
 

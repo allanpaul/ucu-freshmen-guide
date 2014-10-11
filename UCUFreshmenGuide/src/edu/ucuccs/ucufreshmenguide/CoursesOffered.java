@@ -58,9 +58,7 @@ public class CoursesOffered extends SherlockFragment {
 
 			@Override
 			public void onGroupExpand(int groupPosition) {
-				/*Toast.makeText(getActivity(),
-						listDataHeader.get(groupPosition) + " Expanded",
-						Toast.LENGTH_SHORT).show();*/
+
 			}
 		});
 
@@ -69,9 +67,6 @@ public class CoursesOffered extends SherlockFragment {
 
 			@Override
 			public void onGroupCollapse(int groupPosition) {
-				/*Toast.makeText(getActivity(),
-						listDataHeader.get(groupPosition) + " Collapsed",
-						Toast.LENGTH_SHORT).show();*/
 
 			}
 		});
@@ -83,17 +78,15 @@ public class CoursesOffered extends SherlockFragment {
 			public boolean onChildClick(ExpandableListView parent, View v,
 					int groupPosition, int childPosition, long id) {
 				// TODO Auto-generated method stub
-				/*Toast.makeText(
-						getActivity(),
-						listDataHeader.get(groupPosition)
-								+ " : "
-								+ listDataChild.get(
-										listDataHeader.get(groupPosition)).get(
-										childPosition), Toast.LENGTH_SHORT)
-						.show();*/
+
 				return false;
 			}
 		});
+		/*
+		 * Automatically Expand ListView in the part of Graduate and Post
+		 * Graduate Courses
+		 */
+		expListView.expandGroup(0);
 		return rootView;
 	}
 
@@ -105,7 +98,7 @@ public class CoursesOffered extends SherlockFragment {
 
 		// Adding child data
 		listDataHeader.add("Graduate and Post Graduate Courses");
-		listDataHeader.add("Undergradute Courses");
+		listDataHeader.add("Undergraduate Courses");
 		listDataHeader.add("Continuing Professional Development");
 
 		// Adding child data

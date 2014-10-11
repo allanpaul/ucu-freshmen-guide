@@ -1414,8 +1414,8 @@ containing a value of this type.
         public static final int abs__title=0x7f09002e;
         public static final int abs__titleDivider=0x7f09002f;
         public static final int abs__up=0x7f09001e;
-        public static final int action_search=0x7f090075;
-        public static final int action_settings=0x7f090074;
+        public static final int action_search=0x7f090074;
+        public static final int action_settings=0x7f090073;
         public static final int book_now=0x7f090010;
         public static final int btn_email=0x7f090059;
         public static final int btn_fb=0x7f090058;
@@ -1481,7 +1481,6 @@ containing a value of this type.
         public static final int showCustom=0x7f09001b;
         public static final int showHome=0x7f090018;
         public static final int showTitle=0x7f09001a;
-        public static final int status_text=0x7f090073;
         public static final int strict_sandbox=0x7f090009;
         public static final int tabMode=0x7f090016;
         public static final int tell1=0x7f090053;
@@ -1598,7 +1597,7 @@ containing a value of this type.
         public static final int ucuhymn=0x7f050001;
     }
     public static final class string {
-        public static final int UCU=0x7f08002c;
+        public static final int UCU=0x7f08002b;
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
         public static final int abs__action_bar_home_description=0x7f08001f;
@@ -1629,8 +1628,8 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abs__shareactionprovider_share_with_application=0x7f080028;
-        public static final int action_search=0x7f080034;
-        public static final int action_settings=0x7f08002b;
+        public static final int action_search=0x7f080033;
+        public static final int action_settings=0x7f08002a;
         public static final int app_name=0x7f080029;
         /**  Card with List 
          */
@@ -1725,20 +1724,19 @@ containing a value of this type.
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
         public static final int common_signin_button_text_long=0x7f080018;
-        public static final int drawer_close=0x7f080031;
-        public static final int drawer_open=0x7f080030;
+        public static final int drawer_close=0x7f080030;
+        public static final int drawer_open=0x7f08002f;
         public static final int font_fontFamily_medium=0x7f08001b;
         public static final int font_fontFamily_regular=0x7f08001a;
-        public static final int hello_world=0x7f08002a;
         /**  Undo Controller
  Undo Controller
          */
         public static final int list_card_undo_title=0x7f08001c;
-        public static final int title_activity_about=0x7f080033;
-        public static final int title_activity_courses_offered=0x7f08002f;
-        public static final int title_activity_news_and_events=0x7f08002e;
-        public static final int title_activity_ucuhymn=0x7f080032;
-        public static final int title_activity_university_policies=0x7f08002d;
+        public static final int title_activity_about=0x7f080032;
+        public static final int title_activity_courses_offered=0x7f08002e;
+        public static final int title_activity_news_and_events=0x7f08002d;
+        public static final int title_activity_ucuhymn=0x7f080031;
+        public static final int title_activity_university_policies=0x7f08002c;
         /**  Text on a placeholder buy button when Google Play services is not
          available or up-to-date 
          */
