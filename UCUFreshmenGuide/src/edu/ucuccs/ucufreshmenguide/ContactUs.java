@@ -25,7 +25,7 @@ public class ContactUs extends SherlockFragment {
 
 	private GoogleMap map;
 	private static final LatLng Urdaneta = new LatLng(15.9794533, 120.5647776);
-	private static final LatLng UCU = new LatLng(15.9802657, 120.5608399);
+	/*private static final LatLng UCU = new LatLng(15.9802657, 120.5608399);*/
 	MapView mapView;
 	TextView tell1;
 	TextView tell2;

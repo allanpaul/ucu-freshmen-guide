@@ -84,10 +84,9 @@ public class UniversityPolicies extends SherlockFragment {
 				return false;
 			}
 		});
-		/*
-		 * Automatically Expand ListView in the part of Graduate and Post
-		 * Graduate Courses
-		 */
+
+		// Automatically Expand ListView in the part of Graduate and Post
+		// Graduate Courses
 		expListView.expandGroup(0);
 		return rootView;
 	}
@@ -99,28 +98,91 @@ public class UniversityPolicies extends SherlockFragment {
 		listDataChild = new HashMap<String, List<String>>();
 
 		// Adding child data
-		listDataHeader.add("Graduate and Post Graduate Courses");
-		listDataHeader.add("Undergraduate Courses");
-		listDataHeader.add("Continuing Professional Development");
+		listDataHeader.add("Primer");
+		listDataHeader.add("Section I. Admission and Retention");
+		listDataHeader.add("Section II. Academis Rules and Regulations");
+		listDataHeader
+				.add("Section III. Academic Freedom and Student Duties and Responsibilities");
+		listDataHeader.add("Section IV. Student Services");
+		listDataHeader.add("Section V. Student Publication");
+		listDataHeader.add("Section VI. Campus Organizations");
+		listDataHeader.add("Section VII. Code of Descipine");
 
-		// Adding child data
-		List<String> gs = new ArrayList<String>();
-		gs.add("Doctor of Education");
+		// Adding child data for Primir
+		List<String> primir = new ArrayList<String>();
+		primir.add("Brief History");
+		primir.add("Founder");
+		primir.add("Past President");
+		primir.add("Glimpse of the Past");
+		primir.add("Vision, Mision, Goal and Obejectives");
+		primir.add("University Seal");
+		primir.add("UCU Programs");
 
-		List<String> underGraduate = new ArrayList<String>();
+		// Adding child data for Section1
+		List<String> s1 = new ArrayList<String>();
+		s1.add("A. Admision");
+		s1.add("B. Academic Retention");
+		s1.add("C. Registration Procedures");
+		s1.add("D. Curriculum Revision and Implementation");
+		s1.add("E. Classification of Students");
+		s1.add("F. Scholarship and Grants for Students");
 
-		underGraduate.add("Bachelor in Elementary Education");
-		underGraduate.add("Bachelor in Secondary Education");
-		underGraduate.add("Bachelor of Science in Accountancy");
+		// Adding child data for Section2
+		List<String> s2 = new ArrayList<String>();
+		s2.add("A. School Terms");
+		s2.add("B. Class Hours");
+		s2.add("C. Academic Load");
+		s2.add("D. Grading System");
+		s2.add("E. Graduation Requirements");
+		s2.add("F. Citations/Awards");
+		s2.add("G. School Credentials");
+		s2.add("H. Tuition and Miscellaneous Fees");
 
-		List<String> cpd = new ArrayList<String>();
-		cpd.add("Certificate in Guidance and Counseling");
-		cpd.add("Certificate in Physical Education and Sports Management");
-		cpd.add("Certificate in Special Education");
+		// Adding child data for Section3
+		List<String> s3 = new ArrayList<String>();
+		s3.add("A. Academic Freedom as the Right of the Insttitution");
+		s3.add("B. Academic Freedom as the Right of an Individual Student");
+		s3.add("C. The Exercise of the Right");
+		s3.add("D. Duties and Responsibilities of Students");
 
-		listDataChild.put(listDataHeader.get(0), gs);
-		listDataChild.put(listDataHeader.get(1), underGraduate);
-		listDataChild.put(listDataHeader.get(2), cpd);
+		// Adding child data for Section4
+		List<String> s4 = new ArrayList<String>();
+		s4.add("A. Office of Student Affairs(OSA)");
+		s4.add("B. Guidance Office");
+		s4.add("C. Library");
+		s4.add("D. Multi-Media Library");
+		s4.add("E. Audio-Visual Room");
+		s4.add("F. Laboratories");
+		s4.add("G. Medical Services");
+		s4.add("H. Janitorial Services");
+		s4.add("I. Canteen");
+
+		// Adding child data for Sectio5
+		List<String> s5 = new ArrayList<String>();
+		s5.add("I. Difinition");
+		s5.add("II. Recognition");
+		s5.add("III. Printing and Circuation");
+		s5.add("IV. Editorial Board and Staff Selection");
+
+		// Adding child data for Section6
+		List<String> s6 = new ArrayList<String>();
+		s6.add("A. General Policies");
+		s6.add("B. Specific Policies");
+
+		// Adding child data for Sectio7
+		List<String> s7 = new ArrayList<String>();
+		s7.add("I. General Policy");
+		s7.add("II. Student Discipline");
+		s7.add("III. Types of Offenses");
+
+		listDataChild.put(listDataHeader.get(0), primir);
+		listDataChild.put(listDataHeader.get(1), s1);
+		listDataChild.put(listDataHeader.get(2), s2);
+		listDataChild.put(listDataHeader.get(3), s3);
+		listDataChild.put(listDataHeader.get(4), s4);
+		listDataChild.put(listDataHeader.get(5), s5);
+		listDataChild.put(listDataHeader.get(6), s6);
+		listDataChild.put(listDataHeader.get(7), s7);
 
 	}
 
