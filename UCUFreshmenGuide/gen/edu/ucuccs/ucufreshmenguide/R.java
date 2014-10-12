@@ -1593,8 +1593,7 @@ containing a value of this type.
         public static final int list_card_undo_items=0x7f0c0000;
     }
     public static final class raw {
-        public static final int policy=0x7f050000;
-        public static final int ucuhymn=0x7f050001;
+        public static final int hymn=0x7f050000;
     }
     public static final class string {
         public static final int UCU=0x7f08002b;

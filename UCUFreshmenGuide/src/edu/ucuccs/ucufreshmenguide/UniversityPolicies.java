@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ExpandableListView;
 import android.widget.SearchView;
+import android.widget.Toast;
 import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ExpandableListView.OnGroupClickListener;
 import android.widget.ExpandableListView.OnGroupCollapseListener;
@@ -80,6 +81,27 @@ public class UniversityPolicies extends SherlockFragment {
 			public boolean onChildClick(ExpandableListView parent, View v,
 					int groupPosition, int childPosition, long id) {
 				// TODO Auto-generated method stub
+				/**/
+				listDataHeader.get(groupPosition);
+				switch (groupPosition) {
+				case 0:
+
+					listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition);
+					switch (childPosition) {
+					case 0:
+						Toast.makeText(getActivity(), "hello",
+								Toast.LENGTH_SHORT).show();
+						break;
+					case 1:
+						Toast.makeText(getActivity(), "hi", Toast.LENGTH_SHORT)
+								.show();
+						break;
+					}
+
+					;
+					break;
+
+				}
 
 				return false;
 			}

@@ -23,7 +23,7 @@ public class UCUHymn extends SherlockFragment {
 
 		video = (VideoView) rootView.findViewById(R.id.video);
 		video.setVideoPath("android.resource://"
-				+ getActivity().getPackageName() + "/" + R.raw.ucuhymn);
+				+ getActivity().getPackageName() + "/" + R.raw.hymn);
 
 		MediaController myController = new MediaController(getActivity());
 
