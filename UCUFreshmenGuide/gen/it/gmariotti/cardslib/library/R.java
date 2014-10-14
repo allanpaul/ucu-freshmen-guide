@@ -137,7 +137,7 @@ public final class R {
 		public static final int card_inner_base_main_cardwithlist = 0x7f090065;
 		public static final int card_inner_base_progressbar_cardwithlist = 0x7f090067;
 		public static final int card_main_content_layout = 0x7f090045;
-		public static final int card_main_inner_secondary_title = 0x7f090070;
+		public static final int card_main_inner_secondary_title = 0x7f090071;
 		public static final int card_main_inner_simple_title = 0x7f090064;
 		public static final int card_main_layout = 0x7f090047;
 		public static final int card_overlap = 0x7f09004a;
@@ -182,7 +182,7 @@ public final class R {
 		public static final int list_card_undo_material_message = 0x7f03002e;
 		public static final int list_card_undo_materialmobile_message = 0x7f03002f;
 		public static final int list_card_undo_message = 0x7f030030;
-		public static final int row_card = 0x7f030034;
+		public static final int row_card = 0x7f030035;
 	}
 	public static final class plurals {
 		public static final int card_selected_items = 0x7f0c0001;

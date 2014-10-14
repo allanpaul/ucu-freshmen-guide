@@ -4,17 +4,18 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ExpandableListView;
-import android.widget.SearchView;
-import android.widget.Toast;
 import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ExpandableListView.OnGroupClickListener;
 import android.widget.ExpandableListView.OnGroupCollapseListener;
 import android.widget.ExpandableListView.OnGroupExpandListener;
+import android.widget.SearchView;
+import android.widget.Toast;
 
 import com.actionbarsherlock.app.SherlockFragment;
 
@@ -83,26 +84,99 @@ public class UniversityPolicies extends SherlockFragment {
 				// TODO Auto-generated method stub
 				/**/
 				listDataHeader.get(groupPosition);
+				listDataChild.get(childPosition);
+
 				switch (groupPosition) {
 				case 0:
-
-					listDataChild.get(listDataHeader.get(groupPosition)).get(childPosition);
 					switch (childPosition) {
-					case 0:
-						Toast.makeText(getActivity(), "hello",
-								Toast.LENGTH_SHORT).show();
+					case 0: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 0;
+						i.putExtra("index_key", index);
+						startActivity(i);
 						break;
-					case 1:
-						Toast.makeText(getActivity(), "hi", Toast.LENGTH_SHORT)
-								.show();
+					}
+					case 1: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 1;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+					}
+					case 2: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 2;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+					}
+					case 3: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 3;
+						i.putExtra("index_key", index);
+						startActivity(i);
 						break;
 					}
 
-					;
+					}
 					break;
-
+				case 1:
+					switch (childPosition) {
+					case 0: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 4;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+					}
+					case 1: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 5;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+					}
+					case 2: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 6;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+					}
+					case 3: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 7;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+					}
+					case 4: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 8;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+					}
+					case 5: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 9;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+					}
+					}
+					break;
 				}
-
 				return false;
 			}
 		});
@@ -133,9 +207,6 @@ public class UniversityPolicies extends SherlockFragment {
 		// Adding child data for Primir
 		List<String> primir = new ArrayList<String>();
 		primir.add("Brief History");
-		primir.add("Founder");
-		primir.add("Past President");
-		primir.add("Glimpse of the Past");
 		primir.add("Vision, Mision, Goal and Obejectives");
 		primir.add("University Seal");
 		primir.add("UCU Programs");

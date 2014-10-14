@@ -4,13 +4,406 @@
     <string name="app_name">UCU Freshmen Guide</string>
     <string name="action_settings">Settings</string>
     <string name="UCU">Urdaneta City University</string>
-    <string name="title_activity_university_policies">University Policies</string>
+    <string name="title_activity_university_policies">Student Handbook</string>
     <string name="title_activity_news_and_events">News And Events</string>
     <string name="title_activity_courses_offered">Courses Offered</string>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
     <string name="title_activity_ucuhymn">UCU Hymn</string>
+    <string name="title_activity_policy_viewing">University Policies</string>
     <string name="title_activity_about">Contact Us</string>
     <string name="action_search">Search</string>
+
+    <!-- Primir Starts -->
+    <string name="primir">
+<![CDATA[
+		<p><b>Primir</b></p>
+		<p>wew</p>
+   ]]>
+    </string>
+    <!-- Primir End -->
+
+
+    <!-- VMGO Starts -->
+    <string name="vmgo">
+<![CDATA[
+		<p><b>Vision</b></p>
+		<p>A transformative, self-reliant, and dynamic university recognized as a center of excellence with globally competative professionals an distinctive capabilities in research, extension, and production.</p>
+		<p><b>Mision</b></p>
+		<p>A university that shall provide advanced instruction in the field of arts, sciences, teacher education, technical entrepreneurship and establish a strong research culture with active involvement in extension and production activities.</p>
+		<p><b>Goal</b></p>
+		<p>The university aims to contribute to the attainment of national development goals through character building, academic excellence, promotion and enrichment of the Filipino historical and cultural heritage and preservation of environment.</p>
+	]]>
+    </string>
+    <!-- VMGO Ends -->
+
+
+    <!-- University Seal Starts -->
+    <string name="seal">
+<![CDATA[
+		<p><b>University Seal</b></p>
+		<p>Composed of an open book and torch from which sunrays emanate, the college seal is a fitting embodiment of the strength and endurance that the institution has maintained since its inception in 1996 as the first community college in the country.
+
+	The books yellow border signifies CCUs pledge to its students of providing transformative education, inculcating in them the golden ideas of character building. This is made manifest in the colleges emphasis of valuing hard work, of perfecting ones chosen craft, of continuing ones quest for knowledge and wisdom, and of practicing ones service-orientedness.
+
+	Encased in this gilded edge, the open book echoes the founders philosophy of ensuring that quality is equitable and accesible to people from all walks of life. The different gradations of blue and red represent the synergistic fusion of the efforts of various individuals-from the non-teaching staff, the fculty and up to the administrators-work for the continuous improvement of CCU.
+
+	The torch with its rd flame symbolizes the students of the College who are passionately commited to enhance and hone their full potentials- in the academic field, in technical and skill training, in cultural and social enrichment.
+
+	The intense zeal is further reflected in the suns golden rays, arising out of the colleges dedication to banish the cobwebs of ignorance through education. CCU believes that like gold which will never tarnish, quality education is a gift that the school will forever endow to humanity. Hence, the sun rays move outwards, following the Colleges desire to reach out, as an institution and through its students, especially in promoting community development, nation-building and global brotherhood.</p>
+		]]>
+    </string>
+    <!-- University Seal Ends -->
+
+
+    <!-- UCU Programs Starts -->
+    <string name="programs">
+<![CDATA[
+		<p><b>UCU PROGRAMS</b></p>
+		<p>All activities and programs of the College revolve around the three-pronged thrust of Character, Competence and Unity. These three core elements embody UCU\'s commitment to individual\'s search for self-actualization, academical and skills proficiency and cooperative existence.
+
+	Each of the thrusts is concretely discussed below:</p>
+
+		<p><b>Character</b></p>
+		<p>The Character program of UCU echoes its vision of bringing transformative education in academe. This was reinforced by its declaration as the First Character school in Region I on January 13, 2004.</p>
+
+		<p><b>Competence</b></p>
+		<p>Academic and skills competence are the guiding goals of the College\'s curriculum. This is why the curricular offerings of the college are all geared to promote academic improvement of the students and to develop skills and trainings necessary in the course they have taken.</p>
+
+		<p><b>Unity</b></p>
+		<p>The College encourages co-curricular and extra-curricular activities taht will promote unity and cooperation among the stakeholders. UCU realizes through these activities that more than celebrating each unique facet of its members, it likewise foster cooperation and teamwork, and serve as unifying medium, linking one part of the academic community to another part.</p>
+		]]>
+    </string>
+    <!-- UCU Programs Ends -->
+
+
+    <!-- Admission Starts -->
+    <string name="admission">
+<![CDATA[
+		<p><b>Admission</b></p>
+		<p>From time to time, the University shall issue guidelines for efficient enrolment mechanism, taking into consideration the welfare and comfort of the students. In consonance with Dr. Orata\'s philosophy of accesible education for all, applicants may be admitted to UCU upon meeting the admission requirements.</p>
+		<p><b>a. For new Students</b></p>
+		
+			<p>	*Form 138</p>
+			<p>	*Birth Certificate(NSO Certified)</p>
+			<p>	*Certificate of Good Moral Character (from their former school)</p>
+			<p>	*Barangay Clearance</p>
+			<p>	*2 copies 2x2 ID picture</p>
+			<p>	*General weighted average (GWA) Requirements as may be set by the College/Department concerned</p>
+			<p>	*Parents undertaking for all board courses</p>
+			<p>	*For valedictorian and salutatorian present certificate duly signed by the school head or principal.</p>
+		
+		<p><b>2. Agreement on Provisional Admission of Transferees and Incoming Freshmen Students</b></p>	
+		<p>All transferees and incoming freshmen with poor academic performance (i.e., habitual incurrrence of incomplete or failed grades, dropping out without permission, and/or has a GWA of 75-79) shall report to the Dean of the concerned college/department.</p>
+		<p>The concerned students shall assure said college/department taht they shall not repeat their previous unsatisfactory academic performance. Failure to do so shall serve as basis for an appropriate action deemed proper by the Office of the University Registrar, subject howeve to review by the University Academic Council.</p>
+		<p>Further, student-transferees shall submit a copy of their grades to the College Dean after every semester for evaluation.</p>
+			
+		<p><b>3. Accrediting the Subjects of Transferees</p></b>
+		<p>a.) Subjects with the same descriptive title and/or similar course content with the same number of units similar to those stated in the curriculum program of UCU shall be credited.</p>
+		<p>b.) The students shall be required to enroll additional units for subjects with insufficient units.</p>
+		<p>c.) Any doubt arising there from shall be resolved by the Vice President for Academic Affairs.</p>
+	]]>
+    </string>
+    <!-- UCU Programs Ends -->
+
+
+    <!-- Academic Retention Starts -->
+    <string name="retention">
+<![CDATA[
+		<p><b>Academic Retention</b></p>
+		<p>As a rule, student who had complied with the academic requirements shall be qualified to stay as such in the University, enjoying all the rights and priviliges.</p>
+		<p>Wherever applicable, students prior admission to their specialization/major is dependent upon a Qualifying/Proficiency Examination administered by his department and grade requirement set by same. The college/department shall promulgate duly approved rules and guidelines relative to such qualifying/proficiency examination and grade requirement.</p>
+		<p>Likewise,student who incurred failing grades shall follow the Special Provisions in such cases discussed in Section 2 of this handbook.</p>
+		
+   ]]>
+    </string>
+    <!-- Retention End -->
+
+
+    <!-- Registration Procedures Starts -->
+    <string name="registrationProcedures">
+<![CDATA[
+		
+		
+		<p><b>Registration Procedures</b></p>
+		<p>The registration period shall begin two weeks before the startof regular classes, unless the University sets a different period. A student shall be officially enrolled upon registration and payment of proper fees.</p>
+		<p>Officially enrolled students shall be included in the master lists of students per subjects. A student is not allowed to change or transfer class schedule unless approved by the College Dean and the Registrar.</p>
+		<p>The registration procedure shall be posted in designated bulletion boards.</p>		
+		
+		<p><b>Provision for late Enrollees</b></p>
+		<p>Late enrollment of old students shall be allowed within one week after the opening of classes. Likewise, said enrollees are requested to report to the Office of Student Affairs(OSA) for validating the reasons for the late enrollment.</p>
+		
+		<p><b>1. Changing, Adding, and Dropping of Subjects</b></p>
+		<p>Student who wishes to change and/or add a subject shall duly accomplish the prescribed from the Registrar\'s Office. A fee of 50.00 pesos shall be changed for both services per transaction.</p>
+		<p>A student who drops out without permission from a subject/s during or after the Midterm of the regular semester or Midterm of the summer classes shall be given a mark of Dropped.</p>
+		<p>A student who drops out without permission from a subject/s during or after the Midterm of the regular semester or final term of the summer period shall automatically be given a failing grade and shall be required to pay the full amount of corresponding tuition. (For further discussion of payments and refunds, see Section 2, Tuition and Miscellaneous Fees)</p>
+		<p>A student who withdraws with permission shall be given an OD(Officially Dropped) mark instead of Dropped or Failed.</p>
+		
+		<p><b>2. Shifting of Course/Major</b></p>
+		<p>A student who wishes to shift his course shall secure and accomplish four copies of shifting form from the Office of the Registrar. The accomplished form shall be subsequently signed by the Guidance Office, Dean of the previous department, Dean of the receiving department and Office of the Registrar.</p>
+   ]]>
+    </string>
+    <!-- Registration Procedures End -->
+
+
+    <!-- Curriculum Revision and Implementation Starts -->
+    <string name="curriculumRevisionAndImplementation">
+<![CDATA[
+		<p><b>Curriculum Revision and Implementation</b></p>
+		<p>1. The University Academic Council with the concurrence of the Board shall have the right to adopt or impose a new curriculum or ammend or revise existing one.</p>
+		<p>2. New curriculum shall cover only new students or freshmen while old students shall follow the same curriculum that they had started.</p>
+		<p>3. If a student fails to the finish the course within the prescribe maximum number of years of his curriculum, he shall automatically follow the new curriculum.</p>
+   ]]>
+    </string>
+    <!-- Primir End -->
+
+
+    <!-- Classification of Students Starts -->
+    <string name="classificationOfstudents">
+<![CDATA[
+		<p><b>Clasiification of Students</b></p>
+		<p>Students enrolled at UCU are classified:</p>
+		<p>1. <b>According to academic load</b></p>
+		<p>a.) A <b>REGULAR STUDENT</b> has enrolled the full academoc load specified in the curriculum of his course.</p>
+		<p>b.) An <b>IRREGULAR STUDENT</b> has an academc load less than what is specified in the curriculum.</p>
+		<p>2. <b>According to length of stay</b></p>
+		<p>a.) A <b>NEW STUDENT</b> has no previous academic records in the College.</p>
+		<p>b.) An <b>OLD STUDENT</b> has previous academic records in the College.</p>
+		<p>3. <b>Other classifications</b></p>
+		<p>a.) A <b>TRANSFEREE</b> comes from another academic institution and has transferred to UCU for his studies.</p>
+		<p>b.) A <b>SECOND DEGREE</b> student has already earned a previous degree and is pursuing another degree program.</p>
+		<p>c.) A <b>UNIT EARNER</b> has earned a degree but has enrolled additional units in the College.</p>
+		<p>d.) A <b>SUMMER GRADUATE</b> needs only maximum of twelve units in order to graduate which shall be enrolled during the summer.</p>
+		<p>e.) A <b>STUDENT ASSISTANT</b> helps out in the accomplishment of tasks in the office he is assigned in the College.</p>
+		<p>f.) A <b>CONDITIONAL STUDENT</b> has been granted provisional admission in the College and whose stay is dependent upon compliance of certain conditions.</p>
+		<p>g.) A <b>WORKING STUDENT</b> is enrolled in the College at the same time employed on a regular status whether in the government or private enterprise.</p>
+		<p>h.) A <b>FOREIGN STUDENT</b> is one who is citizen or a subject of another country who livesor sojourns in the Philippines.(add admission requirements)</p>
+		<p>i.) <b>RETURNING STUDENT</b> is one who has been issued transfer credentials and decided to enroll in the University.</p>
+		<p>j.) <b>CROSS ENROLEE</b> is student from another school who is admitted to enroll in some subjects after presenting a permit from the Registrar of the school he/she is principally enrolled.</p>
+		
+   ]]>
+    </string>
+    <!-- Primir End -->
+
+
+    <!-- Scholarship And Grants Starts -->
+    <string name="scholarshipAndGrants" formatted="false">
+<![CDATA[
+		<p><b>Scholarship And Grants For Students</b></p>
+		<p>The University provides the following scholarship and grants to the students:</p>
+		
+		<p><b>Scholarship:</p></b>
+		
+		<p><b>Entrance Scholarship</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Tuition Waived</b></p>
+		<p>(For one semester only)</p>
+		<p>*Valedictorian&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100%</p>
+		<p>*Salutatorian &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50%</p>
+		
+		<p><b>-Submit two (2) clear copies of the following:</b></p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Certification</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*From 137/138</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Registration Form</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*1x1 picture</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Application Form</p>
+		
+		<p><b>Academic Scholarship</b></p>
+		
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Presidents List</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-GWA of 92 or higher(1.0-1.45)</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-With no grade lower than 90 or 1.75</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Must not have committed any major offense or supervised activities.</p>
+		
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Deans List</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-GWA of 89-91 (1.46-1.75)</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-With no grade lower than 88 or 2.0</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Must not have committed any major offense within the University or in any official function or supervised activities.</p>
+		
+		<p><b>-Submit four (4) clear copies of the following:</b></p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Application form(from office of Student Affairs)</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*2x2 picture</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Grades(previous semester)</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Registraion Form</p>
+		
+		<p><b>Service Scholarships</p></b>
+		<p>*Student Assistants&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100%</p>
+		<p>-Student shall secure an application form from the OSA and shall undergo an interview. Upon passing the interview, the student is allowed to enroll a maximum of 18 units only and a half day schedule per semester. Renewal of the said scholarship is dependent on the rating given by his/her Supervising Officer.</p>
+		
+		<p><b>-Submit two(2) clear copies of the following:</p></b>
+		<p>*Application form</p>
+	
+		<p>*1x1 picture</p>
+		<p>*Certificate of indigence</p>
+		<p>*Barangay Clearance</p>
+		<p>*Letter of parent</p>
+		<p>*Form 137/138 or grade (previous semester)</p>
+		<p>*Registration form</p>
+		<p>- Athletes, Music Ensemble, Performing Arts or Cultural Scholars</p>
+		<p>- 4 years of service &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 100%</p>
+		<p>- 3 years of service &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 75%</p>
+		<p>- 2 years of service &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50%</p>
+		<p>- 1 years of service &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 25%</p>
+		
+		<p><b>-Submit two(2) clear copies of the following:</p></b>
+		<p>*Applicantion form</p>
+		<p>*Endorsement letter from the coach</p>
+		<p>*Official list of members</p>
+		<p>*Grades (previous semester)</p>
+		<p>*Registration Form</p>
+		
+		<p><b>Sangguniang Kabataan Scholarship</p></b>
+		<p><b> SK Chairman&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100%</b></p>
+		<p><b> SK Kagawad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50%</b></p>
+		
+		<p>-Applicable only to SK officials of Urdaneta City</p>
+		<p>-student must have a cumulative grade point average (GPA) of 83, with no failed/dropped subject</p>
+		
+		<p><b>-Submit two(2) clear copies of the following:</p></b>
+		<p>*Applicantion form</p>
+		<p>*1x1 picture</p>
+		<p>*Certificate from DILG</p>
+		<p>*Oath Taking</p>
+		<p>*Grades (previous semester)</p>
+		<p>*Registration form</p>
+		
+		<p><b>Barangay Offical Scholarship</p></b>
+		<p>-Shall be open only to Urdaneta City Barangay Officials themselves or their spouses and/or children</p>
+		<p>-Student must have a cumulative grade point average (GPA) of 83, with no failed/dropped subject.</p>
+		
+		<p><b>-Submit two(2) clear copies of the following:</p></b>
+		<p>*Applicantion form</p>
+		<p>*1x1 picture</p>
+		<p>*Certificate from DILG</p>
+		<p>*Oath Taking</p>
+		<p>*Grades (previous semester)</p>
+		<p>*Registration form</p>
+		
+		<p><b>Sangguniang Panglungsod Scholarship Grant</p></b>
+		<p>-Student must have a cumulative grade point average (GPA) of 86, with no failed/dropped subject.</p>
+		<p><b>-Submit two(2) clear copies of the following:</p></b>
+		<p>*Endorsement letter from sponsoring SP official</p>
+		<p>*Application Form</p>
+		<p>*1x1 picture</p>
+		<p>*Grades (previous semester)</p>
+		<p>*Registration form</p>
+		
+		<p><b>Loyalty Benefit</p></b>
+		<p>(Percentage depends on the number of enrolled student)</p>
+		<p>-Applies to brothers and sisters or parents and children who are simultaneously enrolled in the University in one semester.</p>
+		<p>-Student must have no failed/dropped subject.</p>
+		
+		<p><b>-Submit two(2) clear copies of the following:</p></b>
+		<p>*Applicantion form</p>
+		<p>*1x1 picture</p>
+		<p>*Birth Certificate</p>
+		<p>*Grades (previous semester)</p>
+		<p>*Registration form</p>
+		
+		<p><b>SGO-President-100%</p></b>
+		<p>-Present a letter from the Adviser plus photocopies of registration form.</p>
+		<p>-Must have no failed/dropped subject.</p>
+		
+		<p><b>-Submit two(2) clear copies of the following:</p></b>
+		<p>*Applicantion form</p>
+		<p>*1x1 picture</p>
+		<p>*Grades (previous semester)</p>
+		<p>*Registration form</p>
+		
+		<p><b>Editor-in-Chief Scholarship</p></b>
+		<p>-Editor in chief - 100%</p>
+		<p>-Associate editor - 50%</p>
+		<p>-Section editor - 25%</p>
+		
+		<p><b>-Submit two(2) clear copies of the following:</p></b>
+		<p>*Applicantion form</p>
+		<p>*Endorsement letter from the adviser</p>
+		<p>*Official list members from the adviser</p>
+		<p>*Grades (previous semester)</p>
+		<p>*Registration form</p>
+		
+		<p><b>Editorial Board members of the student publication 25%</p></b>
+		<p>-No publication no discount</p>
+		
+		<p><b>-Submit two(2) clear copies of the following:</p></b>
+		<p>*Applicantion form</p>
+		<p>*Official list members from the adviser</p>
+		<p>*Grades (previous semester)</p>
+		<p>*Registration form</p>
+		
+		<p><b>Permamnent University employees/City Government employees</p></b>
+		<p>-Must have no failed/dropped subjects</p>
+		<p>-Regular employees who have served the University/City Government for more than 10 years (75%)</p>
+		<p>-Regular employees who have served the University/City Government for more than 5-10 years (50%)</p>
+		<p>-Regular employees who have served the University/City Government for more than 2-5 years (25%)</p>
+		
+		<p>* For UCU/City Government employees:<b>Submit two (2) clear copies of the following:</b></p>
+		<p>*Service record of parents from HRMO</p>
+		<p>*Application Form</p>
+		<p>*1x1 picture </p>\
+		<p>*Grades (previous semester)</p>
+		<p>*Registration form</p>
+		
+		
+		<p>* For UCU/City Government employees children:<b>Submit two (2) clear copies of the following:</b></p>
+		<p>*Service record of parents from HRMO</p>
+		<p>*Application Form</p>
+		<p>*1x1 picture </p>
+		<p>*Birth Certificate</p>
+		<p>*Registration form</p>
+		<p*>Grades/ class card (GWA of 83 or higher)</p>
+		
+		<p><b>Beneficiaries of City/PNP/BFP	20%</p></b>
+		<p>-Must have no failed/dropped subjects</p>
+		<p><b>Submit two (2) clear copies of the following:</p></b>
+		<p>*Service record of parents from HRMO</p>
+		<p>*Application Form</p>
+		<p>*1x1 picture </p>
+		<p>*Birth Certificate</p>
+		<p>*Registration form</p>
+		
+		
+		<p><b>AFPEBS-UCU EDUCATIONAL BENEFIR PROGRAM	75%</p></b>
+		<p>-Student-Applicant must present supporting documents from the AFP</p>
+		<p><b>Submit two (2) clear copies of the following:</p></b>
+		<p>*Applicantion form</p>
+		<p>*1x1 picture</p>
+		<p>*Birth Certificate</p>
+		<p>*Grades (previous semester)</p>
+		<p>*Registration form</p>
+		
+		
+		<p><b>Alternative Learning System Scholars (top 3 slots)   100%</p></b>
+		<p>-Applicants endorsed by the DepEd who pass the examination and land on top 3 </p>
+		<p>-Slots will automatically be given 100% waived tuition fee.</p>
+		<p><b>Submit two (2) clear copies of the following:</p></b>
+		<p>*Service record of parents from HRMO</p>
+		<p>*Applicantion form</p>
+		<p>*1x1 picture</p>
+		<p>*Birth Certificate</p>
+		<p>*Grades (previous semester)</p>
+		<p>*Registration form</p>
+		
+		<p><b>Congressional, CHED Minority Scholars</p></b>
+		<p><b>Submit two (2) clear copies of the following:</p></b>
+		<p>*Applicantion form</p>
+		<p>*1x1 picture</p>
+		<p>*Certification</p>
+		<p>*Registration form</p>
+		
+		<p><b>Senator Jinggoy Estrada Scholarship(10 slots)   100%</p></b>
+		<p><b>Below are the procedures in Applying/Filing Scholarship:%</p></b>
+		<p>1. The student shall gather all the requirements and submit these requirements to the Scholarship Coordinator for checking.</p>
+		<p>2. The documents will be submitted to the Office of the Vice President for Student Affairs for recommendation and University President for approval.</p>
+		<p>3. The Scholarship Coordinator shall forward the list of approved scholars to the Accounting Office to the corresponding discounts.</p>
+		<p>4. Students shall check and avail their discounts at the Accounting Office.</p>
+		
+		<p>Note: Deadline of filing be one week before the opening of the semester. Incomplete papers would not be processed and will be marked pending on the list of the scholarship coordinator.</p>
+		<p>Notwithstanding the foregoing scholarship grants, The Board of Regents (BOR) may grant other forms of Scholarship as it may deem proper. Likewise, except in special cases, taking into consideration the nature of scholarship, here to scholarship grants shall be availed of alternatively. Thus, grantee can only avail one scholarship grant, at his preference or whichever is highly beneficial to him, Finally, unless otherwise stated, all above-mentioned sholarships must be renewed every semester.</p>
+		
+		
+		
+		
+   ]]>
+    </string>
+    <!-- Scholarship And Grants End -->
 
 </resources>
