@@ -71,7 +71,91 @@ public class PolicyViewing extends Activity {
 			}
 			if (index == 10) {
 				TextView txtPolicy = (TextView) findViewById(R.id.txtPolicy);
-				txtPolicy.setText(Html.fromHtml(getString(R.string.admission)));
+				txtPolicy.setText(Html.fromHtml(getString(R.string.schoolTerms)));
+			}
+			if (index == 11) {
+				TextView txtPolicy = (TextView) findViewById(R.id.txtPolicy);
+				txtPolicy.setText(Html.fromHtml(getString(R.string.classHours)));
+			}
+			if (index == 12) {
+				TextView txtPolicy = (TextView) findViewById(R.id.txtPolicy);
+				txtPolicy.setText(Html.fromHtml(getString(R.string.academicLoad)));
+			}
+			if (index == 13) {
+				TextView txtPolicy = (TextView) findViewById(R.id.txtPolicy);
+				txtPolicy.setText(Html.fromHtml(getString(R.string.gradingSystem)));
+			}
+			if (index == 14) {
+				TextView txtPolicy = (TextView) findViewById(R.id.txtPolicy);
+				txtPolicy.setText(Html.fromHtml(getString(R.string.graduationRequirements)));
+			}
+			if (index == 15) {
+				TextView txtPolicy = (TextView) findViewById(R.id.txtPolicy);
+				txtPolicy.setText(Html.fromHtml(getString(R.string.citationsAwards)));
+			}
+			if (index == 16) {
+				TextView txtPolicy = (TextView) findViewById(R.id.txtPolicy);
+				txtPolicy.setText(Html.fromHtml(getString(R.string.schoolCridentials)));
+			}
+			if (index == 17) {
+				TextView txtPolicy = (TextView) findViewById(R.id.txtPolicy);
+				txtPolicy.setText(Html.fromHtml(getString(R.string.tuitionAndMiscellaneousFees)));
+			}
+			if (index == 18) {
+				TextView txtPolicy = (TextView) findViewById(R.id.txtPolicy);
+				txtPolicy.setText(Html.fromHtml(getString(R.string.academicFreedomAsTheRightOfAnIndividualStudent)));
+			}
+			if (index == 19) {
+				TextView txtPolicy = (TextView) findViewById(R.id.txtPolicy);
+				txtPolicy.setText(Html.fromHtml(getString(R.string.dutiesAndResponsibilitiesOfStudents)));
+			}
+			if (index == 20) {
+				TextView txtPolicy = (TextView) findViewById(R.id.txtPolicy);
+				txtPolicy.setText(Html.fromHtml(getString(R.string.osa)));
+			}
+			if (index == 21) {
+				TextView txtPolicy = (TextView) findViewById(R.id.txtPolicy);
+				txtPolicy.setText(Html.fromHtml(getString(R.string.guidance)));
+			}
+			if (index == 22) {
+				TextView txtPolicy = (TextView) findViewById(R.id.txtPolicy);
+				txtPolicy.setText(Html.fromHtml(getString(R.string.library)));
+			}
+			if (index == 23) {
+				TextView txtPolicy = (TextView) findViewById(R.id.txtPolicy);
+				txtPolicy.setText(Html.fromHtml(getString(R.string.multimediaLibrary)));
+			}
+			if (index == 24) {
+				TextView txtPolicy = (TextView) findViewById(R.id.txtPolicy);
+				txtPolicy.setText(Html.fromHtml(getString(R.string.audioVisualRoom)));
+			}
+			if (index == 25) {
+				TextView txtPolicy = (TextView) findViewById(R.id.txtPolicy);
+				txtPolicy.setText(Html.fromHtml(getString(R.string.laboratories)));
+			}
+			if (index == 26) {
+				TextView txtPolicy = (TextView) findViewById(R.id.txtPolicy);
+				txtPolicy.setText(Html.fromHtml(getString(R.string.enhancementServices)));
+			}
+			if (index == 27) {
+				TextView txtPolicy = (TextView) findViewById(R.id.txtPolicy);
+				txtPolicy.setText(Html.fromHtml(getString(R.string.sportsDevelopment)));
+			}
+			if (index == 28) {
+				TextView txtPolicy = (TextView) findViewById(R.id.txtPolicy);
+				txtPolicy.setText(Html.fromHtml(getString(R.string.medical)));
+			}
+			if (index == 29) {
+				TextView txtPolicy = (TextView) findViewById(R.id.txtPolicy);
+				txtPolicy.setText(Html.fromHtml(getString(R.string.security)));
+			}
+			if (index == 30) {
+				TextView txtPolicy = (TextView) findViewById(R.id.txtPolicy);
+				txtPolicy.setText(Html.fromHtml(getString(R.string.janitorial)));
+			}
+			if (index == 31) {
+				TextView txtPolicy = (TextView) findViewById(R.id.txtPolicy);
+				txtPolicy.setText(Html.fromHtml(getString(R.string.canteen)));
 			}
 
 		}

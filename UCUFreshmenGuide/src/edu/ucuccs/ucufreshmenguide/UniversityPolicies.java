@@ -176,7 +176,214 @@ public class UniversityPolicies extends SherlockFragment {
 					}
 					}
 					break;
+				case 2: {
+					switch (childPosition) {
+					case 0: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 10;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+					}
+					case 1: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 11;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+					}
+					case 2: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 12;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+					}
+					case 3: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 13;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+					}
+					case 4: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 14;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+					}
+					case 5: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 15;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+					}
+					case 6: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 16;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+					}
+					case 7: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 17;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+					}
+					}
+					break;
 				}
+
+				case 3: {
+					switch (childPosition) {
+					case 0: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 18;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+					}
+					case 1: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 19;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+
+					}
+					}
+					break;
+				}
+
+				case 4: {
+					switch (childPosition) {
+					case 0: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 20;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+					}
+					case 1: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 21;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+
+					}
+					case 2: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 22;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+
+					}
+					case 3: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 23;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+
+					}
+					case 4: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 24;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+
+					}
+					case 5: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 25;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+
+					}
+					case 6: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 26;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+
+					}
+					case 7: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 27;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+
+					}
+					case 8: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 28;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+
+					}
+					case 9: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 29;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+
+					}
+					case 10: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 30;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+
+					}
+					case 11: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 31;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+
+					}
+
+					}
+					break;
+				}
+				}
+
 				return false;
 			}
 		});
@@ -233,10 +440,8 @@ public class UniversityPolicies extends SherlockFragment {
 
 		// Adding child data for Section3
 		List<String> s3 = new ArrayList<String>();
-		s3.add("A. Academic Freedom as the Right of the Insttitution");
-		s3.add("B. Academic Freedom as the Right of an Individual Student");
-		s3.add("C. The Exercise of the Right");
-		s3.add("D. Duties and Responsibilities of Students");
+		s3.add("A. Academic Freedom as the Right of an Individual Student");
+		s3.add("B. Duties and Responsibilities of Students");
 
 		// Adding child data for Section4
 		List<String> s4 = new ArrayList<String>();
@@ -246,10 +451,12 @@ public class UniversityPolicies extends SherlockFragment {
 		s4.add("D. Multi-Media Library");
 		s4.add("E. Audio-Visual Room");
 		s4.add("F. Laboratories");
-		s4.add("G. Medical Services");
-		s4.add("H. Janitorial Services");
-		s4.add("I. Canteen");
-
+		s4.add("G. Enhancement Services");
+		s4.add("H. Sports Development Services");
+		s4.add("I. Medical/Dental/Nursing Services");
+		s4.add("J. Security Services");
+		s4.add("K. Janitotial Services");
+		s4.add("L. Canteen");
 		// Adding child data for Sectio5
 		List<String> s5 = new ArrayList<String>();
 		s5.add("I. Difinition");

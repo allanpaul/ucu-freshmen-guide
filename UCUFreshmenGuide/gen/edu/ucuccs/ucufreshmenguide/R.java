@@ -1630,6 +1630,14 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abs__shareactionprovider_share_with_application=0x7f080028;
+        /**  Tuition And Miscellaneous Fees End 
+ Academic Freedom As The Right Of An Individual Student Starts 
+         */
+        public static final int academicFreedomAsTheRightOfAnIndividualStudent=0x7f080047;
+        /**  Class Hours End 
+ Academic Load Starts 
+         */
+        public static final int academicLoad=0x7f080041;
         public static final int action_search=0x7f080034;
         public static final int action_settings=0x7f08002a;
         /**  UCU Programs Ends 
@@ -1637,11 +1645,27 @@ containing a value of this type.
          */
         public static final int admission=0x7f080039;
         public static final int app_name=0x7f080029;
+        /**  Multimedia Library End 
+ Audio-Visual Room Starts 
+         */
+        public static final int audioVisualRoom=0x7f08004d;
+        /**  Janitorial End 
+ Canteen Starts 
+         */
+        public static final int canteen=0x7f080054;
         /**  Card with List 
          */
         public static final int card_empty_cardwithlist_text=0x7f08001d;
         public static final int card_progressbar_cardwithlist_text=0x7f08001e;
-        /**  Primir End 
+        /**  Graduation Requirements End 
+ Citations/Awards Starts 
+         */
+        public static final int citationsAwards=0x7f080044;
+        /**  School Terms End 
+ Class Hours Starts 
+         */
+        public static final int classHours=0x7f080040;
+        /**  Curriculum Revision and Implementation End 
  Classification of Students Starts 
          */
         public static final int classificationOfstudents=0x7f08003d;
@@ -1740,12 +1764,57 @@ containing a value of this type.
         public static final int curriculumRevisionAndImplementation=0x7f08003c;
         public static final int drawer_close=0x7f080030;
         public static final int drawer_open=0x7f08002f;
+        /**  Academic Freedom As The Right Of An Individual Student End 
+ Tuition And Miscellaneous Fees End 
+ Duties And Responsibilities Of Students Starts 
+         */
+        public static final int dutiesAndResponsibilitiesOfStudents=0x7f080048;
+        /**  Laboratories End 
+ Enhancement Services Starts 
+         */
+        public static final int enhancementServices=0x7f08004f;
         public static final int font_fontFamily_medium=0x7f08001b;
         public static final int font_fontFamily_regular=0x7f08001a;
+        /**  Academic Load End 
+ Grading System Starts 
+         */
+        public static final int gradingSystem=0x7f080042;
+        /**  Primir End 
+ Graduation Requirements Starts 
+         */
+        public static final int graduationRequirements=0x7f080043;
+        /**  OSA End 
+ Guidance Starts 
+         */
+        public static final int guidance=0x7f08004a;
+        /**  Security End 
+ Janitorial Starts 
+         */
+        public static final int janitorial=0x7f080053;
+        /**  Audio-Visual Room End 
+ Laboratories Starts 
+         */
+        public static final int laboratories=0x7f08004e;
+        /**  Guidance End 
+ Library Starts 
+         */
+        public static final int library=0x7f08004b;
         /**  Undo Controller
  Undo Controller
          */
         public static final int list_card_undo_title=0x7f08001c;
+        /**  Sports Development End 
+ Medical Starts 
+         */
+        public static final int medical=0x7f080051;
+        /**  Library End 
+ Multimedia Library Starts 
+         */
+        public static final int multimediaLibrary=0x7f08004c;
+        /**  Duties And Responsibilities Of Students End 
+ OSA Starts 
+         */
+        public static final int osa=0x7f080049;
         /**  Primir Starts 
          */
         public static final int primir=0x7f080035;
@@ -1761,20 +1830,40 @@ containing a value of this type.
  Academic Retention Starts 
          */
         public static final int retention=0x7f08003a;
-        /**  Primir End 
- Primir Starts 
+        /**  Classification of Students End 
+ Scholarship And Grants Starts 
          */
         public static final int scholarshipAndGrants=0x7f08003e;
+        /**  Citations/Awards End 
+ School Cridentials Starts 
+         */
+        public static final int schoolCridentials=0x7f080045;
+        /**  Scholarship And Grants End 
+ School Terms Starts 
+         */
+        public static final int schoolTerms=0x7f08003f;
         /**  VMGO Ends 
  University Seal Starts 
          */
         public static final int seal=0x7f080037;
+        /**  Medical End 
+ Security Starts 
+         */
+        public static final int security=0x7f080052;
+        /**  Enhancement Services End 
+ Sports Development Starts 
+         */
+        public static final int sportsDevelopment=0x7f080050;
         public static final int title_activity_about=0x7f080033;
         public static final int title_activity_courses_offered=0x7f08002e;
         public static final int title_activity_news_and_events=0x7f08002d;
         public static final int title_activity_policy_viewing=0x7f080032;
         public static final int title_activity_ucuhymn=0x7f080031;
         public static final int title_activity_university_policies=0x7f08002c;
+        /**  School Cridentials End 
+ Tuition And Miscellaneous Fees Starts 
+         */
+        public static final int tuitionAndMiscellaneousFees=0x7f080046;
         /**  Primir End 
  VMGO Starts 
          */

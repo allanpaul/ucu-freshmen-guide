@@ -155,7 +155,7 @@
 		<p>3. If a student fails to the finish the course within the prescribe maximum number of years of his curriculum, he shall automatically follow the new curriculum.</p>
    ]]>
     </string>
-    <!-- Primir End -->
+    <!-- Curriculum Revision and Implementation End -->
 
 
     <!-- Classification of Students Starts -->
@@ -183,7 +183,7 @@
 		
    ]]>
     </string>
-    <!-- Primir End -->
+    <!-- Classification of Students End -->
 
 
     <!-- Scholarship And Grants Starts -->
@@ -398,12 +398,709 @@
 		
 		<p>Note: Deadline of filing be one week before the opening of the semester. Incomplete papers would not be processed and will be marked pending on the list of the scholarship coordinator.</p>
 		<p>Notwithstanding the foregoing scholarship grants, The Board of Regents (BOR) may grant other forms of Scholarship as it may deem proper. Likewise, except in special cases, taking into consideration the nature of scholarship, here to scholarship grants shall be availed of alternatively. Thus, grantee can only avail one scholarship grant, at his preference or whichever is highly beneficial to him, Finally, unless otherwise stated, all above-mentioned sholarships must be renewed every semester.</p>
+
+   ]]>
+    </string>
+    <!-- Scholarship And Grants End -->
+
+
+    <!-- School Terms Starts -->
+    <string name="schoolTerms">
+<![CDATA[
+		<p><b>School Terms</b></p>
+		<p>The University\'s academic year id composed of two semesters(a minimum of 18 weeks per semester) and one summer term (consisting of 6 weeks).</p>
+   ]]>
+    </string>
+    <!-- School Terms End -->
+
+
+    <!-- Class Hours Starts -->
+    <string name="classHours">
+<![CDATA[
+		<p><b>Class Hours</b></p>
+		<p>1. Generally, one unit credit of lecture is equivalent to one class hour and one unit credit to laboratory is equivalent to 3 hours.</p>
+ 		<p>2. The student is given  a grace period of 15 minutes from the start of the class hour to enter his classroom. Beyond the alloted period means the student shall  be marked absent for that season.</p>
+
+     	<p>Note: 2 hours for PE subject in 1 day/week</p>
+    	<p>30 minutes for laboratory (2-3hrs)</p>
+		<p>Due to unavoidable circumstances if the instructor is not yet around within 15minutes, the students may go to their next subject.</p>
+  
+   ]]>
+    </string>
+    <!-- Class Hours End -->
+
+
+    <!-- Academic Load Starts -->
+    <string name="academicLoad">
+<![CDATA[
+		<p><b>Academic Load</b></p>
+		<p><b>1. General Policy</b></p>
+		<p>The student shall enroll the subject load approved in the curriculum of the program he is enrolled in. No student may be permitted to carry 
+			a study load more than the prescribed units in his course.</p>
+		<p>A student enrolled during the summer term shall be allowed a maximum of nina (9) units academic load. Graduating students however shall  be allowed to take
+			a maximum twelve (12) units academic load in the summer term.</p>
+		
+		<p><b>2. Special Provisions</b></p>
+		<p><b>A. For Graduating Students</b></p>
+		<p>Except in exceptional cases, Graduating student may be allowed maximum additional academic load of six (6) units in excess of the normal load specified in
+		the normal load specified in the curriculum for the school term.</p>
+		<p>Moreover, a student enrolled in Practice Teaching/practicum/internship shall be allowed to take additional six (6) units if the same are scheduled during 
+		Saturdays/Sundays and /or 5:00 onwards on weekday.</p>
+				
+		<p><b>B. For Student Assistants</b></p>
+		<p>Student assistants shall be permitted to enroll a maximum of 18 units only per semester. They shall be required to report to their assigned offices from
+		8:00 am 5:00 pm except when they are assigned shall fix their respective work schedule. Likewise, they shall enroll a maximum of 6 units only during summer term.</p>
+				
+		<p><b>C. For Student with Failed Grades</b></p>
+		<p>Notwithstanding the conduct of Assessments/Proficiency or other University\'s retention policies, a student who failed at leat two (2) subjects shall be 
+		deloaded accordingly in the succeeding semester as may be provided by the Dean.</p>
+		<p>If a student fails a subject which is a pre-requisite of the other, he shall not be allowed to take the latter unless he has passed the subject he has
+		originally failed in.</p>
+		
+		<p><b>3. Subject Sequence</b></p>
+		<p>The subject sequence prescribed in the approvad course offerings of the University shall be followed. A student shall be permitted to take advance subject(s)
+   		only if he has satisfactorily passed then pre-requisite subject(s).</p>
+		
+		<p><b>4. Subjet Substitution</b></p>
+		<p>The following are the guidelines in requesting for subject substitution:</p>
+		<p>a. The subject substituted must have the same number of units and allied  to the required subject.</p>
+		<p>b. The same is part of the old curriculum and will not be offered anymore in any of the programs in the University.</p>
+		<p>c. THe request must be recommended by the Dean, noted by the Registrar, and approved by the Vice-President for Academic Affairs.</p>
+		<p>d. The person in-charge of the records should be provided a copy of this approved request.</p>
+		
+		<p><b>5. Cross Enrollment</b></p>
+		<p>A graduating student who wishes to cross-enroll shall secure a permit from the University Registrar. He may be allowed to cross-enroll provided that the subject.</p>
+		<p>a. As far as possible must be a minor subject;</p>
+		<p>b. Must have the same course description and number of units; and</p>
+		<p>c. Must not be offered in the University during the semester; and</p>
+		<p>d. Must be taken up urgently</p>
+		
+		<p><b>6. Tutorial Classes</b></p>
+		<p>a. As a policy, the University discourages tutorial classes. However a student may request for a tutorial class for meritorious reasons sufficiently shown and with the approval of the Vice President for Academic Affairs.</p>
+		<p>b. Students enrolled under tutorial classes shall pay the tuition and miscellaneous fees and the per hour rate of the Instructor/Professor.</p>
+		<p>c. A candidate for summer graduation has to apply to the Registrar\'s Office for tutorial classes subjet to the approval of the Department Head concerned.</p>
+		
+		<p><b>7. In-house review/Comprehensive Review</b></p>
+		<p>To ensure and maintain high board passing rate, students whose program requires board examination shall undego In-house review classes and the same shall be part of the College curriculum. The College shall promulgate rules and regulations relative to conduct of in-house review.</p>
+		<p>This is applicable for all board courses.</p>	
+   ]]>
+    </string>
+    <!-- Academic Load End -->
+
+
+    <!-- Grading System Starts -->
+    <string name="gradingSystem" formatted="false">
+<![CDATA[
+		<p><b>D. Grading System</b></p>
+		<p><b>1. Computation of Grades</b></p>
+		<p>As a policy , the University adopts cumulative grading system. Subject to the provision of proficiency and/or qualifying examinations, the students final rating  is computed by using the following formulae:</p>
+		<p>PG = CS(60%) + EXAM(40%)</p>
+		<p>MG = CS(60%) + EXAM(40%)</p>
+		<p>TFG = CS(60%) + EXAM(40%)</p>
+		<p>FG = (PG + FG + TFG/3</p>
+		<p>A student who missed any quiz, recitation of class activity shall automatically be given a grade of 65.</p>
+		
+		<p></b>a. General computation</b></p>
+		<p>A students grade is computed based on two general criteria: the class standing and the period examination.<p>
+		<p>The students class standing has a weight of 60%. It includes quizzes, seat works, class reports, experiments, laboratory outputs, projects, assignments and others. Attendance is also included in the class standing.<p>
+		<p>Forty percent of a students grade comes from the periodic examinations. There are three major examinations during the semester: preliminary, midterm and final.<p>
+		<p>The students scores are tansmuted following the transmutation table for the conversion of grades duly adopted by the University Academic Council.<p>
+		
+		<p><b>D. Grading System</b></p>
+		<p><b>1. Computation of Grades</b></p>
+		<p>As a policy , the University adopts cumulative grading system. Subject to the provision of proficiency and/or qualifying examinations, the students final rating  is computed by using the following formulae:</p>
+		<p>PG = CS(60%) + EXAM(40%)</p>
+		<p>MG = CS(60%) + EXAM(40%)</p>
+		<p>TFG = CS(60%) + EXAM(40%)</p>
+		<p>FG = (PG + FG + TFG/3</p>
+		<p>A student who missed any quiz, recitation of class activity shall automatically be given a grade of 65.</p>
+		
+		<p><b>a. General computation</b></p>
+		<p>A students grade is computed based on two general criteria: the class standing and the period examination.</p>
+		<p>The students class standing has a weight of 60%. It includes quizzes, seat works, class reports, experiments, laboratory outputs, projects, assignments and others. Attendance is also included in the class standing.</p>
+		<p>Forty percent of a students grade comes from the periodic examinations. There are three major examinations during the semester: preliminary, midterm and final.</p>
+		<p>The students scores are tansmuted following the transmutation table for the conversion of grades duly adopted by the University Academic Council.</p>
 		
 		
+		
+		<p><b>b. Examination</b></p>
+		<p>There are three major examinations during the regular semester namely: preliminary, mid-term and final and two examinations during the summer term namely mid-term and final. However, whenever necessary as the BOR may determine, the University may change the frequency of administering major examinations.</p>
+		<p>1. Unless otherwise approved by the concerned University officials, no examination shall be conducted outside the campus, and the faculty or the substitute, not a student shall personally administer the examination.</p>
+		<p>2. No student may be allowed to take the examination wothout the permit duly issued by the University. The permit shall only be valid for the particular examination indicated and strictly non-transferable.</p>
+		<p>3. All examinations should be written or have a written component. This is compulsory except for laboratory eubjects, or in cases duly approved by the respective College Deans.</p>
+		<p>4. A student who has manifested academic excellence during the Prelim exam and Mid-term exam MAY BE EXEMPTED in the final examination.</p>
+		<p>5. A student who misses an examination shall proceed to the Office of the Student Affairs for an explanation of his absence. If is reason is valid, he shall be asked to follow the procedure discussed in the next item. If his reason for missing the examination is not valid, the student shall be given a grade of 65.</p>
+		<p>6. Completion Examination. A student who fail to take the final examinations shall be given ten (10) days after the FINAL examination to avail of a special exam. Failure to comply shall mean an incomplete grade which will be completed in a date scheduled by the College Dean.A reasonable fee of fifty pesos(Php 50.00) shall be paid at the Cashier\'s Office for each subject missed, however, such amount shall increase if the Board deems it proper.</p>
+		
+		<p><b>2. Attendance</b></p>
+		<p><b>A. Tardiness</b></p>
+		<p>A student is given a grace period of 15 minutes from the start of the class hour to enter hos classroom; in which case, he will be marked TARDY. Four tardy marks shall be equivalent to one absence.</p>
+		<p>If a student comes in a late beyond the alotted period, he shall be marked absent for that session.</p>
+		
+		<p><b>B. Absence</b></p>
+		<p>Each student is expected to attend classes regularly and punctually, and is required to attend 80% of the prescirbe number of classes in the given semester.</p>
+		<p><b>Moreover,</b> students enrolled in OJT, practicum, RLE and the like are required to follow the departmental policies on attendance.</p>
+		<p>The maximum number of absences per subject includes those which may be accumulated to consecutive. Beyond the maximum number of absences, a student shall automatically receive a Dropped mark is this is before the Prelim exams and a Failed rating if this is after the Prelim exams. This is provision should be viewed, not as privilege, but as allowance for possible incurred absences due to illness or other grievous reason.</p>
+		
+		<p><b>The following provisions shall likewise be considered:</b><p>
+		<p>A student who incurs an absences during a quiz or class activity shall automatically get 65% for the quiz. However, a special quiz maybe given</p>
+		<p>a. If the absence is due to participation in academic and extra-curricular activities;</p>
+		<p>b. If there are certificates to support claims of medical concerns and illness, and death of relatives.</p>
+		<p>Students who leave the class after the roll call and not return or who return only at the end of the period are considered absent.</p>
+		<p>A student eho absents from a class in order to attend other activities in an unofficial capacity shall be held responsible for the lessons/quizzes made.</p>
+		<p>Parents or guardians shall br notified by the Guidance Director on the 5th, 10th, 15th absences of their son/daughter or ward. The instructor concerned shall refer the students case to the Guidance Office.</p>
+		
+		<p><b>3. Completion of Grades</b></p>
+		<p>An incomplete grade is given to a student who has missed the final examination(s), or who lacks final requirement(s) such as project study, feasibility, research and make-up duties for RLE and OJT in order to pass the course.</p>
+		<p>A student with incomplete grade is responsible for the completion of the grade within the period of 30 days only. For research, feasibility and project study which is to be completed 30 days from the date of final defense. Failure to do so shall mean a waiver and the concerned(delete) student is automatically marked FAILED in that subject by the Registrar\'s Office.</p>
+		<p>Note: for make-up duites/completion of cases/OJT/Practicum within one semester only.</p>
+		<p>The Committee  on Excellence shall set the schedule but within one semester, reasonable points shall be deducted from his Final Rating.(delete)</p>
+		<p>For completion process, the student is advised to secure ad duly accomplish a completion form from the Office of the Registrar.</p>
+		
+   ]]>
+    </string>
+    <!-- Primir End -->
+
+
+    <!-- Graduation Requirements Starts -->
+    <string name="graduationRequirements">
+<![CDATA[
+		<p><b>Graduation Requirements</b></p>
+		<p>For a student to be included in the graduation ceremonies, he should have successfully completed all the required units set in the curriculum of his course. Further, the student should be cleared of his financial and other obligations to the University, and his records duly deliberated on by the Academic Council, before proper conferment by the BOR.</p>
+  
+  		<p><b>1. Credentials</p></b>
+  		<p>A student who expects to graduate must apply for an evaluation of his academic records one school year preceding his expected graduation. A candidate for graduation must file an official application for graduation with the Registrar\'s office before the mid-term examination of the last semester in the University.</p>
+  		
+  		<p><b>2. Residency Requirement</p></b>
+  		<p>Residency refers to the number of years or terms required for a student to finish a course. As a general policy, regular students in non-degree and degree programs are granted two (2) years four (4) years/ five (5) years respectively to complete their program.</p>
+  		<p>A degree shall only be confirmed to a student who has taken the last curricular year of the course in the University. Therefore, transfer students must have atleast one (1) year residency in the university to be conferred the degree.</p>
+  
+   ]]>
+    </string>
+    <!-- Graduation Requirements End -->
+
+
+    <!-- Citations/Awards Starts -->
+    <string name="citationsAwards">
+<![CDATA[
+		<p><b>Citations/Awards</b></p>
+		<p><b>1. Academic Citations</b></p>
+		<p>A student who is qualified for the President Lists or Deans List shall submit his letter of application to the Office of the Academic Affairs. Qualifications for the citations are as follows:</p>
+		
+		<p><b>A. Presidents List</b></p>
+		<p>Students must have enrolled the required number of units in the curriculum.</p>
+		<p>The student must have a GWA of 92 or higher.</p>
+		<p>He must not have a grade lower than 90 or its equivalent in any academic subject except NSTP subjects.</p>
+		<p>No failed or incomplete or dropped subjects including NSTP.</p>
+		<p>Must not have committed any violations as prescribed in the students code of discipline.</p>
+		
+		<p><b>B. Deans List</b></p>
+		<p>Students must have enrolled the required number of units in the curriculum.</p>
+		<p>The student must have a GWA of 89-91</p>
+		<p>He must not have a grade lower than 88 or its equivalent in any academic subject.</p>
+		<p>No failed or incomplete or dropped subjects including NSTP.</p>
+		<p>Must not have committed any violations as prescribed in the students code of discipline.</p>
+		<p>A transferee who wishes to apply for an academic scholarship shall complete his one year residency in the University. However, third year transferees shall no longer be qualified for the above citations</p>
+		
+		<p><b>2. Graduation Citations</b></p>
+		<p><b>a. Academic Distinctions</b></p>
+		<p>The University shall recognize students who excelled academically during their stay at the school. Graduating students qualified for academic distinctions shall meet the prescribed final rating as follows:</p>
+		<p><b>Cum Laude</b> 89-92 With no grade in any subject below 86 or its equivalent</p>
+		<p><b>Magna Cum Laude</b> 93-95 With no grade in any subject below 89 or its equivalent</p>
+		<p><b>Summa Cum Laude</b> 96-99 With no grade in any subject below 91 or its equivalent</p>
+		<p>Further, the above mentioned honors are subject to the following conditions:</p>
+		<p>1. That all grades earned in all subjects except those excluded by law taken in the University or in other schools shall be included in the computation of the GWA. Likewise, all subjects shall be given consideration in determining the qualifications of the Candidate for honor.</p>
+		<p>2. That a candidate for graduation with honors must have taken not less than the prescribed load of the curricular offering of his course during the regular semester and/or six (6) units during each summer.</p>
+		<p>3. That Student Assistants who are candidates for graduation with honors must have not taken less than 18 units of credit each semester and six (6) units during each summer.</p>
+		<p>4. That student must have a residence equivalent of at least three (3) for four year course and (4) years for five (5) year-course of the entire course he is enrolled in.</p>
+		<p>5. That only students who have completed all academic requirements for their degree as of the date of conferment will be granted academic honors.</p>
+		<p>6. That the conferment of hereto awards is the sole discretion of the University and if the awardees is found until after investigation of such award, the University may declare forfeiture of the same.</p>
+		<p>7. Must have not committed any violations as prescribed in the Students code of discipline.</p>
+		<p>8. The student should apply/secure an application for recognition from the office of the registrar.</p>
+		
+		<p><b>b. Special Awards</b></p>
+		<p>Students who had shown exemplary peformance in their extra-curricular activities shall be recognized.</p>
+		<p>However, all awards that shall be given to deserving studnents must be subject to the following conditions:</p>
+		<p>1. That the student shall meet all the requirements set for the award.</p>
+		<p>2. That there must be a written approval from the recommending officer/adviser/coach/managers/supervisors/chief nurses/cooperating teachers.</p>
+		<p>3. That the students shall undergo and pass the strict screening and deliberation process of the Committee on Awards and Members of the Academic Council.</p>
+		<p>4. That the University President shall approve all awards for conferment.</p>
+		
+		<p><b>The following are the awards given to deserving students:</b></p>
+		<p><b>1. Proficiency in Teaching Award</b></p>
+		<p>No grade lower than 83 in professional and major subjects</p>
+		<p>Minimum of three years of residence in the University</p>
+		<p>GWA must not be lower than 86</p>
+		<p>No failed/dropped (unofficial) mark in all subjects</p>
+		<p>Must have not committed any violations as prescribed in the Students code of discipline</p>
+		
+		<p><b>2. Proficiency in Clinical Practice/Community Health Service (Nursing, Midwifery, Caregiver)</b></p>
+		<p>No grade lower than 83 in all subjects</p>
+		<p>Minimum of three years of residence in the University for College of Nursing: two years residency for Midwifery and six months residency for Caregiver</p>
+		<p>Should be recommended by the Clinical Instructor and the Chief Nurse/RHU Head Midwife/STAC Coordinator of the affiliating hospital and communtiy.</p>
+		<p>No failed/dropped (unofficial) mark in all subjects</p>
+		<p>Must have not committed any violations as prescribed in the Students code of discipline</p>
+		
+		<p><b>3. Proficiency in Office Practice (Accountancy and Business, Office Administration, Computer Secretarial)</b></p>
+		<p>No grade lower than 83 in major subjects (for College of Accountancy and Business Administration only.)</p>
+		<p>Minimum of three years of residence in the University for College of Accountancy and Business Administration; and two years residency for Associate in Computer Secretarial</p>
+		<p>Should be recommended by the immediate superior/supervisor in the establishment in which he had his OJT</p>
+		<p>The grade in practicum/OJT is 94 above</p>
+		<p>Maximum of five (5) absences during his OJT (delete)</p>
+		<p>No failed/dropped (unofficial) mark in all subjects</p>
+		<p>Must have not committed any violations as prescribed in the Students code of discipline</p>
+		
+		<p><b>4. Proficiency in On the Job Training/Practicum(HRS/HRM/TOURISM/PSYCHOLOGY)</b></p>
+		<p>No grade lower than 83 in major subjects (for College HRS/HRM/TOURISM/PSYCHOLOGY.)</p>
+		<p>Minimum of three years of residence in the University for College HRM/TOURISM/PSYCHOLOGY; and two years residency for Associate in HOTEL AND RESTAURANT MANAGEMENT</p>
+		<p>Should be recommended by the immediate superior/supervisor in the establishment in which he had his OJT</p>
+		<p>The grade in practicum/OJT is 90 and above</p>
+		<p>No failed/dropped (unofficial) mark in all subjects</p>
+		<p>Must have not committed any violations as prescribed in the Students code of discipline</p>
+		
+		<p><b>5. Proficiency in On the Job Training(Criminology)</b></p>
+		<p>No grade lower than 83 in major subjects (for College of Criminology)</p>
+		<p>Minimum of three years of residence in the University for College of Criminology.</p>
+		<p>Should be recommended by the immediate superior/supervisor in the establishment in which he had his/her OJT</p>
+		<p>The grade in practicum/OJT is 90 and above</p>
+		<p>No failed/dropped (unofficial) mark in all subjects</p>
+		<p>Must have not committed any violations as prescribed in the Students code of discipline</p>
+		
+		<p><b>6.Proficiency in On the Job Training(Engineering)</b></p>
+		<p>No grade lower than 83 in major subjects (for College of Engineering)</p>
+		<p>Minimum of three years of residence in the University for College of Engineering</p>
+		<p>Should be recommended by the immediate superior/supervisor in the establishment in which he had his OJT</p>
+		<p>The grade in practicum/OJT is 90 and above</p>
+		<p>No failed/dropped (unofficial) mark in all subjects</p>
+		<p>Must have not committed any violations as prescribed in the Students code of discipline</p>
+		
+		
+		<p><b>7. Proficiency in On the Job Training(IT and ACT)</b></p>
+		<p>No grade lower than 83 in major subjects (for College of Computer Studies)</p>
+		<p>Minimum of three years of residence in the University for College of Computer Studies</p>
+		<p>Should be recommended by the immediate superior/supervisor in the establishment in which he had his OJT</p>
+		<p>The grade in practicum/OJT is 93 and above</p>
+		<p>No failed/dropped (unofficial) mark in all subjects</p>
+		<p>Must have not committed any violations as prescribed in the Students code of discipline</p>
+		
+		
+		<p><b>8. Proficiency in On the Job Training/Practicum(HRS/HRM/TOURISM/PSYCHOLOGY)</b></p>
+		<p>No grade lower than 83 in major subjects (for College of Social Work)</p>
+		<p>Minimum of three years of residence in the University for College for Social Work</p>
+		<p>Should be recommended by the immediate agency and school supervisor in the establishment in which he had his OJT</p>
+		<p>The grade in practicum/OJT is 90 and above</p>
+		<p>No failed/dropped (unofficial) mark in all subjects</p>
+		<p>Must have not committed any violations as prescribed in the Students code of discipline</p>
+		
+		<p><b>9. Proficiency in Journalism(AB Comm)</b></p>
+		<p>No grade lower than 83 in major subjects (for College HRS/HRM/TOURISM/PSYCHOLOGY.)</p>
+		<p>Minimum of three years of residence in the University</p>
+		<p>Should be recommended by the immediate supervisor or head of office in the establishment in which he had his OJT</p>
+		<p>The grade in practicum/OJT is 90 and above</p>
+		<p>No failed/dropped (unofficial) mark in all subjects</p>
+		<p>Must have not committed any violations as prescribed in the Students code of discipline</p>
+		
+		<p><b>10. Proficiency in On the Job Training(Pharmacy)</b></p>
+		<p>No grade lower than 83 in major subjects </p>
+		<p>Minimum of three years of residence in the University </p>
+		<p>Should be recommended by the immediate supervisor or head of the office in the establishment in which he had his OJT</p>
+		<p>The grade in practicum/OJT is 90 and above</p>
+		<p>No failed/dropped (unofficial) mark in all subjects</p>
+		<p>Must have not committed any violations as prescribed in the Students code of discipline</p>
+		
+		
+		<p><b>1.Leadership Award</b></p>
+		<p>Should have no grade lower than 83 in all subjects</p>
+		<p>Should have exhibit outstanding achievement as a student leader.</p>
+		<p>Should be recommended by the adviser of the Student Government Organizations/Deans and Advisers of the different campus organization.</p>
+		<p>Should have accomplished relevant and significant projects and programs supported by petinent documents.</p>
+		<p>Should have at least three (3) years (completed 4 years to be deleted) or residence in the University.</p>
+		<p>No failed/dropped (unofficial) mark in all subjects</p>
+		<p>Must not have committed any violations as prescribed in the Students code of discipline</p>
+		
+		<p><b>2. Cultural Awards</b></p>
+		<p>Shoud be an active member of the Performing Arts group, Music Ensemble/Theater Guild or any other recognized cultural group in the University.</p>
+		<p>Should have participated in the cultural programs of the University and outside activities</p>
+		<p>Should have recommended by the committee on Cultural Affairs (or ME adviser to be deleted). Noted by the Dean</p>
+		<p>Should have no Failed or Dropped marks</p>
+		<p>Should have at least one year (three years to be deleted) of residence in the University</p>
+		<p>Must not have committed any violations as prescribed in the Students code of discipline</p>
+		
+		<p><b>3. Athletic Award (for Graduating students only)</b></p>
+		<p>Shoud be an active member of any athletic group or other recognized cultural group in the University.</p>
+		<p>Should be an an active member of any athletic organization.</p>
+		<p>Should have participated in any local /regional national competitions.</p>
+		<p>Should have recommended by the committee on sports and noted by the Dean.</p>
+		<p>Should have at least one year of residency in the University</p>
+		<p>No Failed/Dropped (unofficial) mark in all subjects</p>
+		<p>Must not have committed any violations as prescribed in the Students code of discipline</p>
+		
+		<p><b>d. Other Awards:</b></p>
+		<p><b>1. Community Development Award (Extension Service Award)</b></p>
+		<p>Should have rendered outstanding service to the University and community.</p>
+		<p>Minimum of one year (three years delete) or residence in the University</p>
+		<p>Should have no Failed or Dropped marks</p>
+		<p>Should be recommended by the civic organization or agency where the extension is conducted. (club adviser, principal,etc. delete)</p>
+		<p>Note: This award maybe given to either a group or an individual</p>
+		
+		<p><b>2. Research Award</b></p>
+		<p>Participated and presented research paper in the University Research Symposium</p>
+		<p>Participated and presented a research paper in the Local/Regional and National Level</p>
+		<p>Must have published their research paper in the Journal</p>
+		<p>Recommended by the Chairman for Oral Examination Committee and noted by the Dean and approved by the Vice President for Research and Extension</p>
+		<p>Minimum of one year (three years delete) of residence in the University</p>
+		<p>Should have no Failed or Dropped marks</p>
+		
+		<p><b>3. Journalism Award</b></p>
+		<p>Should be a bona fide and productive member of the official University paper.</p>
+		<p>Should  be a good scholastic standing.</p>
+		<p>Should have at least 2 years active membership in the University paper.</p>
+		<p>Should not have been involved in articles proven to be libelous or plagiarized.</p>
+		<p>Should be recommended by the paper adviser</p>
+		<p>No Failed/Dropped (unofficial) mark in all subjects</p>
+		<p>Must not have committed any violations as prescribed in the Students code of discipline</p>
+		
+		<p><b>4. Special Achievement Award</b></p>
+		<p>Actively participated in local/regional and national competitions and other activities</p>
+		<p>Should have brought glory and pride to the University with his accomplishments</p>
+		<p>Should be recommended by the coach or adviser</p>
+		<p>Note: Special Achievement Awards for Sports, Journalism, Academics and other Competencies</p>
+		<p>Note: Cash Incentive to be determined by the BOR for Board Topnotchers</p>
+		<p>Notwithstanding the preceding paragraphs, upon recommendations by the University Academic Council and duly
+affirmed by the BOR, the University shall promulgate additional requirements or amend the foregoing and may further grant 
+awards other than hereto stated</p>
+		
+	   ]]>
+    </string>
+    <!-- Citations/Awards End -->
+
+
+    <!-- School Cridentials Starts -->
+    <string name="schoolCridentials">
+<![CDATA[
+		<p><b>School Cridentials</b></p>
+		<p>Every student of the University is entitled to obtain his academic records. The student shall be advised to take note 
+of the following general provisions:</p>
+		<p>1. Appropriate application forms and clearances are required in the release of University credentials. As a rule,
+	the issuance of University credentials must be applied for ten (10) working days prior to the release except in special
+	cases where the same shall be processed within 5 days for an additional fee or change.</p>
+		<p>2. The student shall personally request for his academic records. In case of his absence or unavailability, the student 
+	should prepare and submit an authorization letter for his representative. The student requesting the documents and the
+	representative/s shall present a valid identification card to the Registrar\'s Office.</p>
+		<p>3. University Officials and faculty members may be permitted to request information on the academic performance of a 
+	student provided that:</p>
+		<p>a. Information shall be used in evaluation for academic distinctions and guidance services.</p>
+		<p>b. Information shall be used for verification of grades</p>
+		<p>4. Request for academic information from a company or firm to whom a student has applied for employment or where he is
+	employed will be honored for verification purposes only. The same consideration is given to recognized organizations
+	or government agencies supporting the student concerned.</p>
+		<p>5. No transfer credential or official transcript of records shall be released unless admission credentials (form 138
+	for freshmen students or original Transcript of Records for transferees and second degree earners) are submitted to the
+	Registrar\'s office. Further, all accountabilities with the Accounting Office, Library, Laboratories,etc., should have
+	been settled.</p>
+	
+		<p><b>Procedures in the Issuance of School Credentials</b></p>
+		<p><b>Transfer Credentials</b></p>
+		<p>1. A Transfer Credential is issued to a student who wishes to transfer to another University and is issued only once.</p>
+		<p>2. Transfer Credentials are released immediately to students who have obtained the necessary clearances. Release of
+transfer credentials is considered a formal separation from the University and readmission to the University shall only be
+in accordance with existing policies. A student who was not able to use his transfer credentials to another school and wishes 
+to return to UCU is required to surrender the documenta issued to him.</p>
+		<p>3. Before a transfer credential is issued, it shall be necessary for the student to submit duly accomplished clearance
+and to pay the required amount.</p>
+		<p>4. The UCU personnel in charge of issuing the transfer credential must as certain that all subjects and grades are accounted for.</p>
+		
+		<p><b>Transcript of Records</b></p>
+		<p>1. The preparation and issuance of Transcript of Records is to be accomplished by those in charge of request.</p>
+		<p>2. The concerned student shall always indicate the purpose for which the record will be used (e.g. for employment
+purpose/for board exam, etc.)</p>
+		<p>3. No graduated student shall be issued a transcript of record unless he/she has cleared accountabilities.</p>
+		<p>4. The student is required to pay the required fee for his transcript of records.</p>
+		
+		<p><b>Diploma</b></p>
+		<p>The diploma of a graduated student shall be issued only once. Subsequent requests for a copy of diploma shall be honored 
+Instead, a certificate attesting to his graduation from the University shall be given.</p>
+   ]]>
+    </string>
+    <!-- School Cridentials End -->
+
+
+    <!-- Tuition And Miscellaneous Fees Starts -->
+    <string name="tuitionAndMiscellaneousFees" formatted="false">
+<![CDATA[
+		<p><b>Tuition and Micscellaneous Fees</b></p>
+		<p>Assessment of fees and other miscellaneous fees must be secured from the accounting office and may be paid in cash upon enrolment
+or by installment basis. The following must be followed.</p>
+		<p>1. At least twenty five percent (25%) of the basic University fees or whatever amount determined by the University must 
+be paid upon enrollment.</p>
+		<p>2. The remaining balance after deducting the first payment shall be divided by three, the result of which is the amount
+to be paid before Prelim, Midterm and Final Examinations.</p>
+		<p>3. All tuition and other school fees must be paid before the Final Examinations</p>
+		
+		<p><b>Refunds:</b></p>
+		<p>As a matter of policy the University does not refund miscellaneous fees paid by the student.</p>
+		<p>Tuition fees however may be refunded with the following conditions:</p>
+		<p>1. If a student is dropping out he/she shall duly inform the Regitrar and fill out a dropping form.</p>
+		<p>2. If the student drops out during the enrollment period or during the first week of classes, the entire tuition pais
+shall be refunded.</p>
+		<p>3. If the student drops out during the second week of classes or within the Preliminary examinations, 50% of the assessed
+tuition shall be paid.</p>
+		<p>4. If the student drops out after the Preliminary Exams or within the Midterm Examinations, all fees computed for the
+semester shall be charged whether or not he/she attended classes.</p>
+		<p>5. Refunds shall be given after the payroll, or voucher for refunds has been approved and processed at the City 
+Government of Urdaneta.
+		</p>
+		
+		<p><b>Checks As Payments:</b></p>
+		<p>Only Government checks are honored as payment of tuition and other University fees. As per COA regulations, personal 
+checks shall not be accepted as payment of University fees.</p>
 		
 		
    ]]>
     </string>
-    <!-- Scholarship And Grants End -->
+    <!-- Tuition And Miscellaneous Fees End -->
+
+
+    <!-- Academic Freedom As The Right Of An Individual Student Starts -->
+    <string name="academicFreedomAsTheRightOfAnIndividualStudent">
+<![CDATA[
+		<p><b>Academic Freedom as the Right of an Individual Student</b></p>
+		<p>The Philippine Constitution guarantees every student of all higher learning insttutions are the right to enjoy academic
+freedom. Specifically, a UCU student enjoys the following:</p>
+		<p>1. The right to freely choose his course and to pursue this until graduation provided he has complied with the academic requirements
+and rules of conduct of UCU;</p>
+		<p>2. THe right to pursue his studies regardless of his social status, poltical and religious beliefs, and to be free, in his pursue thereof,
+from unreasonable interference of any kind from whatever source in the academic community.</p>
+		<p>3. The right to appropriate and effective use of the schools facilities, as long as the student complies with the established
+policies for their use.</p>
+		<p>4. The right ot sponsor, attend and participate in seminars, workshops, dialogues or similar activities that promote student welfare
+and which deal on matter of genera concern without fear of any disciplinary action subject to institutional regulations and to 
+Constitutional limitations on the freedom of assembly;</p>
+		<p>5. The right to form and join student organizations or societies subject to well defined limitations on freedom of associations set in
+the Constitution, whose objectives do not contradict institutional policies, and which have complied with accreditation procedures of
+the Office of the Student Affair (see Chapter VI, Student Organizations, Recognition and Accreditaion Procedures);</p>
+		<p>6. The right to free expression-both spoken and written regardin the University, its policies and programs, provided the statements
+and written materials are not prohibited by law.</p>
+		<p>7. The right to free peaceful assembly to voice out opinions or petitions regardless of grievances, subject to limitations on the right
+assembly, freedom of expresion and speech and other established laws, and upon compliance of college policies in organizing assemblies; and</p>
+		<p>8. The right to be informed of to have a access to all data pertaining to his financial account and academic performance.</p>
+		<p>The exercise however of the foregoing rights shall be in accordance with the existing rules and regulations. Any concerted action
+by the students shall require corresponding permit as provided by law; that it should be peacefullyconducted and not meant to disturb
+classes nor infringe on the right of others; provided,after all peaceful means of setting disputes/issues are exhausted. Contravention
+hereto shall be dealt with accordingly.</p>
+
+   ]]>
+    </string>
+    <!-- Academic Freedom As The Right Of An Individual Student End -->
+
+
+    <!-- Tuition And Miscellaneous Fees End -->
+
+
+    <!-- Duties And Responsibilities Of Students Starts -->
+    <string name="dutiesAndResponsibilitiesOfStudents">
+<![CDATA[
+		<p><b>Duties and responsibilities of Students</p></b>
+		<p>in addition to those provided for under existing laws, every student shall:</p>
+		<p>1. Exert his utmost to develop his potentialities for servic, particularlyby undergoing an education suited to hid abilities,
+	in order that he may become an asset to his family and to society.</p>
+		<p>2. Uphold the academic integrity of the University, endeavor to achieve academic excellence and abide by teh rules and regulations
+	governing on his academic responsibilities and moral integrity.</p>
+		<p>3. Promote and maintain the peace and tranquility of the University by observing the rules and discipline, and by exerting efforts to
+	attain harmonious relationships with fellow students, the teaching and academic staff and other University personnel.</p>
+		<p>4. Participate actively in civic affairs in the promotion in the general welfare, particularly in the social, economic and cultural
+	develpopment of his community and in the attainment of a just, compassionate and orderly society.</p>
+		<p>5. Exercise his rights responsibly in knowledge that he is answerable for any infringement or violation of the public welfare and 
+	of the rights of others.</p>
+		
+   ]]>
+    </string>
+    <!-- Duties And Responsibilities Of Students End -->
+
+
+    <!-- OSA Starts -->
+    <string name="osa">
+<![CDATA[
+		<p><b>Office of the Student Affairs (OSA)</p></b>
+		<p>Pursuant to the pertinent provisions of the University Code, the OSA has the following functions:</p>
+		<p>1. Provide the direction in planning, implementation, coordination, monitoring and evaluation of various services that enhance the learning
+	processes and atmosphere of students in terms of the learning resource center, guidance and counseling, student organizations, student publications, and placement.</p>
+		<p>2. Provide and coordinate the provision of opportunities for the well-rounded development of students through autonomous and constructive
+	student councils, interest clubs, and other organizations; responsible student publications, bulletins, tabloids, etc.; guidance and counseling services;
+	and scholarship grants and financial assistance;</p>
+		<p>3. Provide assistance to graduates of the University through referrals, recommendations and endorsement for placement and employment;</p>
+		<p>4. Establish network and linkages with other institutions of higher learning, both public and private.</p>
+		<p>5. Validate student\'s Identification Card;</p>
+		<p>6. Submit annual action plans an quarterly/annual accomplishment reports to the Office of the President and;</p>
+		<p>7. Do other functions upon directive of higher authorities.</p>		
+		
+   ]]>
+    </string>
+    <!-- OSA End -->
+
+
+    <!-- Guidance Starts -->
+    <string name="guidance">
+<![CDATA[
+		<p><b>Guidance Office</p></b>
+		<p>The Guidanance Office is committed for bringing the values of self-awareness and self-direction to the students in solving their problems, academically 
+and/or psychologically. Thus, in order to realize its objectives the Office provides the following.</p>
+		<p><b>1. Individual Inventory Services.</b> The service is intended to gather information related to personal, psychological, social and educational fields
+	through orientation programs, iformation brochures and Student Development</p>
+		<p><b>2. Information Service.</b> This service provides adequate and substantial information related to personal, psychological, social and educational fields
+	through orientation programs, information brochures and Student Development seminars</p>
+		<p><b>3. Testing/Evaluation Services.</b> This service is designed to secure accurate information of each students abilities, aptides, interests and personal
+	characteristics in order to assist the student gain an inreasing self-knowledge and understanding of his life and career as possible.</p>
+		<p><b>4. Referral Service.</b> This service shall provide assistance and referrals of students endorsed by the teachers concerned and other school officials
+	and personal.</p>
+		<p><b>5. Placement Service.</b> This service is designed to help student address their adjustment concerns in college and to provide job opportunities for students.</p>
+		<p><b>6. Career Guidance.</b> This sevice aims to helpan individual establish right decisions onhis chosen careerbased on his potentials and capabilities through
+	career counseling, academic advising and testing.</p>
+		<p><b>7. Counseling Service.</b> This service which is considered the heart of guidance program, is designed to fscilitate self-understanding and self-development
+	through face-to-face interaction. This may be done individually or in group.</p>
+		<p><b>8. Follow-up Service.</b> This service aims to offer assistanceto unadjusted student and those who come for counseling because of recurring problems. Its goal
+	is to check the progress and status of the counselee.</p>
+	
+   ]]>
+    </string>
+    <!-- Guidance End -->
+
+
+    <!-- Library Starts -->
+    <string name="library">
+<![CDATA[
+		<p><b>Library</p></b>
+		<p>The UCU Library is dedicated to provide necessary books and references for students in their research works and studies. It caters to the needs of the students
+who want to enrich their knowledge and develop their academic performance through the aid of reading materials. The library is located at 2nd floor of Pedro T. Orata
+Memorial Building. It is open from MOndays to Saturdays, 8:00 am to 5:00 pm unless the University Library Council promulgates different time. The use of the College
+Library shall be in accordance wih the library rules and regulation.</p>
+		
+		
+   ]]>
+    </string>
+    <!-- Library End -->
+
+
+    <!-- Multimedia Library Starts -->
+    <string name="multimediaLibrary">
+<![CDATA[
+		<p><b>Multimedia Library</p></b>
+		<p>It houses the computers used for Internet surfing and other multimedia materials. The use of the Multimedia Library shall be in accordance with the rules
+and regulations.</p>
+		
+		
+   ]]>
+    </string>
+    <!-- Multimedia Library End -->
+
+
+    <!-- Audio-Visual Room Starts -->
+    <string name="audioVisualRoom">
+<![CDATA[
+		<p><b>Audio-visual Room</p></b>
+		<p>The Audio-Visual Room serves as venue for seminars, conferences, fora and other Univerity programs and acivities. The use of the same shall be subject 
+to the approval of the University President.</p>
+		
+		
+   ]]>
+    </string>
+    <!-- Audio-Visual Room End -->
+
+
+    <!-- Laboratories Starts -->
+    <string name="laboratories">
+<![CDATA[
+		<p><b>Laboratories</p></b>
+			<p>1. Speech Laboratory The training ground for speech improvement and development of the students.</p>
+			<p>2. Science Laboratory The setting for scientfic experiments and the venue for the application of scientific theories and principles.</p>
+			<p>3. Computer Laboratory It houses the computers and other resources needed in the application of computer related principles.</p>
+			<p>4. Typing Laboratory It accomodates the facilities used for the practicum in the typing subject.</p>
+			<p>5. Nursing Arts Laboratory </p>
+			<p>6. Food and Beverage and Commercial Cooking Laboratory</p>
+			<p>7. Engineering and Architecture Laboratory</p>
+			<p>8. Criminology Laboratory</p>
+			<p>9. Experimental Laboratory for Psychology</p>
+			<p>10. Pharmacy Laboratory</p>
+			<p>11. Radio and TV Production Laboratory This laboratory simulates the set-up of radio and TV stations and provides learning opportunities for
+			producong radio and television shows.</p>
+		
+   ]]>
+    </string>
+    <!-- Laboratories End -->
+
+
+    <!-- Enhancement Services Starts -->
+    <string name="enhancementServices">
+<![CDATA[
+		<p><b>Enhancement Services</p></b>
+		<p>Tutorial Development Center, review</p>
+		
+		
+   ]]>
+    </string>
+    <!-- Enhancement Services End -->
+
+
+    <!-- Sports Development Starts -->
+    <string name="sportsDevelopment">
+<![CDATA[
+		<p><b>Sports Development Services</p></b>
+		<p>Use of Gymasium</p>
+		
+		
+   ]]>
+    </string>
+    <!-- Sports Development End -->
+
+
+    <!-- Medical Starts -->
+    <string name="medical">
+<![CDATA[
+		<p><b>Medical/Dental/Nursing Sevices</p></b>
+		<p>The medical/dental and nursing services of the University, as facilitated by the University clinic, are geared towards offering health-related assistance
+to the students. The office promotes physical fitness, personal hygiene and health-consciousness to every memeber of the University. Freshmen and transferees are
+required to undergo medical and dental check-up during their first semester. Old students are encourged to avail of the sevices needed. No consultation, no certificate
+policy.</p>
+		
+		
+   ]]>
+    </string>
+    <!-- Medical End -->
+
+
+    <!-- Security Starts -->
+    <string name="security">
+<![CDATA[
+		<p><b>Security Sevices</p></b>
+		<p>The security force aims to ensure the maximum safety of every member of the University. Further, it shall protect individuals from all harm and other
+security related incidence that may occur inside the campus.</p>
+		
+		
+   ]]>
+    </string>
+    <!-- Security End -->
+
+
+    <!-- Janitorial Starts -->
+    <string name="janitorial">
+<![CDATA[
+		<p><b>Janitorial Services</p></b>
+		<p>The janitorial services shall maintain the cleanliness and beautification of the University.</p>
+		
+		
+   ]]>
+    </string>
+    <!-- Janitorial End -->
+
+
+    <!-- Canteen Starts -->
+    <string name="canteen">
+<![CDATA[
+		<p><b>Canteen</p></b>
+		<p>Provides the students with nutritional foods at an affordable price.</p>
+	
+   ]]>
+    </string>
+    <!-- Canteen End -->
 
 </resources>
