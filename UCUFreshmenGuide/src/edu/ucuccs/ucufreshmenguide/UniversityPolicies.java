@@ -15,7 +15,6 @@ import android.widget.ExpandableListView.OnGroupClickListener;
 import android.widget.ExpandableListView.OnGroupCollapseListener;
 import android.widget.ExpandableListView.OnGroupExpandListener;
 import android.widget.SearchView;
-import android.widget.Toast;
 
 import com.actionbarsherlock.app.SherlockFragment;
 
@@ -382,6 +381,106 @@ public class UniversityPolicies extends SherlockFragment {
 					}
 					break;
 				}
+				case 5: {
+					switch (childPosition) {
+					case 0: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 32;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+
+					}
+					case 1: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 33;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+
+					}
+					case 2: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 34;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+
+					}
+					case 3: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 35;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+
+					}
+
+					}
+					break;
+				}
+				case 6: {
+					switch (childPosition) {
+					case 0: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 36;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+
+					}
+					case 1: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 37;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+
+					}
+
+					}
+					break;
+				}
+				case 7: {
+					switch (childPosition) {
+					case 0: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 38;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+
+					}
+					case 1: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 39;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+
+					}
+					case 2: {
+						Intent i = new Intent(getActivity(),
+								PolicyViewing.class);
+						int index = 40;
+						i.putExtra("index_key", index);
+						startActivity(i);
+						break;
+
+					}
+
+					}
+					break;
+				}
+
 				}
 
 				return false;

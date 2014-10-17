@@ -33,6 +33,22 @@
 		<p>A university that shall provide advanced instruction in the field of arts, sciences, teacher education, technical entrepreneurship and establish a strong research culture with active involvement in extension and production activities.</p>
 		<p><b>Goal</b></p>
 		<p>The university aims to contribute to the attainment of national development goals through character building, academic excellence, promotion and enrichment of the Filipino historical and cultural heritage and preservation of environment.</p>
+		
+		<p><b>OBJECTIVES</b></p>
+		<p>(TRANSFORMED)</p>
+		
+		<p>T-Train the faculty and staff for professional advancement through study grants and training.</p>
+		<p>R-Restructure development programs which cater to the holistic transformation of students, faculty, staff and administration through curriculum enrichment, human resource development and character building.</p>
+		<p>A-Apply research finding to address problems and issuesaffecting individuals and the community in order to improve quality of life.</p>
+		<p>N-Nurture the conversation and preservation of the environment, arts and culture.</p>
+		<p>S- Save the people through the conduct of relevant outreach programs and establishment of linkages.</p>
+		<p>F- Formulate academic programs that cater to the demands of the market and labor and the changing needs of the times.</p>
+		<p>O- Offer scholarships opportunities for poor but deserving students in order to attain quality education.</p>
+		<p>R- Revise periodically the curricular offering to respond to the needs of the community for global competitiveness.</p>
+		<p>M- Mobilize faculty students and staff to conduct relevant researches and studies.</p>
+		<p>E- Equip individuals with professional competence, scientific, and technological skills and ethical/spiritual values to enable them the needed leadership in industry, government and the professions.</p>
+		<p>D- Develop innate talents and skills of students to become self-directing, productive, and competent professionals in order to meet global demands and standards</p>
+		
 	]]>
     </string>
     <!-- VMGO Ends -->
@@ -1102,5 +1118,330 @@ security related incidence that may occur inside the campus.</p>
    ]]>
     </string>
     <!-- Canteen End -->
+
+
+    <!-- Definition Starts -->
+    <string name="definition">
+<![CDATA[
+		<p><b>Definition</b></p>
+		<p>Student publications are printed materials published independently by students which include newspapers, magazines, newsletters, periodicals, handouts,
+folios, or other publications, whether printed, mimeographed, photocopied or put in digital format, published by students for campus circulation.</p>
+   ]]>
+    </string>
+    <!-- Definition End -->
+
+
+    <!-- Recognition Starts -->
+    <string name="recognition">
+<![CDATA[
+		<p><b>Recognition</b></p>
+		<p><b>a. Official publications.</b> The official publication of the University are the University Scribe and Biyahe. They shall undergo the recognition process
+	required by the Office of the Student Affairs(OSA) for all organizations.</p>
+		<p><b>b. Other publications.</b> Only organizations recognized by the Office of the Student Affairs shall be considered by the Student Publications Office for
+	official recognition and for permission to publish and circulate publications on campus.</p>
+		<p>c. Recognition and procedure of their publications.</p>
+		<p>*Upon being granted recognition from the OSA, the student organization presents its certificate of recognition from the sponsoring unit/department
+		to which it is affiliated.</p>
+		<p>*The student organization presents a proposal which states a)the purpose and intended content of the paper and which is in line with the field of
+		specialization of sponsoring unit/department; b) the list of the papers editorial board; c) proposed number of copies for circulation and the target
+		population; and d) budget proposal prepared by the president and treasurer of the sponsoring group, duly noted by the adviser(s).</p>
+   ]]>
+    </string>
+    <!-- Recognition End -->
+
+
+    <!-- Printing and Circulation Starts -->
+    <string name="printingAndCirculation">
+<![CDATA[
+		<p><b>Printing and Circulation</b></p>
+		<p>a. Student publications may be printed using the facilities of the university or those of commercial establishments.</p>
+		<p>b. Any organization may use the existing funds of its sponsoring unit/department for printing.</p>
+		<p>c. Circulation of publications not recognized by the OSA and the SPO may be considered upon recommendation of both the Vice President for Student Affairs
+	   and the Adviser of the University scribe.</p>
+		
+		
+   ]]>
+    </string>
+    <!-- Printing and Circulation End -->
+
+
+    <!-- Editorial Starts -->
+    <string name="editorial">
+<![CDATA[
+		<p><b>Editorial Board and Staff Selection</b></p>
+		<p>All members of the editorial board and staff shall undergo the screening process set forth in the Constitutional and By-laws of the University Scribe.</p>
+   ]]>
+    </string>
+    <!-- Editorial End -->
+
+
+    <!-- General Policies Starts -->
+    <string name="generalPolicies">
+<![CDATA[
+		<p><b>A. General Policies</b></p>
+		<p>The creation and operation of the Campus Student Organization in the University are governed by the rules and regulations concerning their acrivities
+within the campus</p>
+		<p>1. Forming a Student Organization</p>
+		<p>a. Application and Filing</p>
+		<p>An initial membership of 25 atudents may apply to the OSA to form a student organization. Filing of application is not later than the opening
+	of the first semester.</p>
+		<p>2. Required Documents (to be accomplished in 2 copies)</p>
+		<p>- a formal letter of application to the VP for Student Affairs.</p>
+		<p>- Constitution and by-laws</p>
+		<p>- List of officers in matrix form with their names, respective positions, major, year levels, major, ID numbers.</p>
+		<p>- Names, year levels, major, ID numbers and signature of at least 25 members including founding officer.</p>
+		<p>- Table of Organizational Chart</p>
+		<p>- List of propsed activities for one semester with budget proposal and source of income</p>
+		<p>- Clearnce from the Office of the Student Affairs - Discipline Committee stating founding members with good moral character.</p>
+		<p>- Name of one full time faculty adviser or Dean and/or part co-advisers with the letter of acceptance no addressed to the OSA.</p>
+		<p>3. Approval of Application</p>
+		<p>The applicants will be informed on the approval of its application within two months from the date of submission. No student organization is allowed 
+to function without the prior approval required.</p>
+		<p>4. Monitoring of Organization Activities</p>
+		<p>- It shall be the responsbility of the OSA to supervise and monitor the operation and the activities of all recognized student organizaton for the purpose
+	of providing needed guidance for the full attainment of goals and objectives as envisioned in their approved Constitution and By-Laws.</p>
+		<p>- The OSA shall meet with each student organization at least once every semester to discuss project, plans, and problems and to assist the organization
+	in attaining its goals and objectives.</p>
+		<p>- The OSA reserves the right to disapprove any activity after condsulting with the organization concerned, SC and CSO, if such activity violates any
+	institutional policy as well as rules and regulation set forth by OSA.</p>
+		
+   ]]>
+    </string>
+    <!-- General Policies End -->
+
+
+    <!-- Specific Policies Starts -->
+    <string name="specificPolicies">
+<![CDATA[
+		<p><b>Specific Policies</b></p>
+		<p>1. On Certificate of Recognition</p>
+		<p>A certificate of Recognition shall be given to the student organization for its operation in the university upon full compliance with the requirements
+prescribed. However, the certificate of recognition shall be effective for one school year and will have to be renewed every year while the organization exists.</p>
+		<p>2. On probation</p>
+		<p>All newly recognized student organization shall be placed on a one year probation status and shall abide by all the rules and regulation of the university,
+the OSA, SC, and CSO. They are all entitled to all right and privilage of a duly recognized student organization and should pass the probation period to qualify
+for full accreditation or recognition.</p>
+		<p>3. On renewal of Accreditation</p>
+		<p>The OSA shall approve a yearly renewal of accreditation of all student organization which will not be later than the opening of the first semester. Any
+organization that does not renew its registration or fails the evaluation of the committee  shall be automatically considered defunct.</p>
+		<p>4. On Revocation of Certificate of Recognition</p>
+		<p>Any student organization that violates and fails to comply with the university, OSA, SC and CSO should be investigated by the committee comprise of
+VP-OSA, SC and CSO chairpersons.</p>
+		<p>5. On membership</p>
+		<p>All undergraduate students and bonafide student shall be qualified for membership in any student organization.</p>
+		<p>6. On Officer Ship</p>
+		<p>- They should be full-time students with minimum academic load of 12 units.</p>
+		<p>- They should not be under academic or disciplinary action.</p>
+		<p>- Should have no failed/dropped or incomplete subjects.</p>
+		<p>- All officers are expected to serve 2 full semester of their office. Students who cannot complete their service will not be allowed.</p>
+		<p>- Any student may occupy an elected position in only one organization.</p>
+		<p>- Failure to maintain the requirement while serving as an officer means that he has to vacate the position in the organization.</p>
+		<p>7. On Grievance </p>
+		<p>- In case of conflict within an organization, or between two or more organization, the SC and/or CSO may interfere and render a decision to be approved by the OSA</p>
+		<p>- In case of conflict within an organization, or between two or more organization, the SC and/or CSO interfere and render a decision to be approved by the OSA.</p>
+		<p>8. On Selection of Faculty Adviser</p>
+		<p>1. Must be full-time instructor/Dean</p>
+		<p>2. Should be knowledgeable in the particular field which the organization is involved; and</p>
+		<p>3. Accept the position of adviser in writing by signing the letter of acceptance which will be filed in the OSA.</p>
+		
+   ]]>
+    </string>
+    <!-- Specific Policies End -->
+
+
+    <!-- General Policy Starts -->
+    <string name="generalPolicy">
+<![CDATA[
+		<p><b>General Policy</b></p>
+		<p>A. As a rule should always wear their identification cards(ID) inside the campus. The ID is valid while the student is enrolled in the universityand may not
+ be confiscated.</p>
+		<p>B. Lost ID should be reported to the OSA for the approval of the issuance of a new ID. Students are given one day after the date of lost and is given
+ temporary admission slip before acquiring a new ID. Students who lose their ID for three times shall present an affidavit of lose before issuing a new ID.</p>
+		<p>C. Students are liable for false information in their IDs registration forms and other school documents, Any changes in status, address must be requested in
+ form of a letter to the Registrar\'s Office for updating.</p>
+		<p>D. No students are allowed to smoke in the University premise.</p>
+		<p>E. Students are expected to be polite and courteous inside the campus.</p>
+		<p>F. The University follows CHED orders; Radio and TV broadcast for the suspension of classes in case such as typhoon holidays etc.</p>
+		<p>Signal No. 1 or 2: Classes are not suspended, unless an announcement is made by the President.</p>
+		<p>Likewise all personnel are to continue their classes/work.</p>
+		<p>3 or 4: Classes and all activities are suspended.</p>
+		<p>G. Official announcements should be posted on the UCU Website.</p>
+		<p>H. All students shall be out by 9:00 pm unless authorized by a permit from the Office of the Administrative Officer.</p>
+		<p>I. students who left their IDs shall approach the guard on duty, verify will verify the students registration form. The students will bw given passes to serve
+  as their ID for the day.</p>
+		<p>J. No permanent reservation is allowed in the use of any school facility by the university.</p>
+   ]]>
+    </string>
+    <!-- General Policy End -->
+
+
+    <!-- Student Discipline Starts -->
+    <string name="studentDiscipline">
+<![CDATA[
+		<p><b>Student Discipline</b></p>
+		<p>A. Summary Proceedings</p>
+		<p>The VPSA may proceed summarily against any student in the following cases:</p>
+		<p>1. Misconduct committed in the presence of a faculty member or any official of the University within the jurisdiction of the College, or during school 
+ function sponsored by the College.</p>
+		<p>2. Misconduct committed on delibrate disruption of academic function or a school activity, which tends to create disorder, tumult, or serious disturbance
+ not connected with any academic function or school activity.</p>
+		<p>3. Misconduct such as brawls within the University premises or outside the University during an academic function or school activity, inflicting physical
+ injuries on another inside the University premises or outside the University during an academic function or school activity
+ and direct assault upon the peron of any member of the administration, faculty, co-academic personnel, or any student or person vested with authority.</p>
+		<p>B. PROCEDURE</p>
+		<p>1. The student is summoned to appear before the Dean, informed of the charge against him and afforded the opportunity to present his/her side.</p>
+		<p>2. Should the student refuse, without cause, despite being summoned, this is taken into account in imposing the sanction to the offense committed.</p>
+		<p>3. Any decision taken under this action should be in writing, stating the grounds for which the disciplinary action is taken. The decision is final
+	and executory upon the issuance of the order.</p>
+		<p>4.The decision is forwarded to the OSA for the execution of the disciplinary action for counseling if necessary.</p>
+		
+   ]]>
+    </string>
+    <!-- General Policy End -->
+
+
+    <!-- Types Of Offenses Starts -->
+    <string name="typesOfOffenses">
+<![CDATA[
+		<p><b>Types and Offenses</b>
+		<p><b>A. Major Offense</b></p>
+		<p>1. Cheating in any form during examination test or written reports including reaction papers, experiment and assignments. It includes but is not limited to 
+the following:</p>
+		<p>- Unathorized possesion of notes or any denialsto the examination whether the students actually use them or not.</p>
+		<p>- Glancing or allowing another to glance or look at her/his examination paper.</p>
+		<p>- Communicating with another student during an examination without permission from the teacher.</p>
+		<p>- Plagiarism and other form of academic dishonesty.</p>
+		<p>2. Vandalism of the destruction of property belonging to the University or to a member of the faculty, administrator, co-academic personnel, another student or
+to a visitor while in campus.</p>
+		<p>3. Deliberate disruption of the academic function or a school activity which tends to create disorder, tumult, breach of peace or serious distrubance not
+necessarily connected with any academic function or school activity.</p>
+		<p>4. Inflicting physical injuries on another inside the University premises or outside the University during an academic function or school activity.</p>
+		<p>5.Unauthorized bringing in, carrying, possession or use of prohibited or regulated drugs or chemicals without proper prescription, inside University premises or
+outside the University during an academic function or school activity, and any other violation of the provisions of R.A. 9165, otherwise known as the
+Comprehensive Dangerous Drugs Act of 2002.</p>
+		<p>6. Unauthorized bringing in, carrying, possession or use of prohibited or regulated drugs or chemicals without proper prescription, inside University premises or
+outside the University during an academic function or school activity, or entering the University premises or attending academic functions or school activities under
+the influence of liquor or alcoholic beverages.</p>
+		<p>7. Gross acts of disrespect in words or in deed that tend to put the University or any administrator, member of the faculty, co-academic personnel, security guards,
+maintenance personnel, students, and visitors in ridicle or contempt.</p>
+		<p>8. Direct assault upon the person of any member of the administration, faculty, co-academic personnel, or any student or person vested in authority.</p>
+		<p>9. Threatening another with any act amounting to a crime, depict or wrong, or wih the infliction of any injury or harm upon his person, honor or integrity.</p>
+		<p>10. Acts of lewdness or commission of any act of immorality; the possession (unless with DO permit approved by the faculty concerned as part of the course requirement)
+display of distribution of pornographic materials inside the Unversity, including accessing internet sites that do not correlate to any specific subject or course 
+within the University.</p>
+		<p>11. Acts that bring the name of the University into disrepute such as public and malicious imputation of a crime, or of a vice or defect, real or imaginary, or any
+act, omission, condition, status or circumstance, tending to cause dishonor, discredit or contempt to the name of the University.</p>
+		<p>12. Stealing whether attempted, frustrated or consummated.</p>
+		<p>13. Habitual disregard or willful violation of established policies, rules or regulation consisting in the commission of three (3) minor offenses of the same kind or 
+nature, or five (5) minor offenses of different kinds of nature.</p>
+		<p>14. Unauthorized collection, solicitation or exaction of money, checks or other instruments as equivalent of money, in connection with matters pertaining to the University.</p>
+		<p>15. Forging, Falsifying or tampering with academic or official records or documents of any kind; or intentionally making a false statement of any material fact, or practicing 
+fraud or deception in connection with anything that pertains to the University.</p>
+		<p>16. Gambling in any form inside the University or outside the University during an academic function or school activity.</p>
+		<p>17. Conviction before any court for a criminal offense involving moral turpitude, against person or property other than through recklesss imprudence.</p>
+		<p>18. Membership in a fraternity or sorority. This also includes membership in any unrecognized organization that subscribes or participates in any violent act.</p>
+		<p>19. Any kind of provocation that results in heated verbal or physical confrontation between students and any groups of students.</p>
+		<p>20. Willful failure to comply with summonses or notices issued for purposes of investigation conducted in connection with discipline -related offenses.</p>
+		<p>21. Hazing or physical injuries, for the purpose of initiation, admission or continuance of membership in any organization, society or group, whether open or secret
+For this purpose, the members who were present shall be liable whether they actually participate in the hazing or not.</p>
+		<p>22. Accessing a University computer or computer network without authority or beyond authorized access. Acts that constitute computer security breach include but are not limited 
+to the following:</p>
+		<p>a) altering information, (e.g., changing the password of someones else\'s account and changing data in files beyond ones authorized access, etc.) damaging or destroying
+information (e.g., deleting someone else\'s file, etc.);</p>
+		<p>b) introducing false information(e.g., using someone else\'s account and sending offensive mail, tweet, post or blog etc.); or;</p>
+		<p>c) preventing normal operation(e.g., changing the configuration or CMOS set-up of a PC, introduv=cing computer virus etc.) of computers or computer networks of the
+University.</p>
+		<p>23. Perjury defined as testifying falsely in any administrative proceeding, or knowingly making untruthful statements in documents under oath when such oath is required.</p>
+		<p>24. Possession or exploding of firecrackers inside the University or outside the University during academic functions or school activities.</p>
+		<p>25. Leading ID to another or using someone else\'s ID.</p>
+		<p>26. Making sexual advances in words or deeds to another student or to any member of the academic community.</p>
+		<p>27. Giving a treat, money, gift or a token of any kind to a faculty member, employee or official and/or any person acting on his behalf, in exchange for an academic related
+favor or benefit and other similar acts such as but not limited to, exemption from class attendance, quiz, exam, performance, exam requirements, and other similar activities.</p>
+		<p>28. Such other acts as may be determined by University authorities.</p>
+		
+		<p><b>B. Minor Offense</b></p>
+		<p>1. Acts which disturb peace and order short of being a major offense such as disturbing classes, academic-related activities or school functions.</p>
+		<p>2. Disobeying school regulations contained in this handbook, and other rules and regulations approved by University authorities.</p>
+		<p>3. Third and succeeding loss of ID.</p>
+		<p>4. Third and succeeding failure to bring ID;</p>
+		<p>5. Non-wearing of ID.</p>
+		<p>6. Refusal to present an ID when asked.</p>
+		<p>7. Littering.</p>
+		<p>8. Preventing the circulation of a recognized student publication by withholding or removing a substantial number of copies from the newsstands.</p>
+		<p>9. Wearing inappropriate attire within the University premises.</p>
+		<p>10. Public Display of Physical Intimacy (PDPI).</p>
+		<p>11. Playing any form of computer games, and using cellular phones and other electronic communication devices in computer laboratories.</p>
+		<p>12. Use of classrooms and other school facilities for any purpose wihtout any reservation or proper authority.</p>
+		<p>13. Loitering along the classroom corridors while classes are going on for second and succeeding violations.</p>
+		<p>14. Smoking inside University premises or outside the University during academic functions or school activities.</p>
+		<p>15. Playing cards inside University premises except collectible cards played in designated places(classrooms, laboratories, offices, study areas, and Sports Complex).</p>
+		<p>16. Violations of policies on the use of lockers. Unhygienic use of University facilities.</p>
+		<p>17. Second and succeeding violations on the use of cellular phones an other electronic devices while inside the classroom.</p>
+		<p>18. Second and succeeding violations of policies on the use of university parking lots.</p>
+		
+		
+		<p><b>C. Sanction</b></p>
+		<p>1. For MAJOR Offenses</p>
+		<p>First Offense Community Service/ case conference with parents</p>
+		<p>Second Offense Suspension for not more than 15 working days / case conference</p>
+		<p>Third Offense Dismissal / case conference with parents</p>
+		<p>2. For MINOR Offenses</p>
+		<p>First Offense warning from the OSA with written apology addressed to the offender/ Guidance if necessary</p>
+		<p>Second Offense reprimand letter from the OSA / case conference</p>
+		<p>Third Offense reorimand letter from the OSA / case conference with parents</p>
+		<p>Change with major offense</p>
+		
+		
+		<p><b>D. Student Grievance Committee</b></p>
+		<p>The Student Grievance Committee shall comprise of the following university officials: VPSA, VPAA, Dean and a Faculty Representative designated by the University President.</p>
+		<p>The committee should</p>
+		<p>1. Define the procedures to be followed in the conduct of its hearings</p>
+		<p>2. Summon witness or persons whose assistance is needed in arriving at a fair and just decision.</p>
+		<p>3. Have full access to all information and documents realtive to the case.</p>
+		<p>4. Recommend to the dean appropriate measures.</p>
+		
+		
+		<p><b>E. Procedure in Grievance Cases</b></p>
+		<p>1. Informal - The parties shall settle it through a dialogue</p>
+		<p>2. Formal Complaint - a letter of complaint to the dean the complaint must be signed the by student and accomplish in 3 copies to be distributed as follow.</p>
+		<p>Original - Dean</p>
+		<p>One Copy - Faculty</p>
+		<p>One Copy - Student</p>
+		<p>A formal complaint should contain, the name of the faculty being complained, tha narration of the circumstances surrounding the commission of act complained
+of and the action asked for.</p>
+		<p>Answer</p>
+		<p>- the dean should require the respondent to answer the complaint within 3 days after the receipt of the letter excluding Sunday and holiday, a copy of complaint shall be attached 
+ to the letter.</p>
+		<p>The written answer shall also be prepared in 3 copies </p>
+		<p>Original - Dean</p>
+		<p>One Copy - Faculty</p>
+		<p>One Copy - Student as complaints</p>
+		<p>Failure of the respondent to answer the complaint shall be considered an admission of charges and the dean shall be forwarded the case to the OSA.</p>
+		<p>Upon receipt of the answer, the Desn evaluates the complaint and answer. He/She may call for a meeting for both parties within 3 days.</p>
+		<p><u>APPEAL TO THE GRIEVANCE COMMITTEE</u></p>
+		<p>A party not satisfied with the resolution of the Dean may appeal to the OSA.</p>
+		<p>- A letter sent to the OSA requesting to hear the grievance complaint.</p>
+		<p>- Upon receipt of the letter, the OSA request the Dean concerned to forward the complete record of the case including the original documents.</p>
+		<p>- Upon receipt of the complete record case, the OSA immediately convence the board for purpose of hearing.</p>
+		<p>- All members of the committee should be present.</p>
+		<p>- Hearing are continuous and should not last for more than 2 weeks, excluding Saturday and Sunday holidays.</p>
+		<p>- Only evidence needed to allegation of the complaint shall be considered.</p>
+		<p>- Within 1 week from date of last hearing, the Board meets and deliberates the case and arrives at a recommendation. A majority is required. Absentions shall be allowed.</p>
+		<p>- Copy shall be forwarded to both parties concerned.</p>
+		<p>- The Dean shall act on the Boards recommendation within 3 days from receipt. The decision shall be put in writing.</p>
+		
+		<p><b></b></p>
+		<p>1. Complaint of a student against another student. A formal letter of complaint must be presented to the Office of Student Affairs.</p>
+		<p>2. Complaint of a student against co-academic personnel. A formal letter of complaint must be presented to the Office of the MMRO for teaching/non-teaching.</p>
+		<p>3. Complaint of a student against Dean/ Program Head. A formal letter of complaint must be presented to the Office of the Vice President for Academic Affairs.</p>
+		<p>4. Complaint of a student against Admin / Head of Office. A formal letter of complaint must be presented to the office of the immediate supervisor.</p>
+		<p>5.Complaint of a student against a Vice President. A formal letter pf complaint must be presented to the Office of the President.</p>
+		<p>6. Complaint of a student against the University President. A formal letter of complaint must be presented to the Chairman of the Board of Regents.</p>
+   ]]>
+    </string>
+    <!-- General Policy End -->
+
+    <string name="title_activity_campus_organizations">Campus Organizations</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

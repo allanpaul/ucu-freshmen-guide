@@ -70,7 +70,8 @@
         </activity>
         <activity
             android:name=".PolicyViewing"
-            android:label="@string/title_activity_policy_viewing" >
+            android:label="@string/title_activity_policy_viewing"
+            android:parentActivityName="edu.ucuccs.ucufreshmenguide.UniversityPolicies" >
         </activity>
     </application>
 

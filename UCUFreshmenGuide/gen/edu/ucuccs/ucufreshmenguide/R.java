@@ -1358,31 +1358,32 @@ containing a value of this type.
         public static final int ic_menu_overflow_card_dark_pressed=0x7f020095;
         public static final int ic_menu_overflow_card_rounded_dark_normal=0x7f020096;
         public static final int ic_menu_overflow_card_rounded_dark_pressed=0x7f020097;
-        public static final int ic_play=0x7f020098;
-        public static final int ic_plusone_medium_off_client=0x7f020099;
-        public static final int ic_plusone_small_off_client=0x7f02009a;
-        public static final int ic_plusone_standard_off_client=0x7f02009b;
-        public static final int ic_plusone_tall_off_client=0x7f02009c;
-        public static final int ic_search=0x7f02009d;
-        public static final int ic_undobar_undo=0x7f02009e;
-        public static final int new_building=0x7f02009f;
-        public static final int orata=0x7f0200a0;
-        public static final int powered_by_google_dark=0x7f0200a1;
-        public static final int powered_by_google_light=0x7f0200a2;
-        public static final int president_office=0x7f0200a3;
-        public static final int pressed_background_card=0x7f0200a4;
-        public static final int pressed_background_kitkat_card=0x7f0200a5;
-        public static final int quadrangle=0x7f0200a6;
-        public static final int registrar=0x7f0200a7;
-        public static final int scribe=0x7f0200a8;
-        public static final int ucu=0x7f0200a9;
-        public static final int ucu_front=0x7f0200aa;
-        public static final int ucu_gymn=0x7f0200ab;
-        public static final int ucu_ob2=0x7f0200ac;
-        public static final int undobar=0x7f0200ad;
-        public static final int undobar_button_focused=0x7f0200ae;
-        public static final int undobar_button_pressed=0x7f0200af;
-        public static final int undobar_divider=0x7f0200b0;
+        public static final int ic_org=0x7f020098;
+        public static final int ic_play=0x7f020099;
+        public static final int ic_plusone_medium_off_client=0x7f02009a;
+        public static final int ic_plusone_small_off_client=0x7f02009b;
+        public static final int ic_plusone_standard_off_client=0x7f02009c;
+        public static final int ic_plusone_tall_off_client=0x7f02009d;
+        public static final int ic_search=0x7f02009e;
+        public static final int ic_undobar_undo=0x7f02009f;
+        public static final int new_building=0x7f0200a0;
+        public static final int orata=0x7f0200a1;
+        public static final int powered_by_google_dark=0x7f0200a2;
+        public static final int powered_by_google_light=0x7f0200a3;
+        public static final int president_office=0x7f0200a4;
+        public static final int pressed_background_card=0x7f0200a5;
+        public static final int pressed_background_kitkat_card=0x7f0200a6;
+        public static final int quadrangle=0x7f0200a7;
+        public static final int registrar=0x7f0200a8;
+        public static final int scribe=0x7f0200a9;
+        public static final int ucu=0x7f0200aa;
+        public static final int ucu_front=0x7f0200ab;
+        public static final int ucu_gymn=0x7f0200ac;
+        public static final int ucu_ob2=0x7f0200ad;
+        public static final int undobar=0x7f0200ae;
+        public static final int undobar_button_focused=0x7f0200af;
+        public static final int undobar_button_pressed=0x7f0200b0;
+        public static final int undobar_divider=0x7f0200b1;
     }
     public static final class id {
         public static final int abs__action_bar=0x7f090035;
@@ -1417,15 +1418,15 @@ containing a value of this type.
         public static final int action_search=0x7f090075;
         public static final int action_settings=0x7f090074;
         public static final int book_now=0x7f090010;
-        public static final int btn_email=0x7f090059;
-        public static final int btn_fb=0x7f090058;
-        public static final int btn_scribe=0x7f09005a;
+        public static final int btn_email=0x7f09005a;
+        public static final int btn_fb=0x7f090059;
+        public static final int btn_scribe=0x7f09005b;
         public static final int buyButton=0x7f09000a;
         public static final int buy_now=0x7f09000f;
         public static final int buy_with_google=0x7f09000e;
         public static final int card_base_empty_cardwithlist_text=0x7f090043;
         public static final int card_children_simple_title=0x7f09003f;
-        public static final int card_content_expand_layout=0x7f090049;
+        public static final int card_content_expand_layout=0x7f09004a;
         public static final int card_expand_inner_simple_title=0x7f090062;
         public static final int card_header_button_expand=0x7f09003d;
         public static final int card_header_button_frame=0x7f09003b;
@@ -1433,21 +1434,21 @@ containing a value of this type.
         public static final int card_header_button_overflow=0x7f09003c;
         public static final int card_header_inner_frame=0x7f09003a;
         public static final int card_header_inner_simple_title=0x7f090063;
-        public static final int card_header_layout=0x7f090048;
+        public static final int card_header_layout=0x7f090049;
         public static final int card_inner_base_empty_cardwithlist=0x7f090066;
         public static final int card_inner_base_main_cardwithlist=0x7f090065;
         public static final int card_inner_base_progressbar_cardwithlist=0x7f090067;
-        public static final int card_main_content_layout=0x7f090045;
+        public static final int card_main_content_layout=0x7f090046;
         public static final int card_main_inner_secondary_title=0x7f090071;
         public static final int card_main_inner_simple_title=0x7f090064;
-        public static final int card_main_layout=0x7f090047;
-        public static final int card_overlap=0x7f09004a;
+        public static final int card_main_layout=0x7f090048;
+        public static final int card_overlap=0x7f09004b;
         public static final int card_section_simple_title=0x7f090040;
-        public static final int card_shadow_layout=0x7f090046;
+        public static final int card_shadow_layout=0x7f090047;
         public static final int card_shadow_view=0x7f090041;
-        public static final int card_thumb_and_content_layout=0x7f09004b;
+        public static final int card_thumb_and_content_layout=0x7f09004c;
         public static final int card_thumbnail_image=0x7f090042;
-        public static final int card_thumbnail_layout=0x7f09004c;
+        public static final int card_thumbnail_layout=0x7f09004d;
         public static final int carddemo=0x7f090072;
         public static final int classic=0x7f090011;
         public static final int content_frame=0x7f09005f;
@@ -1467,7 +1468,7 @@ containing a value of this type.
         public static final int list_card_undobar_button=0x7f09006b;
         public static final int list_card_undobar_message=0x7f09006a;
         public static final int listview_drawer=0x7f090060;
-        public static final int lvExp=0x7f09005b;
+        public static final int lvExp=0x7f090045;
         public static final int mapview=0x7f090044;
         public static final int match_parent=0x7f09000c;
         public static final int monochrome=0x7f090013;
@@ -1483,25 +1484,25 @@ containing a value of this type.
         public static final int showTitle=0x7f09001a;
         public static final int strict_sandbox=0x7f090009;
         public static final int tabMode=0x7f090016;
-        public static final int tell1=0x7f090053;
-        public static final int tell2=0x7f090055;
+        public static final int tell1=0x7f090054;
+        public static final int tell2=0x7f090056;
         public static final int terrain=0x7f090003;
         public static final int text=0x7f090014;
-        public static final int textView=0x7f090050;
-        public static final int textView2=0x7f090051;
-        public static final int textView3=0x7f090052;
-        public static final int textView4=0x7f090056;
-        public static final int textView5=0x7f090054;
+        public static final int textView=0x7f090051;
+        public static final int textView2=0x7f090052;
+        public static final int textView3=0x7f090053;
+        public static final int textView4=0x7f090057;
+        public static final int textView5=0x7f090055;
         public static final int title=0x7f09005d;
         public static final int txtPolicy=0x7f090070;
-        public static final int undobar=0x7f09004d;
-        public static final int undobar_button=0x7f09004f;
-        public static final int undobar_message=0x7f09004e;
+        public static final int undobar=0x7f09004e;
+        public static final int undobar_button=0x7f090050;
+        public static final int undobar_message=0x7f09004f;
         public static final int useLogo=0x7f090017;
         public static final int video=0x7f090073;
         public static final int viewPager=0x7f09006e;
         public static final int viewflipper=0x7f090061;
-        public static final int website=0x7f090057;
+        public static final int website=0x7f090058;
         public static final int wrap_content=0x7f09000d;
     }
     public static final class integer {
@@ -1539,51 +1540,53 @@ containing a value of this type.
         public static final int base_withlist_empty=0x7f030019;
         public static final int base_withlist_progress=0x7f03001a;
         public static final int campus_map=0x7f03001b;
-        public static final int card_base_layout=0x7f03001c;
-        public static final int card_layout=0x7f03001d;
-        public static final int card_overlay_layout=0x7f03001e;
-        public static final int card_thumbnail_layout=0x7f03001f;
-        public static final int card_thumbnail_overlay_layout=0x7f030020;
-        public static final int card_undo_layout=0x7f030021;
-        public static final int contact_us=0x7f030022;
-        public static final int courses_offered=0x7f030023;
-        public static final int drawer_list_item=0x7f030024;
-        public static final int drawer_main=0x7f030025;
-        public static final int header_gradient=0x7f030026;
-        public static final int home=0x7f030027;
-        public static final int inner_base_expand=0x7f030028;
-        public static final int inner_base_header=0x7f030029;
-        public static final int inner_base_main=0x7f03002a;
-        public static final int inner_base_main_cardwithlist=0x7f03002b;
-        public static final int list_card_layout=0x7f03002c;
-        public static final int list_card_thumbnail_layout=0x7f03002d;
-        public static final int list_card_undo_material_message=0x7f03002e;
-        public static final int list_card_undo_materialmobile_message=0x7f03002f;
-        public static final int list_card_undo_message=0x7f030030;
-        public static final int list_group=0x7f030031;
-        public static final int list_item=0x7f030032;
-        public static final int news_and_events=0x7f030033;
-        public static final int policy_viewing=0x7f030034;
-        public static final int row_card=0x7f030035;
-        public static final int sherlock_spinner_dropdown_item=0x7f030036;
-        public static final int sherlock_spinner_item=0x7f030037;
-        public static final int tab_events=0x7f030038;
-        public static final int tab_news=0x7f030039;
-        public static final int text_bubble=0x7f03003a;
-        public static final int ucuhymn=0x7f03003b;
-        public static final int university_policies=0x7f03003c;
+        public static final int campus_organizations=0x7f03001c;
+        public static final int card_base_layout=0x7f03001d;
+        public static final int card_layout=0x7f03001e;
+        public static final int card_overlay_layout=0x7f03001f;
+        public static final int card_thumbnail_layout=0x7f030020;
+        public static final int card_thumbnail_overlay_layout=0x7f030021;
+        public static final int card_undo_layout=0x7f030022;
+        public static final int contact_us=0x7f030023;
+        public static final int courses_offered=0x7f030024;
+        public static final int drawer_list_item=0x7f030025;
+        public static final int drawer_main=0x7f030026;
+        public static final int header_gradient=0x7f030027;
+        public static final int home=0x7f030028;
+        public static final int inner_base_expand=0x7f030029;
+        public static final int inner_base_header=0x7f03002a;
+        public static final int inner_base_main=0x7f03002b;
+        public static final int inner_base_main_cardwithlist=0x7f03002c;
+        public static final int list_card_layout=0x7f03002d;
+        public static final int list_card_thumbnail_layout=0x7f03002e;
+        public static final int list_card_undo_material_message=0x7f03002f;
+        public static final int list_card_undo_materialmobile_message=0x7f030030;
+        public static final int list_card_undo_message=0x7f030031;
+        public static final int list_group=0x7f030032;
+        public static final int list_item=0x7f030033;
+        public static final int news_and_events=0x7f030034;
+        public static final int policy_viewing=0x7f030035;
+        public static final int row_card=0x7f030036;
+        public static final int sherlock_spinner_dropdown_item=0x7f030037;
+        public static final int sherlock_spinner_item=0x7f030038;
+        public static final int tab_events=0x7f030039;
+        public static final int tab_news=0x7f03003a;
+        public static final int text_bubble=0x7f03003b;
+        public static final int ucuhymn=0x7f03003c;
+        public static final int university_policies=0x7f03003d;
     }
     public static final class menu {
         public static final int about=0x7f0e0000;
         public static final int action_bar_menu=0x7f0e0001;
-        public static final int courses_offered=0x7f0e0002;
-        public static final int log_in=0x7f0e0003;
-        public static final int main=0x7f0e0004;
-        public static final int news_and_events=0x7f0e0005;
-        public static final int policy_viewing=0x7f0e0006;
-        public static final int searchview=0x7f0e0007;
-        public static final int ucuhymn=0x7f0e0008;
-        public static final int university_policies=0x7f0e0009;
+        public static final int campus_organizations=0x7f0e0002;
+        public static final int courses_offered=0x7f0e0003;
+        public static final int log_in=0x7f0e0004;
+        public static final int main=0x7f0e0005;
+        public static final int news_and_events=0x7f0e0006;
+        public static final int policy_viewing=0x7f0e0007;
+        public static final int searchview=0x7f0e0008;
+        public static final int ucuhymn=0x7f0e0009;
+        public static final int university_policies=0x7f0e000a;
     }
     public static final class plurals {
         /**  Card selected item with CAB 
@@ -1762,6 +1765,10 @@ containing a value of this type.
  Curriculum Revision and Implementation Starts 
          */
         public static final int curriculumRevisionAndImplementation=0x7f08003c;
+        /**  Canteen End 
+ Definition Starts 
+         */
+        public static final int definition=0x7f080055;
         public static final int drawer_close=0x7f080030;
         public static final int drawer_open=0x7f08002f;
         /**  Academic Freedom As The Right Of An Individual Student End 
@@ -1769,12 +1776,24 @@ containing a value of this type.
  Duties And Responsibilities Of Students Starts 
          */
         public static final int dutiesAndResponsibilitiesOfStudents=0x7f080048;
+        /**  Printing and Circulation End 
+ Editorial Starts 
+         */
+        public static final int editorial=0x7f080058;
         /**  Laboratories End 
  Enhancement Services Starts 
          */
         public static final int enhancementServices=0x7f08004f;
         public static final int font_fontFamily_medium=0x7f08001b;
         public static final int font_fontFamily_regular=0x7f08001a;
+        /**  Editorial End 
+ General Policies Starts 
+         */
+        public static final int generalPolicies=0x7f080059;
+        /**  Specific Policies End 
+ General Policy Starts 
+         */
+        public static final int generalPolicy=0x7f08005b;
         /**  Academic Load End 
  Grading System Starts 
          */
@@ -1787,6 +1806,7 @@ containing a value of this type.
  Guidance Starts 
          */
         public static final int guidance=0x7f08004a;
+        public static final int hello_world=0x7f08005f;
         /**  Security End 
  Janitorial Starts 
          */
@@ -1818,10 +1838,18 @@ containing a value of this type.
         /**  Primir Starts 
          */
         public static final int primir=0x7f080035;
+        /**  Recognition End 
+ Printing and Circulation Starts 
+         */
+        public static final int printingAndCirculation=0x7f080057;
         /**  University Seal Ends 
  UCU Programs Starts 
          */
         public static final int programs=0x7f080038;
+        /**  Definition End 
+ Recognition Starts 
+         */
+        public static final int recognition=0x7f080056;
         /**  Retention End 
  Registration Procedures Starts 
          */
@@ -1850,11 +1878,22 @@ containing a value of this type.
  Security Starts 
          */
         public static final int security=0x7f080052;
+        /**  General Policies End 
+ Specific Policies Starts 
+         */
+        public static final int specificPolicies=0x7f08005a;
         /**  Enhancement Services End 
  Sports Development Starts 
          */
         public static final int sportsDevelopment=0x7f080050;
+        /**  General Policy End 
+ Student Discipline Starts 
+         */
+        public static final int studentDiscipline=0x7f08005c;
         public static final int title_activity_about=0x7f080033;
+        /**  General Policy End 
+         */
+        public static final int title_activity_campus_organizations=0x7f08005e;
         public static final int title_activity_courses_offered=0x7f08002e;
         public static final int title_activity_news_and_events=0x7f08002d;
         public static final int title_activity_policy_viewing=0x7f080032;
@@ -1864,6 +1903,10 @@ containing a value of this type.
  Tuition And Miscellaneous Fees Starts 
          */
         public static final int tuitionAndMiscellaneousFees=0x7f080046;
+        /**  General Policy End 
+ Types Of Offenses Starts 
+         */
+        public static final int typesOfOffenses=0x7f08005d;
         /**  Primir End 
  VMGO Starts 
          */

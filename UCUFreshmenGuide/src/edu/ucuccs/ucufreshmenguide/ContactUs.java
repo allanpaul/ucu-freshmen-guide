@@ -16,7 +16,9 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.MapsInitializer;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 
 public class ContactUs extends SherlockFragment {
 
@@ -25,7 +27,8 @@ public class ContactUs extends SherlockFragment {
 
 	private GoogleMap map;
 	private static final LatLng Urdaneta = new LatLng(15.9794533, 120.5647776);
-	/*private static final LatLng UCU = new LatLng(15.9802657, 120.5608399);*/
+	private static final LatLng UCU = new LatLng(15.9802657, 120.5608399);
+
 	MapView mapView;
 	TextView tell1;
 	TextView tell2;
@@ -152,6 +155,17 @@ public class ContactUs extends SherlockFragment {
 
 		// Set the map type to Satellite
 		map.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+
+		map.getUiSettings().setZoomControlsEnabled(false);
+		map.getUiSettings().setZoomGesturesEnabled(false);
+		map.getUiSettings().setAllGesturesEnabled(false);
+		map.getUiSettings().setMyLocationButtonEnabled(false);
+		
+
+		map.addMarker(new MarkerOptions().position(UCU).icon(
+				BitmapDescriptorFactory.fromResource(R.drawable.ic_launcher)));
+		
+	
 
 		return view;
 
