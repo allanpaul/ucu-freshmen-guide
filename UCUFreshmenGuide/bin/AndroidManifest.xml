@@ -52,10 +52,6 @@
             android:label="@string/title_activity_university_policies" >
         </activity>
         <activity
-            android:name=".NewsAndEvents"
-            android:label="@string/title_activity_news_and_events" >
-        </activity>
-        <activity
             android:name=".CoursesOffered"
             android:label="@string/title_activity_courses_offered" >
         </activity>
@@ -71,7 +67,20 @@
         <activity
             android:name=".PolicyViewing"
             android:label="@string/title_activity_policy_viewing"
-            android:parentActivityName="edu.ucuccs.ucufreshmenguide.UniversityPolicies" >
+            android:parentActivityName=".UniversityPolicies" >
+        </activity>
+        <activity
+            android:name=".CampusOrganizations"
+            android:label="@string/title_activity_campus_organizations" >
+        </activity>
+        <activity
+            android:name=".OrganizationalChart"
+            android:label="@string/title_activity_organizational_chart" >
+        </activity>
+        <activity
+            android:name=".ChartViewing"
+            android:label="@string/title_activity_chart_viewing"
+            android:parentActivityName="OrganizationalChart" >
         </activity>
     </application>
 

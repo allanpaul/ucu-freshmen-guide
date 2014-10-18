@@ -31,13 +31,12 @@ public class MainActivity extends SherlockFragmentActivity {
 	Fragment home = new Home();
 	Fragment policies = new UniversityPolicies();
 	Fragment campusmap = new CampusMap();
-	Fragment events = new NewsAndEvents();
 	Fragment courses = new CoursesOffered();
+	Fragment orgcharts = new OrganizationalChart();
 	Fragment organizations = new CampusOrganizations();
 	Fragment hymn = new UCUHymn();
 	Fragment contactus = new ContactUs();
-	
-	
+
 	private CharSequence mDrawerTitle;
 	private CharSequence mTitle;
 
@@ -46,8 +45,8 @@ public class MainActivity extends SherlockFragmentActivity {
 		super.onCreate(savedInstanceState);
 		// Get the view from drawer_main.xml
 		setContentView(R.layout.drawer_main);
-		
-		//Change the color of ActionBar
+
+		// Change the color of ActionBar
 		ActionBar actionBar = getActionBar();
 		actionBar.setBackgroundDrawable(new ColorDrawable(Color
 				.parseColor("#2DCC70")));
@@ -59,12 +58,13 @@ public class MainActivity extends SherlockFragmentActivity {
 
 		// Generate title
 		title = new String[] { "Home", "Student Handbook", "Campus Map",
-				"News and Events", "Courses Offered","Campus Organizations", "UCU Hymn", "Contact Us" };
+				"Courses Offered","Organizational Charts", "Student Organizations", "UCU Hymn",
+				"Contact Us" };
 
 		// Generate icon
 		icon = new int[] { R.drawable.ic_home, R.drawable.ic_book,
-				R.drawable.ic_maps, R.drawable.ic_events,
-				R.drawable.ic_course,R.drawable.ic_org, R.drawable.ic_play, R.drawable.ic_call };
+				R.drawable.ic_maps, R.drawable.ic_course,R.drawable.ic_orgchart,
+				R.drawable.ic_campusorg, R.drawable.ic_play, R.drawable.ic_call };
 
 		// Locate DrawerLayout in drawer_main.xml
 		mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -157,10 +157,10 @@ public class MainActivity extends SherlockFragmentActivity {
 			ft.replace(R.id.content_frame, campusmap);
 			break;
 		case 3:
-			ft.replace(R.id.content_frame, events);
+			ft.replace(R.id.content_frame, courses);
 			break;
 		case 4:
-			ft.replace(R.id.content_frame, courses);
+			ft.replace(R.id.content_frame, orgcharts);
 			break;
 		case 5:
 			ft.replace(R.id.content_frame, organizations);

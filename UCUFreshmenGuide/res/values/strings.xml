@@ -1443,5 +1443,7 @@ of and the action asked for.</p>
 
     <string name="title_activity_campus_organizations">Campus Organizations</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_organizational_chart">Organizational Chart</string>
+    <string name="title_activity_chart_viewing">Organizational Charts</string>
 
 </resources>
