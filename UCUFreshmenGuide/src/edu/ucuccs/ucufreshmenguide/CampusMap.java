@@ -34,7 +34,8 @@ public class CampusMap extends SherlockFragment {
 	MapView mapView;
 	Marker marker1, marker2, marker3, marker4, marker5, marker6, marker7,
 			marker8, marker9, marker10, marker11, marker12, marker13, marker14,
-			marker15, marker16, marker17, marker18, marker19, marker20;
+			marker15, marker16, marker17, marker18, marker19, marker20,
+			marker21, marker22;
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -114,7 +115,7 @@ public class CampusMap extends SherlockFragment {
 		Bitmap iconBitmap7 = icon.makeIcon("AVR");
 
 		marker7 = map.addMarker(new MarkerOptions().position(
-				new LatLng(15.9802868, 120.5617505)).icon(
+				new LatLng(15.9803453, 120.5617596)).icon(
 				BitmapDescriptorFactory.fromBitmap(iconBitmap7)));
 
 		// Accounting
@@ -220,6 +221,22 @@ public class CampusMap extends SherlockFragment {
 		marker20 = map.addMarker(new MarkerOptions().position(
 				new LatLng(15.9804696, 120.560826)).icon(
 				BitmapDescriptorFactory.fromBitmap(iconBitmap20)));
+
+		// President Office
+		icon.setStyle(IconGenerator.STYLE_BLUE);
+		Bitmap iconBitmap21 = icon.makeIcon("President Office");
+
+		marker21 = map.addMarker(new MarkerOptions().position(
+				new LatLng(15.980277, 120.5616515)).icon(
+				BitmapDescriptorFactory.fromBitmap(iconBitmap21)));
+
+		// Cashier
+		icon.setStyle(IconGenerator.STYLE_ORANGE);
+		Bitmap iconBitmap22 = icon.makeIcon("Cashier");
+
+		marker22 = map.addMarker(new MarkerOptions().position(
+				new LatLng(15.9803064, 120.5615745)).icon(
+				BitmapDescriptorFactory.fromBitmap(iconBitmap22)));
 
 		map.setOnMarkerClickListener(new OnMarkerClickListener() {
 			@Override
@@ -343,16 +360,16 @@ public class CampusMap extends SherlockFragment {
 									// the user clicked on options[options]
 									switch (options) {
 									case 0:
-										/*
-										 * Toast toast = new
-										 * Toast(getActivity()); ImageView view1
-										 * = new ImageView( getActivity());
-										 * view1
-										 * .setImageResource(R.drawable.ucu_gymn
-										 * );
-										 * toast.setDuration(Toast.LENGTH_LONG);
-										 * toast.setView(view1); toast.show(); ;
-										 */
+
+										Toast toast = new Toast(getActivity());
+										ImageView view1 = new ImageView(
+												getActivity());
+										view1.setImageResource(R.drawable.new_building);
+										toast.setDuration(Toast.LENGTH_LONG);
+										toast.setView(view1);
+										toast.show();
+										;
+
 										break;
 
 									case 1:
@@ -386,16 +403,16 @@ public class CampusMap extends SherlockFragment {
 									// the user clicked on options[options]
 									switch (options) {
 									case 0:
-										/*
-										 * Toast toast = new
-										 * Toast(getActivity()); ImageView view1
-										 * = new ImageView( getActivity());
-										 * view1
-										 * .setImageResource(R.drawable.ucu_gymn
-										 * );
-										 * toast.setDuration(Toast.LENGTH_LONG);
-										 * toast.setView(view1); toast.show(); ;
-										 */
+
+										Toast toast = new Toast(getActivity());
+										ImageView view1 = new ImageView(
+												getActivity());
+										view1.setImageResource(R.drawable.engg_buiding);
+										toast.setDuration(Toast.LENGTH_LONG);
+										toast.setView(view1);
+										toast.show();
+										;
+
 										break;
 
 									case 1:
@@ -552,16 +569,16 @@ public class CampusMap extends SherlockFragment {
 									// the user clicked on options[options]
 									switch (options) {
 									case 0:
-										/*
-										 * Toast toast = new
-										 * Toast(getActivity()); ImageView view1
-										 * = new ImageView( getActivity());
-										 * view1
-										 * .setImageResource(R.drawable.ucu_gymn
-										 * );
-										 * toast.setDuration(Toast.LENGTH_LONG);
-										 * toast.setView(view1); toast.show(); ;
-										 */
+
+										Toast toast = new Toast(getActivity());
+										ImageView view1 = new ImageView(
+												getActivity());
+										view1.setImageResource(R.drawable.accounting_building);
+										toast.setDuration(Toast.LENGTH_LONG);
+										toast.setView(view1);
+										toast.show();
+										;
+
 										break;
 
 									case 1:
@@ -677,16 +694,16 @@ public class CampusMap extends SherlockFragment {
 									// the user clicked on options[options]
 									switch (options) {
 									case 0:
-										/*
-										 * Toast toast = new
-										 * Toast(getActivity()); ImageView view1
-										 * = new ImageView( getActivity());
-										 * view1
-										 * .setImageResource(R.drawable.ucu_gymn
-										 * );
-										 * toast.setDuration(Toast.LENGTH_LONG);
-										 * toast.setView(view1); toast.show(); ;
-										 */
+
+										Toast toast = new Toast(getActivity());
+										ImageView view1 = new ImageView(
+												getActivity());
+										view1.setImageResource(R.drawable.pehm);
+										toast.setDuration(Toast.LENGTH_LONG);
+										toast.setView(view1);
+										toast.show();
+										;
+
 										break;
 
 									case 1:
@@ -720,16 +737,16 @@ public class CampusMap extends SherlockFragment {
 									// the user clicked on options[options]
 									switch (options) {
 									case 0:
-										/*
-										 * Toast toast = new
-										 * Toast(getActivity()); ImageView view1
-										 * = new ImageView( getActivity());
-										 * view1
-										 * .setImageResource(R.drawable.ucu_gymn
-										 * );
-										 * toast.setDuration(Toast.LENGTH_LONG);
-										 * toast.setView(view1); toast.show(); ;
-										 */
+
+										Toast toast = new Toast(getActivity());
+										ImageView view1 = new ImageView(
+												getActivity());
+										view1.setImageResource(R.drawable.crone);
+										toast.setDuration(Toast.LENGTH_LONG);
+										toast.setView(view1);
+										toast.show();
+										;
+
 										break;
 
 									case 1:
@@ -806,16 +823,16 @@ public class CampusMap extends SherlockFragment {
 									// the user clicked on options[options]
 									switch (options) {
 									case 0:
-										/*
-										 * Toast toast = new
-										 * Toast(getActivity()); ImageView view1
-										 * = new ImageView( getActivity());
-										 * view1
-										 * .setImageResource(R.drawable.ucu_gymn
-										 * );
-										 * toast.setDuration(Toast.LENGTH_LONG);
-										 * toast.setView(view1); toast.show(); ;
-										 */
+
+										Toast toast = new Toast(getActivity());
+										ImageView view1 = new ImageView(
+												getActivity());
+										view1.setImageResource(R.drawable.canteen);
+										toast.setDuration(Toast.LENGTH_LONG);
+										toast.setView(view1);
+										toast.show();
+										;
+
 										break;
 
 									case 1:
@@ -849,16 +866,16 @@ public class CampusMap extends SherlockFragment {
 									// the user clicked on options[options]
 									switch (options) {
 									case 0:
-										/*
-										 * Toast toast = new
-										 * Toast(getActivity()); ImageView view1
-										 * = new ImageView( getActivity());
-										 * view1
-										 * .setImageResource(R.drawable.ucu_gymn
-										 * );
-										 * toast.setDuration(Toast.LENGTH_LONG);
-										 * toast.setView(view1); toast.show(); ;
-										 */
+
+										Toast toast = new Toast(getActivity());
+										ImageView view1 = new ImageView(
+												getActivity());
+										view1.setImageResource(R.drawable.orata_park);
+										toast.setDuration(Toast.LENGTH_LONG);
+										toast.setView(view1);
+										toast.show();
+										;
+
 										break;
 
 									case 1:
@@ -933,16 +950,15 @@ public class CampusMap extends SherlockFragment {
 									// the user clicked on options[options]
 									switch (options) {
 									case 0:
-										/*
-										 * Toast toast = new
-										 * Toast(getActivity()); ImageView view1
-										 * = new ImageView( getActivity());
-										 * view1
-										 * .setImageResource(R.drawable.ucu_gymn
-										 * );
-										 * toast.setDuration(Toast.LENGTH_LONG);
-										 * toast.setView(view1); toast.show(); ;
-										 */
+
+										Toast toast = new Toast(getActivity());
+										ImageView view1 = new ImageView(
+												getActivity());
+										view1.setImageResource(R.drawable.dbc);
+										toast.setDuration(Toast.LENGTH_LONG);
+										toast.setView(view1);
+										toast.show();
+										;
 
 										break;
 
@@ -977,16 +993,16 @@ public class CampusMap extends SherlockFragment {
 									// the user clicked on options[options]
 									switch (options) {
 									case 0:
-										/*
-										 * Toast toast = new
-										 * Toast(getActivity()); ImageView view1
-										 * = new ImageView( getActivity());
-										 * view1
-										 * .setImageResource(R.drawable.ucu_gymn
-										 * );
-										 * toast.setDuration(Toast.LENGTH_LONG);
-										 * toast.setView(view1); toast.show(); ;
-										 */
+
+										Toast toast = new Toast(getActivity());
+										ImageView view1 = new ImageView(
+												getActivity());
+										view1.setImageResource(R.drawable.honasan);
+										toast.setDuration(Toast.LENGTH_LONG);
+										toast.setView(view1);
+										toast.show();
+										;
+
 										break;
 
 									case 1:
@@ -1063,16 +1079,102 @@ public class CampusMap extends SherlockFragment {
 									// the user clicked on options[options]
 									switch (options) {
 									case 0:
-										/*
-										 * Toast toast = new
-										 * Toast(getActivity()); ImageView view1
-										 * = new ImageView( getActivity());
-										 * view1
-										 * .setImageResource(R.drawable.ucu_gymn
-										 * );
-										 * toast.setDuration(Toast.LENGTH_LONG);
-										 * toast.setView(view1); toast.show(); ;
-										 */
+
+										Toast toast = new Toast(getActivity());
+										ImageView view1 = new ImageView(
+												getActivity());
+										view1.setImageResource(R.drawable.square_garden);
+										toast.setDuration(Toast.LENGTH_LONG);
+										toast.setView(view1);
+										toast.show();
+										;
+
+										break;
+
+									case 1:
+
+										break;
+
+									case 2:
+
+										break;
+
+									}
+								}
+							});
+					builder.show();
+
+				}
+				if (marker.equals(marker21)) {
+					// handle click here
+					CharSequence options[] = new CharSequence[] {
+							"View Building", "Report Emergency Via Call",
+							"Report Emergency Via Text", };
+
+					AlertDialog.Builder builder = new AlertDialog.Builder(
+							getActivity());
+					builder.setTitle("Options");
+					builder.setItems(options,
+							new DialogInterface.OnClickListener() {
+								@Override
+								public void onClick(DialogInterface dialog,
+										int options) {
+									// the user clicked on options[options]
+									switch (options) {
+									case 0:
+
+										Toast toast = new Toast(getActivity());
+										ImageView view1 = new ImageView(
+												getActivity());
+										view1.setImageResource(R.drawable.president_office);
+										toast.setDuration(Toast.LENGTH_LONG);
+										toast.setView(view1);
+										toast.show();
+										;
+
+										break;
+
+									case 1:
+
+										break;
+
+									case 2:
+
+										break;
+
+									}
+								}
+							});
+					builder.show();
+
+				}
+				if (marker.equals(marker22)) {
+					// handle click here
+					CharSequence options[] = new CharSequence[] {
+							"View Building", "Report Emergency Via Call",
+							"Report Emergency Via Text", };
+
+					AlertDialog.Builder builder = new AlertDialog.Builder(
+							getActivity());
+					builder.setTitle("Options");
+					builder.setItems(options,
+							new DialogInterface.OnClickListener() {
+								@Override
+								public void onClick(DialogInterface dialog,
+										int options) {
+									// the user clicked on options[options]
+									switch (options) {
+									case 0:
+
+										Toast toast = new Toast(getActivity());
+										ImageView view1 = new ImageView(
+												getActivity());
+										view1.setImageResource(R.drawable.cashier_building);
+										toast.setDuration(Toast.LENGTH_LONG);
+										toast.setView(view1);
+										toast.show();
+										;
+
 										break;
 
 									case 1:

@@ -21,7 +21,7 @@
             android:id="@+id/textView"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="5dp"
             android:background="#2DCC70"
             android:padding="5dp"
             android:text="Urdaneta City University"
@@ -34,7 +34,8 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:background="#FFFFFF"
-            android:orientation="horizontal" >
+            android:orientation="horizontal"
+            android:paddingLeft="10dp" >
 
             <ImageView
                 android:id="@+id/ucuLocation"
@@ -60,7 +61,8 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:background="#FFFFFF"
-            android:orientation="horizontal" >
+            android:orientation="horizontal" 
+            android:paddingLeft="10dp">
 
             <ImageView
                 android:id="@+id/contact"
@@ -115,7 +117,8 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:background="#FFFFFF"
-            android:orientation="horizontal" >
+            android:orientation="horizontal" 
+            android:paddingLeft="10dp">
 
             <ImageView
                 android:id="@+id/websiteIcon"
@@ -147,7 +150,7 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="5dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:background="#FFFFFF"
